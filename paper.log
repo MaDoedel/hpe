@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  19 MAY 2022 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  19 MAY 2022 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,10 +509,10 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: D8F788D5D6F98260AEF201D77A5BFB4A;650.
  ) 
 Here is how much of TeX's memory you used:
- 11344 strings out of 478582
- 179223 string characters out of 2844345
+ 11343 strings out of 478582
+ 179213 string characters out of 2844345
  464186 words of memory out of 3000000
- 29366 multiletter control sequences out of 15000+600000
+ 29365 multiletter control sequences out of 15000+600000
  568222 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,63p,227b,326s stack positions out of 10000i,1000n,20000p,200000b,80000s
