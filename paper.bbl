@@ -1,0 +1,10 @@
+\begin{thebibliography}{1}
+
+\bibitem{mpii}
+Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
+\newblock 2d human pose estimation: New benchmark and state of the art
+  analysis.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, June 2014.
+
+\end{thebibliography}
