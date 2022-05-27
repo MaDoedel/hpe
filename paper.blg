@@ -4,10 +4,16 @@ The top-level auxiliary file: paper.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 22 items.
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 Database file #1: references/benchmarks.bib
+Database file #2: references/criteria.bib
+Database file #3: references/2d_estimation.bib
+Database file #4: references/3d_estimation.bib
 You've used 1 entry,
             2118 wiz_defined-function locations,
-            502 strings with 4222 characters,
+            505 strings with 4289 characters,
 and the built_in function-call counts, 356 in all, are:
 = -- 27
 > -- 23

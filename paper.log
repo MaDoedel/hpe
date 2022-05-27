@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  26 MAY 2022 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  27 MAY 2022 17:29
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -493,11 +493,7 @@ cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (sections/abstract.tex) (sections/introduction.tex)
 (sections/benchmarks.tex) (sections/criteria.tex) (sections/2d_estimation.tex)
-(sections/3d_estimation.tex) (sections/conclusion.tex)
-
-LaTeX Warning: Citation `mpii' on page 1 undefined on input line 31.
-
-(paper.bbl)
+(sections/3d_estimation.tex) (sections/conclusion.tex) (paper.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -514,38 +510,26 @@ Before submitting the final camera ready copy, remember to:
 
 
 ] (paper.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper.out':
-(rerunfilecheck)             Before: 3BA869EA0F617ACF060E386BD773C87B;727
-(rerunfilecheck)             After:  5A16B118655D58AF3254606AF0041B71;821.
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: 5A16B118655D58AF3254606AF0041B71;821.
  ) 
 Here is how much of TeX's memory you used:
  10936 strings out of 478847
- 162719 string characters out of 2847249
- 469222 words of memory out of 3000000
- 28688 multiletter control sequences out of 15000+600000
- 505772 words of font info for 117 fonts, out of 8000000 for 9000
+ 162725 string characters out of 2847249
+ 470248 words of memory out of 3000000
+ 28689 multiletter control sequences out of 15000+600000
+ 504665 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,238b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,66p,527b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C
 :/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><
 C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb
 ><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
 b><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on paper.pdf (1 page, 51914 bytes).
+Output written on paper.pdf (1 page, 51431 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
