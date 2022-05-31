@@ -1,7 +1,23 @@
 \section{Benchmarks}
-Huge data sources are part of the benchmarking process for human posture estimation approaches. The datasets used specifically for this purpose contain images showing one or more individuals in different poses, as well as other information about joint and limb positions. Some datasets focus on different features within its content to ensure the quality of a model in relation to that aspect. Commonly used datasets are explained in more detail in this section.
+Huge data sources are part of the benchmarking process for human posture estimation approaches. The datasets used specifically for this purpose contain images showing one or more individuals in different poses, as well as other information about joint and limb positions. This information is acquired by motion capture using markers on the body or individual \emph{IMU} units attached to the body to determine the position regardless of obstacles, can be used as well. Existing video footage can also be manually annotated. Some datasets focus on different features within its content to ensure the quality of a model in relation to that aspect. Commonly used datasets are explained in more detail in this section.
 
-\subsection{max planck institut datasets}
-\emph{Perceiving Systems}\footnote{\url{https://ps.is.mpg.de/}} is a department of the \emph{Max Planck Institute for Intelligent Systems}\footnote{\url{https://is.mpg.de/}} that is specialized in computer vision and, in addition to scientific publications, also provides datasets for e.g. pose estimation approaches.
+\subsection{Max Planck Institute datasets}
+\emph{Perceiving Systems}\footnote{\url{https://ps.is.mpg.de/}} is a department of the \emph{Max Planck Institute for Intelligent Systems}\footnote{\url{https://is.mpg.de/}} that is specialized in computer vision and, in addition to scientific publications, also provides datasets\footnote{\url{https://ps.is.mpg.de/research_fields/datasets-and-code}} for e.g. pose estimation approaches. The listed datasets can be subdivided according to the following aspects:
+
+\subsubsection{Clothing extension}
+The individuality of a person is expressed by his clothing. To account for this feature, a model called \emph{CAPE} is built from 4d posture sequences of 8 men and 3 women. This dataset consists of about 80000 frames. \cite{cape}
+
+
+\subsubsection{Full-body scans}
+Acquiring 3d scans and data from multiple people in an outdoor environment is challenging because the markers are difficult to track. Timo et al. have shown in their publication that capturing sufficient data in a scene is possible with 6-17 \emph{IMU} units attached to each person, combined with a single hand-held camera. The recorded 51000 images are available for research.\cite{vip} A similar approach is followed by Yinghao et al. with 17 \emph{IMU} units for 10 subjects in 64 sequences, resulting in 330000 time instances \cite{dip}. Human-environment interaction is mainly covered in the datasets of Mohamed et al. which consist of three parts in different scenes \cite{prox}.
+
+\subsubsection{Hand scans}
+The hand contributes to communication, e.g., the hand gesture is used to confirm a statement in conversation. To incorporate this expressiveness into existing full-body models, Javier et al. developed the \emph{MANO} model from approximately 1000 3d scans of 31 subjects in 51 poses. These scans showed female and male hands, both left and right, interacting with primitives. \cite{mano} 
+Yana et al. also published a synthetically generated hand dataset \emph{obman} that focuses on the manipulation of grasped primitives \cite{obman}.
+
+\subsubsection{synthetic data}
+A much more cost-effective approach is to create realistic body data from existing motion capture sources. An prominent example is SURREAL by Gül et al. which consists of 6 million frames\cite{surreal}. David T. et al. also published their data set with pure synthetic and more realistic mixed material \cite{ltsh}.
+
+
 
 \cite{mpii}

@@ -7,4 +7,62 @@ Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
 \newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR)}, June 2014.
 
+\bibitem{prox}
+Mohamed Hassan, Vasileios Choutas, Dimitrios Tzionas, and Michael~J. Black.
+\newblock Resolving {3D} human pose ambiguities with {3D} scene constraints.
+\newblock In {\em Proceedings International Conference on Computer Vision},
+  pages 2282--2292. IEEE, October 2019.
+
+\bibitem{obman}
+Yana Hasson, G{\"u}l Varol, Dimitrios Tzionas, Igor Kalevatykh, Michael~J.
+  Black, Ivan Laptev, and Cordelia Schmid.
+\newblock Learning joint reconstruction of hands and manipulated objects.
+\newblock In {\em Proceedings IEEE Conf. on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 11807--11816, June 2019.
+
+\bibitem{ltsh}
+David~T. Hoffmann, Dimitrios Tzionas, Michael~J. Black, and Siyu Tang.
+\newblock Learning to train with synthetic humans.
+\newblock In {\em German Conference on Pattern Recognition (GCPR)}, pages
+  609--623. Springer International Publishing, September 2019.
+
+\bibitem{dip}
+Yinghao Huang, Manuel Kaufmann, Emre Aksan, Michael~J. Black, Otmar Hilliges,
+  and Gerard Pons-Moll.
+\newblock Deep inertial poser: Learning to reconstruct human pose from sparse
+  inertial measurements in real time.
+\newblock {\em ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)},
+  37:185:1--185:15, November 2018.
+\newblock Two first authors contributed equally.
+
+\bibitem{cape}
+Qianli Ma, Jinlong Yang, Anurag Ranjan, Sergi Pujades, Gerard Pons-Moll, Siyu
+  Tang, and Michael~J. Black.
+\newblock Learning to dress {3D} people in generative clothing.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR)}, pages
+  6468--6477. IEEE, June 2020.
+
+\bibitem{mano}
+Javier Romero, Dimitrios Tzionas, and Michael~J. Black.
+\newblock Embodied hands: Modeling and capturing hands and bodies together.
+\newblock {\em ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)},
+  36(6):245:1--245:17, November 2017.
+
+\bibitem{surreal}
+G{\"u}l Varol, Javier Romero, Xavier Martin, Naureen Mahmood, Michael~J. Black,
+  Ivan Laptev, and Cordelia Schmid.
+\newblock Learning from synthetic humans.
+\newblock In {\em Proceedings IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR) 2017}, pages 4627--4635, Piscataway, NJ, USA, July 2017.
+  IEEE.
+
+\bibitem{vip}
+Timo von Marcard, Roberto Henschel, Michael~J. Black, Bodo Rosenhahn, and
+  Gerard Pons-Moll.
+\newblock Recovering accurate {3D} human pose in the wild using {IMUs} and a
+  moving camera.
+\newblock In {\em European Conference on Computer Vision (ECCV)}, volume
+  Lecture Notes in Computer Science, vol 11214, pages 614--631. Springer, Cham,
+  September 2018.
+
 \end{thebibliography}
