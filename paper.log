@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  1 JUN 2022 01:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  1 JUN 2022 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -498,7 +498,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 (sections/criteria.tex) (sections/2d_estimation.tex)
-(sections/3d_estimation.tex) (sections/conclusion.tex) (paper.bbl)
+(sections/3d_estimation.tex) (sections/conclusion.tex) (paper.bbl [1{C:/Users/m
+atte/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -510,29 +514,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/matte/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
-
+[2
 
 ] (paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 5FA92E4709AE31DF0BBCD4DBDAF58F47;1523.
+(rerunfilecheck)             Checksum: 061C4D7B6FF4516733C56F3E0E24B13F;1727.
  ) 
 Here is how much of TeX's memory you used:
- 11433 strings out of 478582
- 180445 string characters out of 2844345
- 493501 words of memory out of 3000000
- 29411 multiletter control sequences out of 15000+600000
+ 11442 strings out of 478582
+ 180544 string characters out of 2844345
+ 493158 words of memory out of 3000000
+ 29415 multiletter control sequences out of 15000+600000
  579093 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,779b,326s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,8n,63p,1044b,465s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:
 /Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C
 :/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C
 :/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (1 page, 67471 bytes).
+Output written on paper.pdf (2 pages, 71811 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

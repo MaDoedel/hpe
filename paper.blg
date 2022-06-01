@@ -11,44 +11,44 @@ Database file #1: references/benchmarks.bib
 Database file #2: references/criteria.bib
 Database file #3: references/2d_estimation.bib
 Database file #4: references/3d_estimation.bib
-You've used 9 entries,
+You've used 12 entries,
             2118 wiz_defined-function locations,
-            558 strings with 6302 characters,
-and the built_in function-call counts, 4915 in all, are:
-= -- 488
-> -- 262
-< -- 7
-+ -- 103
-- -- 94
-* -- 377
-:= -- 745
-add.period$ -- 33
-call.type$ -- 9
-change.case$ -- 74
+            575 strings with 6851 characters,
+and the built_in function-call counts, 6647 in all, are:
+= -- 670
+> -- 336
+< -- 11
++ -- 133
+- -- 120
+* -- 498
+:= -- 989
+add.period$ -- 44
+call.type$ -- 12
+change.case$ -- 96
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 184
-empty$ -- 351
-format.name$ -- 94
-if$ -- 1074
+cite$ -- 12
+duplicate$ -- 259
+empty$ -- 481
+format.name$ -- 120
+if$ -- 1468
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 9
-newline$ -- 49
-num.names$ -- 18
-pop$ -- 85
+int.to.str$ -- 12
+missing$ -- 12
+newline$ -- 64
+num.names$ -- 24
+pop$ -- 113
 preamble$ -- 1
-purify$ -- 65
+purify$ -- 84
 quote$ -- 0
-skip$ -- 151
+skip$ -- 217
 stack$ -- 0
-substring$ -- 345
-swap$ -- 80
-text.length$ -- 7
+substring$ -- 481
+swap$ -- 119
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 48
 warning$ -- 0
-while$ -- 37
-width$ -- 10
-write$ -- 109
+while$ -- 52
+width$ -- 14
+write$ -- 146

@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{mpii}
 Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
@@ -42,11 +42,30 @@ Qianli Ma, Jinlong Yang, Anurag Ranjan, Sergi Pujades, Gerard Pons-Moll, Siyu
 \newblock In {\em Computer Vision and Pattern Recognition (CVPR)}, pages
   6468--6477. IEEE, June 2020.
 
+\bibitem{resynth}
+Qianli Ma, Jinlong Yang, Siyu Tang, and Michael~J. Black.
+\newblock The power of points for modeling humans in clothing.
+\newblock In {\em Proc. International Conference on Computer Vision (ICCV)},
+  pages 10974--10984, October 2021.
+
+\bibitem{amass}
+Naureen Mahmood, Nima Ghorbani, Nikolaus~F. Troje, Gerard Pons-Moll, and
+  Michael~J. Black.
+\newblock {AMASS}: Archive of motion capture as surface shapes.
+\newblock In {\em Proceedings International Conference on Computer Vision},
+  pages 5442--5451. IEEE, October 2019.
+
 \bibitem{mano}
 Javier Romero, Dimitrios Tzionas, and Michael~J. Black.
 \newblock Embodied hands: Modeling and capturing hands and bodies together.
 \newblock {\em ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)},
   36(6):245:1--245:17, November 2017.
+
+\bibitem{grab}
+Omid Taheri, Nima Ghorbani, Michael~J. Black, and Dimitrios Tzionas.
+\newblock Grab: A dataset of whole-body human grasping of objects.
+\newblock In {\em Computer Vision -- ECCV 2020}, volume LNCS 12355, pages
+  581--600, Cham, August 2020. Springer International Publishing.
 
 \bibitem{surreal}
 G{\"u}l Varol, Javier Romero, Xavier Martin, Naureen Mahmood, Michael~J. Black,

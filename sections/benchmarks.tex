@@ -6,10 +6,11 @@ Huge data sources are part of the benchmarking process for human posture estimat
 
 \subsubsection{Clothing extension}
 The individuality of a person is expressed by his clothing. To account for this feature, a model called \emph{CAPE} is built from 4d posture sequences of 8 men and 3 women. This dataset consists of about 80000 frames. \cite{cape}
+Further work by Qianli et al. has generated a synthetic dataset on specific \emph{CAPE} subjects and published it as \emph{ReSynth} for researchers \cite{resynth}.
 
 
 \subsubsection{Full-body scans}
-Acquiring 3d scans and data from multiple people in an outdoor environment is challenging because the markers are difficult to track. Timo et al. have shown in their publication that capturing sufficient data in a scene is possible with 6-17 \emph{IMU} units attached to each person, combined with a single hand-held camera. The recorded 51000 images are available for research.\cite{vip} A similar approach is followed by Yinghao et al. with 17 \emph{IMU} units for 10 subjects in 64 sequences, resulting in 330000 time instances \cite{dip}. Human-environment interaction is mainly covered in the datasets of Mohamed et al. which consist of three parts in different scenes \cite{prox}.
+Acquiring 3d scans and data from multiple people in an outdoor environment is challenging because the markers are difficult to track. Timo et al. have shown in their publication that capturing sufficient data in a scene is possible with 6-17 \emph{IMU} units attached to each person, combined with a single hand-held camera. The recorded 51000 images are available for research.\cite{vip} A similar approach is followed by Yinghao et al. with 17 \emph{IMU} units for 10 subjects in 64 sequences, resulting in 330000 time instances \cite{dip}. Human-environment interaction is mainly covered in the datasets of Mohamed et al. which consist of three parts in different scenes \cite{prox}. The \emph{GRAB} dataset, on the other hand, targets the relationship between full-body models and object manipulation. It contains motion data of 10 individuals interacting with 51 objects in 4 different contexts, e.g., lifting, transferring, hand-to-hand transfer, and using \cite{grab}.
 
 \subsubsection{Hand scans}
 The hand contributes to communication, e.g., the hand gesture is used to confirm a statement in conversation. To incorporate this expressiveness into existing full-body models, Javier et al. developed the \emph{MANO} model from approximately 1000 3d scans of 31 subjects in 51 poses. These scans showed female and male hands, both left and right, interacting with primitives. \cite{mano} 
@@ -18,6 +19,6 @@ Yana et al. also published a synthetically generated hand dataset \emph{obman} t
 \subsubsection{synthetic data}
 A much more cost-effective approach is to create realistic body data from existing motion capture sources. An prominent example is SURREAL by Gül et al. which consists of 6 million frames\cite{surreal}. David T. et al. also published their data set with pure synthetic and more realistic mixed material \cite{ltsh}.
 
-
-
+\subsubsection{Generalization of datasets}
+Many different 3d scans are based on markers and motion capture software. Unfortunately, the number of markers varies from dataset to dataset, so their use as a data source for a body model leads to inaccuracies and further adjustments. A common solution to this problem is provided by the \emph{MoSh++} algorithm, a descendant of the earlier motion capture software, and its resulting \emph{AMASS} dataset. It consists of 11265 motions from 344 subjects with 40 hours of content.\cite{amass}
 \cite{mpii}
