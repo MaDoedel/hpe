@@ -80,6 +80,12 @@ Omid Taheri, Nima Ghorbani, Michael~J. Black, and Dimitrios Tzionas.
 \newblock In {\em Computer Vision -- ECCV 2020}, volume LNCS 12355, pages
   581--600, Cham, August 2020. Springer International Publishing.
 
+\bibitem{pdj}
+Alexander Toshev and Christian Szegedy.
+\newblock Deeppose: Human pose estimation via deep neural networks.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2014.
+
 \bibitem{surreal}
 G{\"u}l Varol, Javier Romero, Xavier Martin, Naureen Mahmood, Michael~J. Black,
   Ivan Laptev, and Cordelia Schmid.
@@ -96,5 +102,11 @@ Timo von Marcard, Roberto Henschel, Michael~J. Black, Bodo Rosenhahn, and
 \newblock In {\em European Conference on Computer Vision (ECCV)}, volume
   Lecture Notes in Computer Science, vol 11214, pages 614--631. Springer, Cham,
   September 2018.
+
+\bibitem{pck}
+Yi~Yang and Deva Ramanan.
+\newblock Articulated human detection with flexible mixtures of parts.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  35(12):2878--2890, 2013.
 
 \end{thebibliography}
