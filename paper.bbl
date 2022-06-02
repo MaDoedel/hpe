@@ -7,6 +7,12 @@ Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
 \newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR)}, June 2014.
 
+\bibitem{pcp}
+Marcin Eichner, Manuel Marin-Jimenez, Andrew Zisserman, and Vittorio Ferrari.
+\newblock 2d articulated human pose estimation and retrieval in (almost)
+  unconstrained still images.
+\newblock {\em International journal of computer vision}, 99(2):190--214, 2012.
+
 \bibitem{prox}
 Mohamed Hassan, Vasileios Choutas, Dimitrios Tzionas, and Michael~J. Black.
 \newblock Resolving {3D} human pose ambiguities with {3D} scene constraints.
@@ -54,6 +60,13 @@ Naureen Mahmood, Nima Ghorbani, Nikolaus~F. Troje, Gerard Pons-Moll, and
 \newblock {AMASS}: Archive of motion capture as surface shapes.
 \newblock In {\em Proceedings International Conference on Computer Vision},
   pages 5442--5451. IEEE, October 2019.
+
+\bibitem{tuch}
+Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
+  Black.
+\newblock On self-contact and human pose.
+\newblock In {\em IEEE/CVF Conf.~on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 9990--9999, June 2021.
 
 \bibitem{mano}
 Javier Romero, Dimitrios Tzionas, and Michael~J. Black.

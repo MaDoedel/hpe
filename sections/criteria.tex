@@ -1,1 +1,34 @@
 \section{criteria}
+The quality of the estimated poses and thus of the applied algorithm is evaluated with the help of metrics. The common approach is to calculate the body parts or joint positions and compare them with particular values from the ground truth data, e.g. the lengths between key-points or frames in a specific region. For this analysis, the previously mentioned datasets from \autoref{sec:benchmarks} are used as reference. The accuracy of the results can be adjusted by a threshold value for the respective metric.
+
+\subsection{Percentage of Correct Parts PCP}
+This criterion encompasses a comparison of the recognized and recognizable body parts. The definition of a correctly recognized limb includes both the distances $l_{1}, l_{2}$ of its endpoints from those contained in the dataset and its total length $L$. \autoref{fig:pcp} illustrates the values explained earlier in an intuitive way, with the left (green) line indicating information from the dataset that is compared to the estimated right line. Another factor $p$ multiplied by $L$ defines the threshold value to which $l1$ and $l2$ are compared. If $l1$ or $l2$ exceed the threshold, the body part is not detected correctly, resulting in a lower $PCP$ score.
+The smaller p, the stricter the evaluation and thus higher the accuracy.\cite{pcp}
+
+\begin{figure}[h]
+\centering
+\includegraphics[]{"criteria/pcp.png"}
+\caption{Visualisation of estimated values for PCP calculation}
+\label{fig:pcp}
+\end{figure}
+
+\subsection{Percentage of Detected Joints PDJ}
+A joint is correctly identified if its distance from the true joint position is within a certain fraction of the torso diameter, e.g. the distance between the left shoulder and the right hip. Reducing this proportion will have a positive effect on localisation accuracy %\cite{Munea}. 
+
+\subsection{Percentage of Correct Key-points PCK}
+In contrast to \emph{PDJ}, a joint in this criteria is correctly detected if its distance from the true joint position is within a fraction of the maximum side length of the frame described by the ground truth body joints %\cite{Ning}.
+
+\subsubsection{Head-normalized Probability of Correct Key-points PCKh}
+In this variant of \emph{PCK}, the threshold is chosen depending on the size of the individuals. It should be between a fraction of the reference segment determined by a constant $\alpha \in \mathbb{R}$ multiplied by the head size, which is 60\% of the diagonal length of the head frame %\cite{andriluka14cvpr}.
+
+\subsection{Area Under the Curve AUC}
+The measurement of the \emph{PCK} under variation of the threshold value results in a curve. This analysis provides information on how the model is able to distinguish the individual joints of the body. A large curve area defines a qualitative model %\cite{andriluka14cvpr}.
+
+\subsection{Object Key-point Similarity OKS}
+\autoref{eq:OKS} illustrates the simplified OKS score\footnote{\url{https://cocodataset.org/\#keypoints-eval}}, which is a sum of $ n \in \mathbb{N}$ detected and ground truth key-points. The parameters $d \in \mathbb{R}$ are the Euclidean distance between the corresponding ground truth value and the detected key-point, while $s \in \mathbb{R}$ denotes the object segment area and $k \in \mathbb{R}$ is a constant describing a falloff. 
+
+\begin{equation}
+    \label{eq:OKS}
+    OKS = \sum_{i=1}^{n} e^{- \frac{d_{i}^{2}}{2 \times s^{2} \times k_{i}^{2}}}
+\end{equation}
+Optimal predictions have a high OKS value, while low values indicate poor predictions. 
