@@ -1,6 +1,6 @@
 \section{Benchmarks}
 \label{sec:benchmarks}
-Huge data sources are part of the benchmarking process for human posture estimation approaches. The datasets used specifically for this purpose contain images showing one or more individuals in different poses, as well as other information about joint and limb positions. This information is acquired by motion capture using markers on the body or individual \emph{IMU} units attached to the body to determine the position regardless of obstacles, can be used as well. Existing video footage can also be manually annotated. Some datasets focus on different features within its content to ensure the quality of a model in relation to that aspect. Commonly used datasets are explained in more detail in this section.
+Huge data sources are part of the benchmarking process for human posture estimation approaches. The datasets used specifically for this purpose contain images showing one or more individuals in different poses, as well as other information about joint and limb positions. This information is acquired by motion capture markers on the body or using \emph{IMU} units as passive sensing devices, attached to the body to determine the position regardless of obstacles. Existing video footage can also be manually annotated. Some datasets focus on different features within its content to ensure the quality of a model in relation to that aspect. Commonly used datasets are explained in more detail in this section.
 
 \subsection{Max Planck Institute datasets}
 \emph{Perceiving Systems}\footnote{\url{https://ps.is.mpg.de/}} is a department of the \emph{Max Planck Institute for Intelligent Systems}\footnote{\url{https://is.mpg.de/}} that is specialized in computer vision and, in addition to scientific publications, also provides datasets\footnote{\url{https://ps.is.mpg.de/research_fields/datasets-and-code}} for e.g. pose estimation approaches. The listed datasets can be subdivided according to the following aspects:
@@ -22,4 +22,11 @@ A much more cost-effective approach is to create realistic body data from existi
 
 \subsubsection{Generalization of datasets}
 Many different 3d scans are based on markers and motion capture software. Unfortunately, the number of markers varies from dataset to dataset, so their use as a data source for a body model leads to inaccuracies and further adjustments. A common solution to this problem is provided by the \emph{MoSh++} algorithm, a descendant of the earlier motion capture software, and its resulting \emph{AMASS} dataset. It consists of 11265 motions from 344 subjects with 40 hours of content.\cite{amass}
+
+\subsection{COCO dataset} 
+According to Tsung-Yi et al. the context of a given scene has an impact on the quality of the estimation. Therefore, to encode this contextual data into the dataset and the learned models, images with many classifiable objects, such as animals, people, etc., are the content of the dataset. In addition, mainly non-iconic images of no centered objects are included. On the other hand, useful labels were also used in a hierarchical modality, simply describing the subject and differentiating by body parts. The dimension of \emph{COCO} is 328000 images, divided into 91 object categories with a total of 2500000 label instances. \cite{coco}
+
+dataset contains 91 common object categories
+with 82 of them having more than 5,000 labeled instances, Fig. 6. In total the dataset has 2,500,000 labeled
+instances in 328,000 images. 
 \cite{mpii}

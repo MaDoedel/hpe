@@ -21,7 +21,7 @@ The metric \emph{PCJ} addressed in this section is similar to the already establ
 For this particular criteria, the maximum bounding box length $B$ must be calculated from the existing dataset information. The \emph{PCK} score is calculated analogous to the previously mentioned algorithms in \autoref{sec:pcp} and \autoref{sec:pdj} from $l_{1}, l_{2}$ and a further threshold defined by $B \times p$. \cite{mpii, pck}
 
 \subsubsection{Head-normalized Probability of Correct Key-points PCKh}
-\emph{PCKh} is a variant of \emph{PCK} in which the threshold is set to half the length of the head frame $H \ times 0.5$. Since the head frame is independent of the viewpoints and position of other body parts, \emph{PCKh} is not affected by the subjects' articulation. \cite{mpii}
+\emph{PCKh} is a variant of \emph{PCK} in which the threshold is set to half the length of the head frame $H \times 0.5$. Since the head frame is independent of the viewpoints and position of other body parts, \emph{PCKh} is not affected by the subjects' articulation. \cite{mpii}
 
 \subsection{Area Under the Curve AUC}
 The measurement of the \emph{PCK} under variation of the threshold value results in a curve. This analysis provides information on how the model is able to distinguish the individual joints of the body. A large curve area defines a qualitative model %\cite{andriluka14cvpr}.

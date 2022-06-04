@@ -41,6 +41,12 @@ Yinghao Huang, Manuel Kaufmann, Emre Aksan, Michael~J. Black, Otmar Hilliges,
   37:185:1--185:15, November 2018.
 \newblock Two first authors contributed equally.
 
+\bibitem{coco}
+Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick,
+  James Hays, Pietro Perona, Deva Ramanan, C.~Lawrence Zitnick, and Piotr
+  Dollár.
+\newblock Microsoft coco: Common objects in context, 2014.
+
 \bibitem{cape}
 Qianli Ma, Jinlong Yang, Anurag Ranjan, Sergi Pujades, Gerard Pons-Moll, Siyu
   Tang, and Michael~J. Black.
@@ -60,6 +66,11 @@ Naureen Mahmood, Nima Ghorbani, Nikolaus~F. Troje, Gerard Pons-Moll, and
 \newblock {AMASS}: Archive of motion capture as surface shapes.
 \newblock In {\em Proceedings International Conference on Computer Vision},
   pages 5442--5451. IEEE, October 2019.
+
+\bibitem{summary80s}
+Thomas~B. Moeslund and Erik Granum.
+\newblock A survey of computer vision-based human motion capture.
+\newblock {\em Computer Vision and Image Understanding}, 81(3):231--268, 2001.
 
 \bibitem{tuch}
 Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
