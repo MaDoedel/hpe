@@ -7,11 +7,49 @@ Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
 \newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR)}, June 2014.
 
+\bibitem{Andrikula2010}
+Mykhaylo Andriluka, Stefan Roth, and Bernt Schiele.
+\newblock Monocular 3d pose estimation and tracking by detection.
+\newblock In {\em 2010 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition}, pages 623--630, 2010.
+
+\bibitem{Chen_2017_CVPR}
+Ching-Hang Chen and Deva Ramanan.
+\newblock 3d human pose estimation = 2d pose estimation + matching.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, July 2017.
+
+\bibitem{Chen2016}
+Wenzheng Chen, Huan Wang, Yangyan Li, Hao Su, Zhenhua Wang, Changhe Tu, Dani
+  Lischinski, Daniel Cohen-Or, and Baoquan Chen.
+\newblock Synthesizing training images for boosting human 3d pose estimation.
+\newblock In {\em 2016 Fourth International Conference on 3D Vision (3DV)},
+  pages 479--488, 2016.
+
+\bibitem{Dong_2019_CVPR}
+Junting Dong, Wen Jiang, Qixing Huang, Hujun Bao, and Xiaowei Zhou.
+\newblock Fast and robust multi-person 3d pose estimation from multiple views.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2019.
+
 \bibitem{pcp}
 Marcin Eichner, Manuel Marin-Jimenez, Andrew Zisserman, and Vittorio Ferrari.
 \newblock 2d articulated human pose estimation and retrieval in (almost)
   unconstrained still images.
 \newblock {\em International journal of computer vision}, 99(2):190--214, 2012.
+
+\bibitem{habibie_wild_2019}
+Ikhsanul Habibie, Weipeng Xu, Dushyant Mehta, Gerard Pons-Moll, and Christian
+  Theobalt.
+\newblock In the {Wild} {Human} {Pose} {Estimation} {Using} {Explicit} {2D}
+  {Features} and {Intermediate} {3D} {Representations}.
+\newblock pages 10905--10914, 2019.
+
+\bibitem{Haralick98}
+R.M. Haralick, H.~Joo, C.~Lee, X.~Zhuang, V.G. Vaidya, and M.B. Kim.
+\newblock Pose estimation from corresponding point data.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
+  19(6):1426--1446, 1989.
 
 \bibitem{prox}
 Mohamed Hassan, Vasileios Choutas, Dimitrios Tzionas, and Michael~J. Black.
@@ -74,6 +112,12 @@ Naureen Mahmood, Nima Ghorbani, Nikolaus~F. Troje, Gerard Pons-Moll, and
 \newblock In {\em Proceedings International Conference on Computer Vision},
   pages 5442--5451. IEEE, October 2019.
 
+\bibitem{Martinez_2017_ICCV}
+Julieta Martinez, Rayat Hossain, Javier Romero, and James~J. Little.
+\newblock A simple yet effective baseline for 3d human pose estimation.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision (ICCV)}, Oct 2017.
+
 \bibitem{summary80s}
 Thomas~B. Moeslund and Erik Granum.
 \newblock A survey of computer vision-based human motion capture.
@@ -86,6 +130,21 @@ Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
 \newblock In {\em IEEE/CVF Conf.~on Computer Vision and Pattern Recognition
   (CVPR)}, pages 9990--9999, June 2021.
 
+\bibitem{park_3d_2016}
+Sungheon Park, Jihye Hwang, and Nojun Kwak.
+\newblock {3D} {Human} {Pose} {Estimation} {Using} {Convolutional} {Neural}
+  {Networks} with {2D} {Pose} {Information}.
+\newblock In Gang Hua and Hervé Jégou, editors, {\em Computer {Vision} –
+  {ECCV} 2016 {Workshops}}, Lecture {Notes} in {Computer} {Science}, pages
+  156--169, Cham, 2016. Springer International Publishing.
+
+\bibitem{Rogez2016}
+Gregory Rogez and Cordelia Schmid.
+\newblock Mocap-guided data augmentation for 3d pose estimation in the wild.
+\newblock In D.~Lee, M.~Sugiyama, U.~Luxburg, I.~Guyon, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems}, volume~29.
+  Curran Associates, Inc., 2016.
+
 \bibitem{mano}
 Javier Romero, Dimitrios Tzionas, and Michael~J. Black.
 \newblock Embodied hands: Modeling and capturing hands and bodies together.
@@ -97,6 +156,19 @@ Omid Taheri, Nima Ghorbani, Michael~J. Black, and Dimitrios Tzionas.
 \newblock Grab: A dataset of whole-body human grasping of objects.
 \newblock In {\em Computer Vision -- ECCV 2020}, volume LNCS 12355, pages
   581--600, Cham, August 2020. Springer International Publishing.
+
+\bibitem{tekin_learning_2017}
+Bugra Tekin, Pablo Marquez-Neila, Mathieu Salzmann, and Pascal Fua.
+\newblock Learning to {Fuse} {2D} and {3D} {Image} {Cues} for {Monocular}
+  {Body} {Pose} {Estimation}.
+\newblock pages 3941--3950, 2017.
+
+\bibitem{Tome_2017_CVPR}
+Denis Tome, Chris Russell, and Lourdes Agapito.
+\newblock Lifting from the deep: Convolutional 3d pose estimation from a single
+  image.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, July 2017.
 
 \bibitem{pdj}
 Alexander Toshev and Christian Szegedy.
@@ -121,10 +193,29 @@ Timo von Marcard, Roberto Henschel, Michael~J. Black, Bodo Rosenhahn, and
   Lecture Notes in Computer Science, vol 11214, pages 614--631. Springer, Cham,
   September 2018.
 
+\bibitem{wang_deep_2021}
+Jinbao Wang, Shujie Tan, Xiantong Zhen, Shuo Xu, Feng Zheng, Zhenyu He, and
+  Ling Shao.
+\newblock Deep {3D} human pose estimation: {A} review.
+\newblock {\em Computer Vision and Image Understanding}, 210:103225, September
+  2021.
+
 \bibitem{pck}
 Yi~Yang and Deva Ramanan.
 \newblock Articulated human detection with flexible mixtures of parts.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   35(12):2878--2890, 2013.
+
+\bibitem{Ye2011}
+Mao Ye, Xianwang Wang, Ruigang Yang, Liu Ren, and Marc Pollefeys.
+\newblock Accurate 3d pose estimation from a single depth image.
+\newblock In {\em 2011 International Conference on Computer Vision}, pages
+  731--738, 2011.
+
+\bibitem{zhou_hemlets_2019}
+Kun Zhou, Xiaoguang Han, Nianjuan Jiang, Kui Jia, and Jiangbo Lu.
+\newblock {HEMlets} {Pose}: {Learning} {Part}-{Centric} {Heatmap} {Triplets}
+  for {Accurate} {3D} {Human} {Pose} {Estimation}.
+\newblock pages 2344--2353, 2019.
 
 \end{thebibliography}
