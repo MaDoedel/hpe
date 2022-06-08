@@ -7,7 +7,18 @@ As with 2D Pose Estimation, neural networks, particularly convolutional networks
 For uplifting, recent work has proven statistical models such as (deep) neural networks themselves \cite{Tome_2017_CVPR, Martinez_2017_ICCV}, matching the estimated 2D pose with a database \cite{Chen_2017_CVPR} or triangulation using multiple viewpoints \cite{Dong_2019_CVPR} useful. In particular \cite{Martinez_2017_ICCV} shows that even very simple deep neural networks can be extraordinarily effective for uplifting 2D to 3D pose estimations, considering both computational resources and failure rate.
 \newline
 Inspired by various 2D human pose estimation algorithms, many studies have employed the outputs of 2D pose estimate methods for 3D human pose estimation to improve in-the-wild generalization performance. For example, Martinez et al. \cite{Martinez_2017_ICCV} pioneered the research on lifting 2D poses to 3D space with a simple yet effective neural network. Other methods \cite{park_3d_2016, wang_deep_2021, zhou_hemlets_2019, habibie_wild_2019, tekin_learning_2017} focus on fusing 2D joint heat maps from the top-down 2D pose estimation methods with 3D image cues to reduce ambiguity. 
-\subsection{Direct 3D pose estimation}
+
+\begin{figure*}[!htb]
+	\centering
+	\includegraphics[scale=0.4]{"3dpose/martinez_network.png}
+	\caption{Neural network structure from \cite{Martinez_2017_ICCV}}
+	\label{fig:martinez_network}
+\end{figure*}
+
+\subsubsection{A simple yet effective baseline for 3d human pose estimation}
+While trying to investigate common errors in the uplifting process, \cite{Martinez_2017_ICCV} created a method with state-of-the-art results for 3d pose estimation using a very basic neural network, whose structure is shown in \autoref{fig:martinez_network}.
+
+\subsection{Direct 3d pose estimation}
 Methods working directly on 3D data, such as \cite{Ye2011} (working with depth maps)can avoid potential sources of error such as projections or lighting conditions. This leads to more robust and accurate results, however more complex (neural network) architectures and computational resources are required. Traditional methods like the least-squares-estimation presented in \cite{Haralick98} work without training data needed and are computationally inexpensive, but yield rather high error rates compared to newer methods.
 
 \subsubsection{Skinned Multi-Person Linear model SMPL}

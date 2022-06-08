@@ -1,0 +1,147 @@
+@article{summary80s,
+title = {A Survey of Computer Vision-Based Human Motion Capture},
+journal = {Computer Vision and Image Understanding},
+volume = {81},
+number = {3},
+pages = {231-268},
+year = {2001},
+issn = {1077-3142},
+doi = {https://doi.org/10.1006/cviu.2000.0897},
+url = {https://www.sciencedirect.com/science/article/pii/S107731420090897X},
+author = {Thomas B. Moeslund and Erik Granum},
+abstract = {A comprehensive survey of computer vision-based human motion capture literature from the past two decades is presented. The focus is on a general overview based on a taxonomy of system functionalities, broken down into four processes: initialization, tracking, pose estimation, and recognition. Each process is discussed and divided into subprocesses and/or categories of methods to provide a reference to describe and compare the more than 130 publications covered by the survey. References are included throughout the paper to exemplify important issues and their relations to the various methods. A number of general assumptions used in this research field are identified and the character of these assumptions indicates that the research field is still in an early stage of development. To evaluate the state of the art, the major application areas are identified and performances are analyzed in light of the methods presented in the survey. Finally, suggestions for future research directions are offered.}
+}
+
+@article{smpl,
+      author = {Loper, Matthew and Mahmood, Naureen and Romero, Javier and Pons-Moll, Gerard and Black, Michael J.},
+      title = {{SMPL}: A Skinned Multi-Person Linear Model},
+      journal = {ACM Trans. Graphics (Proc. SIGGRAPH Asia)},
+      month = oct,
+      number = {6},
+      pages = {248:1--248:16},
+      publisher = {ACM},
+      volume = {34},
+      year = {2015}
+    }
+
+    
+@INPROCEEDINGS{Chen2016,
+  author={Chen, Wenzheng and Wang, Huan and Li, Yangyan and Su, Hao and Wang, Zhenhua and Tu, Changhe and Lischinski, Dani and Cohen-Or, Daniel and Chen, Baoquan},
+  booktitle={2016 Fourth International Conference on 3D Vision (3DV)}, 
+  title={Synthesizing Training Images for Boosting Human 3D Pose Estimation}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={479-488},
+  doi={10.1109/3DV.2016.58}}
+
+  
+ @InProceedings{Chen_2017_CVPR,
+author = {Chen, Ching-Hang and Ramanan, Deva},
+title = {3D Human Pose Estimation = 2D Pose Estimation + Matching},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {July},
+year = {2017}
+} 
+
+@INPROCEEDINGS{Andrikula2010,
+  author={Andriluka, Mykhaylo and Roth, Stefan and Schiele, Bernt},
+  booktitle={2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition}, 
+  title={Monocular 3D pose estimation and tracking by detection}, 
+  year={2010},
+  volume={},
+  number={},
+  pages={623-630},
+  doi={10.1109/CVPR.2010.5540156}}
+
+@InProceedings{Tome_2017_CVPR,
+author = {Tome, Denis and Russell, Chris and Agapito, Lourdes},
+title = {Lifting From the Deep: Convolutional 3D Pose Estimation From a Single Image},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {July},
+year = {2017}
+} 
+
+
+
+@InProceedings{Martinez_2017_ICCV,
+author = {Martinez, Julieta and Hossain, Rayat and Romero, Javier and Little, James J.},
+title = {A Simple yet Effective Baseline for 3D Human Pose Estimation},
+booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
+month = {Oct},
+year = {2017}
+} 
+
+@inproceedings{Rogez2016,
+ author = {Rogez, Gregory and Schmid, Cordelia},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {D. Lee and M. Sugiyama and U. Luxburg and I. Guyon and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {MoCap-guided Data Augmentation for 3D Pose Estimation in the Wild},
+ url = {https://proceedings.neurips.cc/paper/2016/file/35464c848f410e55a13bb9d78e7fddd0-Paper.pdf},
+ volume = {29},
+ year = {2016}
+}
+
+@InProceedings{Dong_2019_CVPR,
+author = {Dong, Junting and Jiang, Wen and Huang, Qixing and Bao, Hujun and Zhou, Xiaowei},
+title = {Fast and Robust Multi-Person 3D Pose Estimation From Multiple Views},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
+} 
+
+@ARTICLE{Haralick98,
+  author={Haralick, R.M. and Joo, H. and Lee, C. and Zhuang, X. and Vaidya, V.G. and Kim, M.B.},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics}, 
+  title={Pose estimation from corresponding point data}, 
+  year={1989},
+  volume={19},
+  number={6},
+  pages={1426-1446},
+  doi={10.1109/21.44063}
+}
+
+@inproceedings{park_3d_2016,
+	address = {Cham},
+	series = {Lecture {Notes} in {Computer} {Science}},
+	title = {{3D} {Human} {Pose} {Estimation} {Using} {Convolutional} {Neural} {Networks} with {2D} {Pose} {Information}},
+	isbn = {978-3-319-49409-8},
+	doi = {10.1007/978-3-319-49409-8_15},
+	abstract = {While there has been a success in 2D human pose estimation with convolutional neural networks (CNNs), 3D human pose estimation has not been thoroughly studied. In this paper, we tackle the 3D human pose estimation task with end-to-end learning using CNNs. Relative 3D positions between one joint and the other joints are learned via CNNs. The proposed method improves the performance of CNN with two novel ideas. First, we added 2D pose information to estimate a 3D pose from an image by concatenating 2D pose estimation result with the features from an image. Second, we have found that more accurate 3D poses are obtained by combining information on relative positions with respect to multiple joints, instead of just one root joint. Experimental results show that the proposed method achieves comparable performance to the state-of-the-art methods on Human 3.6m dataset.},
+	language = {en},
+	booktitle = {Computer {Vision} – {ECCV} 2016 {Workshops}},
+	publisher = {Springer International Publishing},
+	author = {Park, Sungheon and Hwang, Jihye and Kwak, Nojun},
+	editor = {Hua, Gang and Jégou, Hervé},
+	year = {2016},
+	keywords = {2D-3D joint optimization, Convolutional neural network, Human pose estimation},
+	pages = {156--169},
+	file = {Full Text PDF:/Users/masoudtaghikhah/Zotero/storage/JXIT637W/Park et al. - 2016 - 3D Human Pose Estimation Using Convolutional Neura.pdf:application/pdf}, 
+}
+
+@inproceedings{tekin_learning_2017,
+	title = {Learning to {Fuse} {2D} and {3D} {Image} {Cues} for {Monocular} {Body} {Pose} {Estimation}},
+	url = {https://openaccess.thecvf.com/content_iccv_2017/html/Tekin_Learning_to_Fuse_ICCV_2017_paper.html},
+	urldate = {2022-05-18},
+	author = {Tekin, Bugra and Marquez-Neila, Pablo and Salzmann, Mathieu and Fua, Pascal},
+	year = {2017},
+	pages = {3941--3950},
+	file = {Full Text PDF:/Users/masoudtaghikhah/Zotero/storage/ATTQQL9J/Tekin et al. - 2017 - Learning to Fuse 2D and 3D Image Cues for Monocula.pdf:application/pdf;Snapshot:/Users/masoudtaghikhah/Zotero/storage/SQMNGPLS/Tekin_Learning_to_Fuse_ICCV_2017_paper.html:text/html},
+}
+
+@inproceedings{habibie_wild_2019,
+	title = {In the {Wild} {Human} {Pose} {Estimation} {Using} {Explicit} {2D} {Features} and {Intermediate} {3D} {Representations}},
+	url = {https://openaccess.thecvf.com/content_CVPR_2019/html/Habibie_In_the_Wild_Human_Pose_Estimation_Using_Explicit_2D_Features_CVPR_2019_paper.html},
+	urldate = {2022-05-18},
+	author = {Habibie, Ikhsanul and Xu, Weipeng and Mehta, Dushyant and Pons-Moll, Gerard and Theobalt, Christian},
+	year = {2019},
+	pages = {10905--10914},
+	file = {Full Text PDF:/Users/masoudtaghikhah/Zotero/storage/M49QGGJX/Habibie et al. - 2019 - In the Wild Human Pose Estimation Using Explicit 2.pdf:application/pdf;Snapshot:/Users/masoudtaghikhah/Zotero/storage/GSNHC9L6/Habibie_In_the_Wild_Human_Pose_Estimation_Using_Explicit_2D_Features_CVPR_2019_paper.html:text/html},
+}
+
+@inproceedings{zhou_hemlets_2019,
+	title = {{HEMlets} {Pose}: {Learning} {Part}-{Centric} {Heatmap} {Triplets} for {Accurate} {3D} {Human} {Pose} {Estimation}},
+	shorttitle = {{HEMlets} {Pose}},
+	url = {https://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_HEMlets_Pose_Learning_Part-Ce

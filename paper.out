@@ -17,7 +17,8 @@
 \BOOKMARK [1][-]{section.4}{2D pose estimation}{}% 17
 \BOOKMARK [1][-]{section.5}{3D pose estimation}{}% 18
 \BOOKMARK [2][-]{subsection.5.1}{Lifting from 2D to 3D pose}{section.5}% 19
-\BOOKMARK [2][-]{subsection.5.2}{Direct 3D pose estimation}{section.5}% 20
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Skinned Multi-Person Linear model SMPL}{subsection.5.2}% 21
-\BOOKMARK [1][-]{section.6}{conclusion}{}% 22
-\BOOKMARK [1][-]{section*.1}{References}{}% 23
+\BOOKMARK [3][-]{subsubsection.5.1.1}{A simple yet effective baseline for 3d human pose estimation}{subsection.5.1}% 20
+\BOOKMARK [2][-]{subsection.5.2}{Direct 3d pose estimation}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Skinned Multi-Person Linear model SMPL}{subsection.5.2}% 22
+\BOOKMARK [1][-]{section.6}{conclusion}{}% 23
+\BOOKMARK [1][-]{section*.1}{References}{}% 24
