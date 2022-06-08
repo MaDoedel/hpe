@@ -47,6 +47,13 @@ Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick,
   Dollár.
 \newblock Microsoft coco: Common objects in context, 2014.
 
+\bibitem{smpl}
+Matthew Loper, Naureen Mahmood, Javier Romero, Gerard Pons-Moll, and Michael~J.
+  Black.
+\newblock {SMPL}: A skinned multi-person linear model.
+\newblock {\em ACM Trans. Graphics (Proc. SIGGRAPH Asia)}, 34(6):248:1--248:16,
+  October 2015.
+
 \bibitem{cape}
 Qianli Ma, Jinlong Yang, Anurag Ranjan, Sergi Pujades, Gerard Pons-Moll, Siyu
   Tang, and Michael~J. Black.

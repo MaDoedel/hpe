@@ -1,5 +1,15 @@
 \section{3d pose estimation}
 From a historical perspective, a 3d motion capture algorithm consists of 4 sequential processes: initialisation, tracking, pose estimation and recognition. Initialization involves both camera and model initialization, i.e. setting the camera calibration and finding a model that represents the subject and assigning its initial pose manually or automatically. Model-based approaches can be viewed iteratively, with each frame of the data source representing an iteration in which the initial pose is refined. Tracking is concerned with the relationship between the parts of the subject's body. This leads to segmentation of the subject from the background, representation changes, and establishing tracking in further images. The next phase, which is mainly covered in this section, is the estimation of the pose. A distinction is made between model-based and non-model-based methods, with the former requiring  \emph{a priori} a model. In that approaches, especially human pose estimation, a human model is used to benefit from its encoded information. This model can either be used indirectly, considering e.g. only general aspects such as size and structure, or it is a direct used model. Directly used models are both more detailed and offer broader benefits in regards to occlusion handling and embedded kinematic constraints. In an application, the observed object is approximated by the model, which is continuously refined with further images.\cite{summary80s}
 
-\subsection{SMPL}
+\subsection{Skinned Multi-Person Linear model SMPL}
+In \emph{SMPL} a model $M(\vec{\beta},\vec{\theta},\phi)$ is learned from the 3d scans explained in \autoref{sec:benchmarks}, that returns a mesh from the input. This formulation is also included in \autoref{eq:model}, where $\mathbb{R}^{3N}$ is a vector of \emph{N = 6890} vertices sculpturing the mesh. In this formula, $\vec{\beta}$ is a vector of blend shapes, while $\vec{\theta}$ are poses and $\phi$ describes the displacement of soft tissues.
+
+\begin{equation}
+\label{eq:model}
+M(\vec{\beta},\vec{\theta},\phi) : \mathbb{R}^{\vert \vec{\theta} \vert \times \vert \vec{\beta} \vert} \mapsto \mathbb{R}^{3N}
+\end{equation}
+
+\emph{SMPL} is based on vertex skinning and blend shapes. A vertex changes its position depending on the motion of the associated joint. This displacement is controlled by assigned blend weights. A vector $T \in \mathbb{R}^{3N}$ of vertex positions describes a gender neutral initial human model, while a matrix $W \in \mathbb{R}^{N \times K}$ represents the blend weights per vertices and \emph{K = 23} joints. The joints that describe the human structure and form the skeleton are represented by rotation vectors. Moreover, T can be rearranged by the pose-blending function $B_{P}(\vec{\theta})$ according to the given poses, leaving T unaffected, while $B_{S}(\vec{\beta})$ reshapes the identity model by its given shape blends.
+
+\cite{smpl}
 

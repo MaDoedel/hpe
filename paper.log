@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  5 JUN 2022 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  8 JUN 2022 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,7 +502,7 @@ pdftex.map}
 
 
 ]
-<images//criteria/pcp.png, id=135, 79.497pt x 107.80275pt>
+<images//criteria/pcp.png, id=136, 79.497pt x 107.80275pt>
 File: images//criteria/pcp.png Graphic file (type png)
 <use images//criteria/pcp.png>
 Package pdftex.def Info: images//criteria/pcp.png  used on input line 11.
@@ -512,14 +512,13 @@ Underfull \hbox (badness 2865) in paragraph at lines 24--25
  \T1/ptm/m/it/10 1) Head-normalized Prob-a-bil-ity of Cor-rect Key-points
  []
 
-) (sections/2d_estimation.tex) (sections/3d_estimation.tex)
-(sections/conclusion.tex) (paper.bbl [2
+) (sections/2d_estimation.tex) (sections/3d_estimation.tex [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.9 
-     <./images//criteria/pcp.png>])
+l.6 
+     <./images//criteria/pcp.png>]) (sections/conclusion.tex) (paper.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -533,16 +532,16 @@ Before submitting the final camera ready copy, remember to:
 
 [3] (paper.aux)
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: BDC1C15E5FB8C84CE4829DB969AF9CC5;3401.
+(rerunfilecheck)             Checksum: EC60A7B7A1A8914F5FD47C35C76CDEF2;3583.
  ) 
 Here is how much of TeX's memory you used:
- 11491 strings out of 478582
- 181237 string characters out of 2844345
- 489146 words of memory out of 3000000
- 29443 multiletter control sequences out of 15000+600000
+ 11495 strings out of 478582
+ 181274 string characters out of 2844345
+ 489481 words of memory out of 3000000
+ 29445 multiletter control sequences out of 15000+600000
  579093 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,1519b,464s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 60i,8n,63p,1536b,328s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -561,9 +560,9 @@ s/utmb8a.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/urw/time
 s/utmbi8a.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
 es/utmr8a.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on paper.pdf (3 pages, 187611 bytes).
+Output written on paper.pdf (3 pages, 197915 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
