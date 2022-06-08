@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.8)  8 JUN 2022 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.8)  8 JUN 2022 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,19 +515,19 @@ Underfull \hbox (badness 2865) in paragraph at lines 24--25
  \T1/ptm/m/it/10 1) Head-normalized Prob-a-bil-ity of Cor-rect Key-points
  []
 
-) (./sections/2d_estimation.tex) (./sections/3d_estimation.tex
+) (./sections/2d_estimation.tex [2pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \section
+            {2D pose estimation} <./images/criteria/PCP.png>])
+(./sections/3d_estimation.tex
 Underfull \hbox (badness 1609) in paragraph at lines 2--5
 \T1/ptm/m/n/10 As with 2D Pose Es-ti-ma-tion, neu-ral net-works, par-tic-u-
  []
 
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.5 
-     <./images/criteria/PCP.png>]
-<images/3dpose/martinez_network.png, id=205, 1323.94624pt x 272.01625pt>
+<images/3dpose/martinez_network.png, id=199, 1323.94624pt x 272.01625pt>
 File: images/3dpose/martinez_network.png Graphic file (type png)
 <use images/3dpose/martinez_network.png>
 Package pdftex.def Info: images/3dpose/martinez_network.png  used on input line
@@ -538,7 +538,7 @@ Overfull \hbox (13.56912pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-<images/3dpose/martinez_test_cases.png, id=208, 1761.58125pt x 783.92876pt>
+<images/3dpose/martinez_test_cases.png, id=202, 1761.58125pt x 783.92876pt>
 File: images/3dpose/martinez_test_cases.png Graphic file (type png)
 <use images/3dpose/martinez_test_cases.png>
 Package pdftex.def Info: images/3dpose/martinez_test_cases.png  used on input l
@@ -549,21 +549,27 @@ Overfull \hbox (12.47845pt too wide) in paragraph at lines 20--21
  [][] 
  []
 
-[3]) (./sections/conclusion.tex) (./paper.bbl [4pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.2}) has been already used, duplicate 
-ignored
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./sections/conclusion.tex) (./paper.bbl
+Underfull \vbox (badness 2096) has occurred while \output is active []
+
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.28 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-}) has been already used, duplicate ignored
+l.9 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.28 
-      <./images/3dpose/martinez_network.png> <./images/3dpose/martinez_test_cas
-es.png>])
+l.9 
+     <./images/3dpose/martinez_network.png> <./images/3dpose/martinez_test_case
+s.png>] [5])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -576,30 +582,25 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
-[5]
+[6
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (./paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
-
-
-Package rerunfilecheck Warning: File `paper.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `paper.out':
-(rerunfilecheck)             Before: 55074AA80AA9AC46AB556C09D13BDDC0;1813
-(rerunfilecheck)             After:  3DE0CCE5F815E73E53219ECF7E65601F;1822.
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: 3DE0CCE5F815E73E53219ECF7E65601F;1822.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 8422 strings out of 483107
- 124826 string characters out of 5964631
- 394856 words of memory out of 5000000
+ 8423 strings out of 483107
+ 124832 string characters out of 5964631
+ 395856 words of memory out of 5000000
  23180 multiletter control sequences out of 15000+600000
  642172 words of font info for 136 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 34i,8n,37p,1594b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,37p,1594b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -615,10 +616,10 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on paper.pdf (5 pages, 1236762 bytes).
+Output written on paper.pdf (6 pages, 1237357 bytes).
 PDF statistics:
- 334 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 80 named destinations out of 1000 (max. 500000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
