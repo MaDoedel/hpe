@@ -7,6 +7,13 @@ Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
 \newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
   (CVPR)}, June 2014.
 
+\bibitem{andriluka14cvpr}
+Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
+\newblock 2d human pose estimation: New benchmark and state of the art
+  analysis.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, June 2014.
+
 \bibitem{Andrikula2010}
 Mykhaylo Andriluka, Stefan Roth, and Bernt Schiele.
 \newblock Monocular 3d pose estimation and tracking by detection.
@@ -64,6 +71,11 @@ Yana Hasson, G{\"u}l Varol, Dimitrios Tzionas, Igor Kalevatykh, Michael~J.
 \newblock In {\em Proceedings IEEE Conf. on Computer Vision and Pattern
   Recognition (CVPR)}, pages 11807--11816, June 2019.
 
+\bibitem{HeZRS15}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock {\em CoRR}, abs/1512.03385, 2015.
+
 \bibitem{ltsh}
 David~T. Hoffmann, Dimitrios Tzionas, Michael~J. Black, and Siyu Tang.
 \newblock Learning to train with synthetic humans.
@@ -78,6 +90,13 @@ Yinghao Huang, Manuel Kaufmann, Emre Aksan, Michael~J. Black, Otmar Hilliges,
 \newblock {\em ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)},
   37:185:1--185:15, November 2018.
 \newblock Two first authors contributed equally.
+
+\bibitem{H3.6M}
+Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu.
+\newblock Human3.6m: Large scale datasets and predictive methods for 3d human
+  sensing in natural environments.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  36(7):1325--1339, 2014.
 
 \bibitem{coco}
 Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick,
@@ -130,6 +149,10 @@ Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
 \newblock In {\em IEEE/CVF Conf.~on Computer Vision and Pattern Recognition
   (CVPR)}, pages 9990--9999, June 2021.
 
+\bibitem{Newell2016}
+Alejandro Newell, Kaiyu Yang, and Jia Deng.
+\newblock Stacked hourglass networks for human pose estimation, 2016.
+
 \bibitem{park_3d_2016}
 Sungheon Park, Jihye Hwang, and Nojun Kwak.
 \newblock {3D} {Human} {Pose} {Estimation} {Using} {Convolutional} {Neural}
@@ -137,6 +160,12 @@ Sungheon Park, Jihye Hwang, and Nojun Kwak.
 \newblock In Gang Hua and Hervé Jégou, editors, {\em Computer {Vision} –
   {ECCV} 2016 {Workshops}}, Lecture {Notes} in {Computer} {Science}, pages
   156--169, Cham, 2016. Springer International Publishing.
+
+\bibitem{PavlakosZDD16}
+Georgios Pavlakos, Xiaowei Zhou, Konstantinos~G. Derpanis, and Kostas
+  Daniilidis.
+\newblock Coarse-to-fine volumetric prediction for single-image 3d human pose.
+\newblock {\em CoRR}, abs/1611.07828, 2016.
 
 \bibitem{Rogez2016}
 Gregory Rogez and Cordelia Schmid.
@@ -150,6 +179,12 @@ Javier Romero, Dimitrios Tzionas, and Michael~J. Black.
 \newblock Embodied hands: Modeling and capturing hands and bodies together.
 \newblock {\em ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)},
   36(6):245:1--245:17, November 2017.
+
+\bibitem{srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock {\em Journal of Machine Learning Research}, 15(56):1929--1958, 2014.
 
 \bibitem{grab}
 Omid Taheri, Nima Ghorbani, Michael~J. Black, and Dimitrios Tzionas.
