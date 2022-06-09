@@ -69,6 +69,13 @@ In $T_{F}(\vec{\beta},\vec{\theta})$, the initial body $T$ is considered as a kn
 	\end{split}
 \end{equation}
 
+Finally, the \emph{linear blend skinning} in \autoref{eq:lbs} can be rewritten by the formulations in \autoref{eq:smpl} and their application in \autoref{eq:Tf}. This \autoref{eq:lbs2} is formulated below, considering both $B_{P}$ and $B_{S}$ as matrices in which a vertex is indexed by i.
+
+\begin{equation}
+\label{eq:lbs2}
+\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \times G_{k}'(\vec{\theta},J(\vec{\beta})) \times (\bar{t}_{i} + b_{S,i}(\vec{\beta}) +b_{P,i}(\vec{\theta}))
+\end{equation}
+
 
 \cite{smpl}
 
