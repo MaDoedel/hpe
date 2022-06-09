@@ -27,6 +27,14 @@ Bruno Artacho and Andreas Savakis.
 \newblock Technical Report arXiv:2001.08095, arXiv, January 2020.
 \newblock arXiv:2001.08095 [cs] type: article.
 
+\bibitem{simplify}
+Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero,
+  and Michael~J. Black.
+\newblock Keep it {SMPL}: Automatic estimation of {3D} human pose and shape
+  from a single image.
+\newblock In {\em Computer Vision -- ECCV 2016}, Lecture Notes in Computer
+  Science, pages 561--578. Springer International Publishing, October 2016.
+
 \bibitem{bulat_human_2016}
 Adrian Bulat and Georgios Tzimiropoulos.
 \newblock Human pose estimation via {Convolutional} {Part} {Heatmap}
@@ -216,12 +224,25 @@ Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   36(7):1325--1339, 2014.
 
+\bibitem{hmr}
+Angjoo Kanazawa, Michael~J. Black, David~W. Jacobs, and Jitendra Malik.
+\newblock End-to-end recovery of human shape and pose.
+\newblock In {\em IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 7122--7131. IEEE Computer Society, 2018.
+
 \bibitem{ke_multi-scale_2018}
 Lipeng Ke, Ming-Ching Chang, Honggang Qi, and Siwei Lyu.
 \newblock Multi-{Scale} {Structure}-{Aware} {Network} for {Human} {Pose}
   {Estimation}.
 \newblock Technical Report arXiv:1803.09894, arXiv, September 2018.
 \newblock arXiv:1803.09894 [cs] type: article.
+
+\bibitem{SPIN}
+Nikos Kolotouros, Georgios Pavlakos, Michael~J. Black, and Kostas Daniilidis.
+\newblock Learning to reconstruct 3d human pose and shape via model-fitting in
+  the loop.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision (ICCV)}, October 2019.
 
 \bibitem{krizhevsky_imagenet_2012}
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
@@ -403,6 +424,13 @@ Javier Romero, Dimitrios Tzionas, and Michael~J. Black.
 \newblock Embodied hands: Modeling and capturing hands and bodies together.
 \newblock {\em ACM Transactions on Graphics, (Proc. SIGGRAPH Asia)},
   36(6):245:1--245:17, November 2017.
+
+\bibitem{frankmocap}
+Yu~Rong, Takaaki Shiratori, and Hanbyul Joo.
+\newblock Frankmocap: A monocular 3d whole-body pose estimation system via
+  regression and integration.
+\newblock In {\em IEEE International Conference on Computer Vision Workshops},
+  2021.
 
 \bibitem{srivastava2014}
 Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan

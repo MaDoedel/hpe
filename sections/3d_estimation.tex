@@ -54,6 +54,7 @@ In \cite{Luvizon2018} a convolutional deep neural network structure is proposed,
 Methods working directly on 3D data, such as \cite{Ye2011} (working with depth maps) can avoid potential sources of error such as projections or lighting conditions. This leads to more robust and accurate results, however more complex (neural network) architectures and computational resources are required. Traditional methods like the least-squares-estimation presented in \cite{Haralick98} work without training data needed and are computationally inexpensive, but yield rather high error rates compared to newer methods.
 
 \subsubsection{Skinned Multi-Person Linear model SMPL}
+\label{sec:SMPL}
 In \emph{SMPL} a model $M(\vec{\beta},\vec{\theta},\phi)$ is learned from the 3d scans explained in \autoref{sec:benchmarks}, that returns a mesh from the input. This formulation is also included in \autoref{eq:model}, where $\mathbb{R}^{3N}$ is a vector of \emph{N = 6890} vertices sculpturing the mesh. In this formula, $\vec{\beta}$ is a vector of blend shapes, while $\vec{\theta}$ are poses and $\phi$ describes the displacement of soft tissues.
 
 \begin{equation}
@@ -86,13 +87,25 @@ In $T_{F}(\vec{\beta},\vec{\theta})$, the initial body $T$ is considered as a kn
 	\end{split}
 \end{equation}
 
-Finally, the \emph{linear blend skinning} in \autoref{eq:lbs} can be rewritten by the formulations in \autoref{eq:smpl} and their application in \autoref{eq:Tf}. This \autoref{eq:lbs2} is formulated below, considering both $B_{P}$ and $B_{S}$ as matrices in which a vertex is indexed by i.
+Finally, the \emph{linear blend skinning} in \autoref{eq:lbs} can be rewritten by the formulations in \autoref{eq:smpl} and their application in \autoref{eq:Tf}. This \autoref{eq:lbs2} is formulated below, considering both $B_{P}$ and $B_{S}$ as matrices in which a vertex is indexed by i. \cite{smpl}
 
 \begin{equation}
 \label{eq:lbs2}
 \bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \times G_{k}'(\vec{\theta},J(\vec{\beta})) \times (\bar{t}_{i} + b_{S,i}(\vec{\beta}) +b_{P,i}(\vec{\theta}))
 \end{equation}
 
+\subsection{combining models with pose estimation}
+The publication by Bogo et al. \cite{simplify} in 2016 is the first application of SMPL in the field of human pose estimation. The \emph{SMPLify} algorithm is based on optimization and gradually tries to align the mean initial SMPL human model to 2d keypoints of the initial image. A more recent approach is presented by Rong et al. \cite{frankmocap} which starts from the concept of splitting the estimation of human pose into hand, face and total body, which are then merged into a final model. Each aspect utilises its own regressors, which are trained on datasets selected for the respective purpose. In further sections, the different network architectures are explained.
 
-\cite{smpl}
+\subsubsection{hand estimation}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{3dpose/frankmocap_hand.png}
+	\caption{encoder-decoder architectur from \cite{frankmocap}}
+	\label{fig:frankmocap_hand}
+\end{figure}
 
+In their paper, Kanazawa et al. \cite{hmr} describe an encoder-decoder structure in which the encoder recognises features from given images while the decoder regresses the feature parameters. This structure also has validity for the \emph{FrankMocap} approach to estimating human posture by Rong et al. shown in \autoref{fig:frankmocap_hand}. For the incorporation into \emph{SMPL-X}, a successor of the mentioned human body model from \autoref{sec:SMPL}, the parameters $[\phi_{h},\theta_{h},\beta_{h},c_{h}]$, i.e. the global orientation, pose and shape data of the hands, as well as the camera parameters are required. The annotations in the trained dataset are either axis-angle representations to indicate 3D positions and 3D or 2D vertices as common positions, and therefore each annotation has its unique loss function. To increase the robustness of the model, random scaling, rotation, etc. and a blur filter are applied to the dataset to be learned.
+
+\subsection{full-body pose estimation}
+Similar to hand estimation, shape $\beta_{reg}$, pose $\theta_{reg}$ and camera parameters $c_{reg}$ can also be regressed in whole body pose estimation approaches. The algorithm \emph{SPIN} goes further by combining the advantages of optimization and regression-based implementations by using \emph{SMPLify} and neural networks in iterations. Substituting the parameters into \autoref{eq:smpl} yields a human output mesh. Furthermore, the joint positions can be projected using the information of $c_{reg}$ defining the loss function. \cite{SPIN}
