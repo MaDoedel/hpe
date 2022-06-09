@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  10 JUN 2022 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  10 JUN 2022 01:07
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -590,13 +590,24 @@ l.109
                                                   \__shipout_drop_firstpage_...
 l.109 
        <./images//3dpose/deng_main_structure.png> <./images//3dpose/frankmocap_
-hand.png>]) (sections/conclusion.tex) (paper.bbl
+hand.png>]
+<images//3dpose/spin.png, id=468, 423.83344pt x 250.68657pt>
+File: images//3dpose/spin.png Graphic file (type png)
+<use images//3dpose/spin.png>
+Package pdftex.def Info: images//3dpose/spin.png  used on input line 113.
+(pdftex.def)             Requested size: 252.0pt x 149.05133pt.
+) (sections/conclusion.tex) (paper.bbl
 Underfull \hbox (badness 1831) in paragraph at lines 144--148
 \T1/ptm/m/n/8 Learn-ing to Re-fine Hu-man Pose Es-ti-ma-tion.  Tech-ni-cal Re-p
 ort
  []
 
-
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.148 
+       <./images//3dpose/spin.png>]
 Underfull \hbox (badness 2744) in paragraph at lines 150--155
 \T1/ptm/m/n/8 and Du Tran.  Detect-and-Track: Ef-fi-cient Pose Es-ti-ma-tion in
 
@@ -607,7 +618,7 @@ Underfull \hbox (badness 1983) in paragraph at lines 150--155
 \T1/ptm/m/n/8 Videos.  Tech-ni-cal Re-port arXiv:1712.09184, arXiv, May 2018.
  []
 
-[9] [10])
+[10])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -624,13 +635,13 @@ Before submitting the final camera ready copy, remember to:
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 40CB5C7B8E84C5012EDF563342B23877;7701.
+(rerunfilecheck)             Checksum: 0206DF015F58B4D906E9DB0859E9E753;7700.
  ) 
 Here is how much of TeX's memory you used:
- 11313 strings out of 478847
- 169551 string characters out of 2847249
- 502599 words of memory out of 3000000
- 28892 multiletter control sequences out of 15000+600000
+ 11323 strings out of 478847
+ 169772 string characters out of 2847249
+ 502659 words of memory out of 3000000
+ 28900 multiletter control sequences out of 15000+600000
  515467 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,66p,2018b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -652,9 +663,9 @@ ype1/urw/times/utmb8a.pfb><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/
 type1/urw/times/utmbi8a.pfb><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/font
 s/type1/urw/times/utmr8a.pfb><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (11 pages, 1600277 bytes).
+Output written on paper.pdf (11 pages, 1674028 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
- 153 named destinations out of 1000 (max. 500000)
- 322 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 584 PDF objects out of 1000 (max. 8388607)
+ 154 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

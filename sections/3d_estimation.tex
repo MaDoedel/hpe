@@ -107,5 +107,13 @@ The publication by Bogo et al. \cite{simplify} in 2016 is the first application 
 
 In their paper, Kanazawa et al. \cite{hmr} describe an encoder-decoder structure in which the encoder recognises features from given images while the decoder regresses the feature parameters. This structure also has validity for the \emph{FrankMocap} approach to estimating human posture by Rong et al. shown in \autoref{fig:frankmocap_hand}. For the incorporation into \emph{SMPL-X}, a successor of the mentioned human body model from \autoref{sec:SMPL}, the parameters $[\phi_{h},\theta_{h},\beta_{h},c_{h}]$, i.e. the global orientation, pose and shape data of the hands, as well as the camera parameters are required. The annotations in the trained dataset are either axis-angle representations to indicate 3D positions and 3D or 2D vertices as common positions, and therefore each annotation has its unique loss function. To increase the robustness of the model, random scaling, rotation, etc. and a blur filter are applied to the dataset to be learned.
 
-\subsection{full-body pose estimation}
-Similar to hand estimation, shape $\beta_{reg}$, pose $\theta_{reg}$ and camera parameters $c_{reg}$ can also be regressed in whole body pose estimation approaches. The algorithm \emph{SPIN} goes further by combining the advantages of optimization and regression-based implementations by using \emph{SMPLify} and neural networks in iterations. Substituting the parameters into \autoref{eq:smpl} yields a human output mesh. Furthermore, the joint positions can be projected using the information of $c_{reg}$ defining the loss function. \cite{SPIN}
+\subsubsection{full-body pose estimation}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{3dpose/spin.png}
+	\caption{visualisation of the SPIN loop  \cite{spin}}
+	\label{fig:spin}
+\end{figure}
+
+Similar to hand estimation, shape $\beta_{reg}$, pose $\theta_{reg}$ and camera parameters $c_{reg}$ can also be regressed in whole body pose estimation approaches. The algorithm \emph{SPIN} goes further by combining the advantages of optimization and regression-based implementations by using \emph{SMPLify} and neural networks in loops. Substituting the parameters into \autoref{eq:smpl} yields a human output mesh. Furthermore, the joint positions can be projected using the information of $c_{reg}$ defining the loss function for supervision. The self-impruving nature of \emph{SPIN} can be observet in a small example. //
+In the first iteration, the parameters $[\theta_{reg},\beta_{reg},c_{reg}]$ are regressed through a neural network, \emph{SMPLify} uses $M(\theta_{reg},\beta_{reg})$ as the initial human model, simplifying the optimization-based aspect. After the final step of \emph{SMPLifys}, both pose and shape parameters are optimal, leading to better loss function results through more precise joint positions and thus better supervision in the regression-based aspect. The loop is also showed in \autoref{fig:spin}. \cite{spin}
