@@ -44,7 +44,31 @@ In \emph{SMPL} a model $M(\vec{\beta},\vec{\theta},\phi)$ is learned from the 3d
 M(\vec{\beta},\vec{\theta},\phi) : \mathbb{R}^{\vert \vec{\theta} \vert \times \vert \vec{\beta} \vert} \mapsto \mathbb{R}^{3N}
 \end{equation}
 
-\emph{SMPL} is based on vertex skinning and blend shapes. A vertex changes its position depending on the motion of the associated joint. This displacement is controlled by assigned blend weights. A vector $T \in \mathbb{R}^{3N}$ of vertex positions describes a gender neutral initial human model, while a matrix $W \in \mathbb{R}^{N \times K}$ represents the blend weights per vertices and \emph{K = 23} joints. The joints that describe the human structure and form the skeleton are represented by rotation vectors. Moreover, T can be rearranged by the pose-blending function $B_{P}(\vec{\theta})$ according to the given poses, leaving T unaffected, while $B_{S}(\vec{\beta})$ reshapes the identity model by its given shape blends.
+\emph{SMPL} is based on vertex skinning and blend shapes. A vertex changes its position depending on the motion of the associated joint. This displacement is controlled by assigned blend weights. A vector $T \in \mathbb{R}^{3N}$ of vertex positions describes a gender neutral initial human model, while a matrix $W \in \mathbb{R}^{N \times K}$ represents the blend weights per vertices and \emph{K = 23} joints. The joints that describe the human structure and form the skeleton are represented by rotation vectors. Moreover, T can be rearranged by the pose-blending function $B_{P}(\vec{\theta})$ according to the given poses, leaving T unaffected, while $B_{S}(\vec{\beta})$ reshapes the identity model by its given shape blends. A skinning function $W(T,J,\vec{\theta},\mathcal{W})$, on the other hand, transforms the initial model $T$ by the joint positions $J \in \mathbb{R}^{3K}$ and rotations $\vec{\theta}$ of the desired model. The simplest skinning approach is called \emph{linear blend skinning}, where each resulting vertex $\bar{t}_{i}'$ depends on the sum of its weights $w_{k,i}$ per joint multiplied by its previous position $\bar{t}_{i}$ and a target destination, as documented in \autoref{eq:lbs}. 
+
+\begin{equation}
+\label{eq:lbs}
+\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \times G_{k}'(\vec{\theta},J) \times \bar{t}_{i}
+\end{equation}
+
+Unfortunately, this approach is error-prone and requires additional refinement by the artists to reduce artifacts. To overcome these problems, the skinning method in \emph{SMPL} introduces new functions $T_{F}(\vec{\beta},\vec{\theta})$ and $J(\vec{\beta})$ so that \autoref{eq:model} and $W(T,J,\vec{\theta},\mathcal{W})$ can be reformulated by \autoref{eq:smpl}.
+
+\begin{equation}
+\label{eq:smpl}
+M(\vec{\beta},\vec{\theta}) = W(T_{F}(\vec{\beta},\vec{\theta}),J(\vec{\beta}),\vec{\theta},\mathcal{W}) \mapsto \mathbb{R}^{3N}
+\end{equation}
+
+In $T_{F}(\vec{\beta},\vec{\theta})$, the initial body $T$ is considered as a known parameter, while the pose rearrangements $B_{P}(\vec{\theta})$ and the reshapes $B_{S}(\vec{\beta})$ are added. Since the focus is on pose estimation, this section explains $B_{P}(\vec{\theta})$ in more detail. With respect to \autoref{eq:Tf}, $B_{P}(\vec{\theta})$ can be viewed as linear combinations of pose-blend shapes P learned from the datasets mentioned in \autoref{sec:benchmarks}. Each joint orientation $\theta$ is varied by rotating it 9 times relatively, therefore the iteration space is extended to the cardinality of $R_{n}(\vec{\theta})$ which is $\vert R_{n}(\vec{\theta}) \vert = K \times 9 = 207$. In \autoref{eq:Tf}, a second rotation set of the initial $T$ model is also initialised to define the vertex deviations and make them linear to P. Thus, the impact of an pose blend shape is neglected when a joint orientation is equal to the $T$ orientation.
+
+\begin{equation}
+\label{eq:Tf}
+	\begin{split}
+		T_{F}(\vec{\beta},\vec{\theta})&: \mathbb{R}^{\vert \vec{\theta} 			\vert \times \vert \vec{\beta} \vert} \mapsto \mathbb{R}^{3N} \\
+		T_{F}(\vec{\beta},\vec{\theta}) &= T + B_{S}(\vec{\beta}) + B_{P}				(\vec{\theta}) \\
+		&= T + B_{S}(\vec{\beta}) + \sum_{n=1}^{9K} (R_{n}(\vec{\theta}) - 				R_{n}(\vec{\theta}^{*}))P_{n};
+	\end{split}
+\end{equation}
+
 
 \cite{smpl}
 
