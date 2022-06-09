@@ -9,45 +9,45 @@ Database file #4: references/3d_estimation.bib
 Warning--empty booktitle in habibie_wild_2019
 Warning--empty booktitle in tekin_learning_2017
 Warning--empty booktitle in zhou_hemlets_2019
-You've used 33 entries,
+You've used 40 entries,
             2118 wiz_defined-function locations,
-            698 strings with 11333 characters,
-and the built_in function-call counts, 16034 in all, are:
-= -- 1536
-> -- 889
+            732 strings with 12378 characters,
+and the built_in function-call counts, 18368 in all, are:
+= -- 1748
+> -- 1045
 < -- 20
-+ -- 349
-- -- 313
-* -- 1198
-:= -- 2471
-add.period$ -- 108
-call.type$ -- 33
-change.case$ -- 252
++ -- 410
+- -- 367
+* -- 1376
+:= -- 2883
+add.period$ -- 128
+call.type$ -- 40
+change.case$ -- 300
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 607
-empty$ -- 1177
-format.name$ -- 313
-if$ -- 3469
+cite$ -- 43
+duplicate$ -- 680
+empty$ -- 1336
+format.name$ -- 367
+if$ -- 3934
 int.to.chr$ -- 0
-int.to.str$ -- 33
-missing$ -- 32
-newline$ -- 168
-num.names$ -- 70
-pop$ -- 308
+int.to.str$ -- 40
+missing$ -- 38
+newline$ -- 202
+num.names$ -- 84
+pop$ -- 355
 preamble$ -- 1
-purify$ -- 219
+purify$ -- 260
 quote$ -- 0
-skip$ -- 489
+skip$ -- 542
 stack$ -- 0
-substring$ -- 1026
-swap$ -- 233
+substring$ -- 1119
+swap$ -- 241
 text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 160
 warning$ -- 3
-while$ -- 124
-width$ -- 35
-write$ -- 370
+while$ -- 141
+width$ -- 42
+write$ -- 443
 (There were 3 warnings)

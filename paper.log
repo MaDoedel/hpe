@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.8)  8 JUN 2022 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.8)  9 JUN 2022 15:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -483,12 +483,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-(./sections/criteria.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-<images/criteria/pcp.png, id=149, 79.497pt x 107.80275pt>
+]) (./sections/criteria.tex
+<images/criteria/pcp.png, id=150, 79.497pt x 107.80275pt>
 File: images/criteria/pcp.png Graphic file (type png)
 <use images/criteria/pcp.png>
 Package pdftex.def Info: images/criteria/pcp.png  used on input line 11.
@@ -498,26 +497,54 @@ Underfull \hbox (badness 2865) in paragraph at lines 24--25
  \T1/ptm/m/it/10 1) Head-normalized Prob-a-bil-ity of Cor-rect Key-points
  []
 
-) (./sections/2d_estimation.tex) (./sections/3d_estimation.tex
-Underfull \hbox (badness 1609) in paragraph at lines 2--5
-\T1/ptm/m/n/10 As with 2D Pose Es-ti-ma-tion, neu-ral net-works, par-tic-u-
- []
-
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.5 
-     <./images/criteria/PCP.png>]
-<images/3dpose/martinez_network.png, id=201, 1225.57875pt x 260.975pt>
+l.31 
+      <./images/criteria/PCP.png>]) (./sections/2d_estimation.tex)
+(./sections/3d_estimation.tex
+Underfull \hbox (badness 1609) in paragraph at lines 2--6
+\T1/ptm/m/n/10 As with 2D Pose Es-ti-ma-tion, neu-ral net-works, par-tic-u-
+ []
+
+<images/3dpose/martinez_network.png, id=205, 1323.94624pt x 272.01625pt>
 File: images/3dpose/martinez_network.png Graphic file (type png)
 <use images/3dpose/martinez_network.png>
 Package pdftex.def Info: images/3dpose/martinez_network.png  used on input line
- 13.
-(pdftex.def)             Requested size: 490.22282pt x 104.38815pt.
-) (./sections/conclusion.tex) (./paper.bbl
-[3])
+ 14.
+(pdftex.def)             Requested size: 529.56912pt x 108.80457pt.
+
+Overfull \hbox (13.56912pt too wide) in paragraph at lines 14--15
+ [][] 
+ []
+
+<images/3dpose/martinez_test_cases.png, id=208, 1761.58125pt x 783.92876pt>
+File: images/3dpose/martinez_test_cases.png Graphic file (type png)
+<use images/3dpose/martinez_test_cases.png>
+Package pdftex.def Info: images/3dpose/martinez_test_cases.png  used on input l
+ine 21.
+(pdftex.def)             Requested size: 528.47845pt x 235.18044pt.
+
+Overfull \hbox (12.47845pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+[3] [4pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.39 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.39 
+      <./images/3dpose/martinez_network.png> <./images/3dpose/martinez_test_cas
+es.png>]) (./sections/conclusion.tex) (./paper.bbl [5])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -530,29 +557,23 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.38 \end{document}
-                    <./images/3dpose/martinez_network.png>]
+[6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (./paper.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 8F30BE2249DC91C16C57B60786D6C9C0;1742.
+(rerunfilecheck)             Checksum: E516F36FBD42C63E01C84CEBAB46C854;2038.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 8397 strings out of 483107
- 124329 string characters out of 5964631
- 392558 words of memory out of 5000000
- 23166 multiletter control sequences out of 15000+600000
+ 8435 strings out of 483107
+ 124987 string characters out of 5964631
+ 395211 words of memory out of 5000000
+ 23186 multiletter control sequences out of 15000+600000
  642172 words of font info for 136 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 34i,8n,37p,1534b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,17n,37p,1998b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -568,10 +589,10 @@ re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on paper.pdf (4 pages, 187178 bytes).
+Output written on paper.pdf (6 pages, 1247385 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 70 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
