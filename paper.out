@@ -14,14 +14,21 @@
 \BOOKMARK [3][-]{subsubsection.3.3.1}{Head-normalized Probability of Correct Key-points PCKh}{subsection.3.3}% 14
 \BOOKMARK [2][-]{subsection.3.4}{Area Under the Curve AUC}{section.3}% 15
 \BOOKMARK [2][-]{subsection.3.5}{Object Key-point Similarity OKS}{section.3}% 16
-\BOOKMARK [1][-]{section.4}{2D pose estimation}{}% 17
-\BOOKMARK [1][-]{section.5}{3D pose estimation}{}% 18
-\BOOKMARK [2][-]{subsection.5.1}{Lifting from 2D to 3D pose}{section.5}% 19
-\BOOKMARK [3][-]{subsubsection.5.1.1}{A simple yet effective baseline for 3d human pose estimation}{subsection.5.1}% 20
-\BOOKMARK [3][-]{subsubsection.5.1.2}{more complex uplifting}{subsection.5.1}% 21
-\BOOKMARK [2][-]{subsection.5.2}{3d pose directly from 2d image}{section.5}% 22
-\BOOKMARK [3][-]{subsubsection.5.2.1}{2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning}{subsection.5.2}% 23
-\BOOKMARK [2][-]{subsection.5.3}{Direct 3d pose estimation}{section.5}% 24
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Skinned Multi-Person Linear model SMPL}{subsection.5.3}% 25
-\BOOKMARK [1][-]{section.6}{conclusion}{}% 26
-\BOOKMARK [1][-]{section*.1}{References}{}% 27
+\BOOKMARK [2][-]{subsection.3.6}{Mean Per Joint Position Error \(MPJPE\)}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{2D pose estimation}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{HPE Network Architecture Design Challenges}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Top-Down Approaches}{section.4}% 20
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Regression-based methods}{subsection.4.2}% 21
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Heatmap-based Methods}{subsection.4.2}% 22
+\BOOKMARK [2][-]{subsection.4.3}{Top-Down Approaches Summary}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.4}{Bottom-Up Framework}{section.4}% 24
+\BOOKMARK [1][-]{section.5}{3D pose estimation}{}% 25
+\BOOKMARK [2][-]{subsection.5.1}{Lifting from 2D to 3D pose}{section.5}% 26
+\BOOKMARK [3][-]{subsubsection.5.1.1}{A simple yet effective baseline for 3d human pose estimation}{subsection.5.1}% 27
+\BOOKMARK [3][-]{subsubsection.5.1.2}{SVMAC: Unsupervised 3D Human Pose Estimation from a Single Image with Single-view-multi-angle Consistency}{subsection.5.1}% 28
+\BOOKMARK [2][-]{subsection.5.2}{3d pose directly from 2d image}{section.5}% 29
+\BOOKMARK [3][-]{subsubsection.5.2.1}{2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning}{subsection.5.2}% 30
+\BOOKMARK [2][-]{subsection.5.3}{Direct 3d pose estimation}{section.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Skinned Multi-Person Linear model SMPL}{subsection.5.3}% 32
+\BOOKMARK [1][-]{section.6}{conclusion}{}% 33
+\BOOKMARK [1][-]{section*.1}{References}{}% 34

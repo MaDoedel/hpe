@@ -6,48 +6,52 @@ Database file #1: references/benchmarks.bib
 Database file #2: references/criteria.bib
 Database file #3: references/2d_estimation.bib
 Database file #4: references/3d_estimation.bib
+Warning--I didn't find a database entry for "z"
+Warning--empty booktitle in bulat_human_2016
+Warning--empty publisher in bulat_human_2016
 Warning--empty booktitle in habibie_wild_2019
+Warning--empty booktitle in luo_lstm_2018
 Warning--empty booktitle in tekin_learning_2017
 Warning--empty booktitle in zhou_hemlets_2019
-You've used 40 entries,
+You've used 85 entries,
             2118 wiz_defined-function locations,
-            732 strings with 12378 characters,
-and the built_in function-call counts, 18368 in all, are:
-= -- 1748
-> -- 1045
-< -- 20
-+ -- 410
-- -- 367
-* -- 1376
-:= -- 2883
-add.period$ -- 128
-call.type$ -- 40
-change.case$ -- 300
+            969 strings with 22087 characters,
+and the built_in function-call counts, 35427 in all, are:
+= -- 3423
+> -- 2164
+< -- 61
++ -- 848
+- -- 758
+* -- 2666
+:= -- 5873
+add.period$ -- 304
+call.type$ -- 85
+change.case$ -- 627
 chr.to.int$ -- 0
-cite$ -- 43
-duplicate$ -- 680
-empty$ -- 1336
-format.name$ -- 367
-if$ -- 3934
+cite$ -- 91
+duplicate$ -- 1248
+empty$ -- 2316
+format.name$ -- 758
+if$ -- 7380
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 38
-newline$ -- 202
-num.names$ -- 84
-pop$ -- 355
+int.to.str$ -- 85
+missing$ -- 54
+newline$ -- 460
+num.names$ -- 178
+pop$ -- 636
 preamble$ -- 1
-purify$ -- 260
+purify$ -- 542
 quote$ -- 0
-skip$ -- 542
+skip$ -- 944
 stack$ -- 0
-substring$ -- 1119
-swap$ -- 241
-text.length$ -- 20
+substring$ -- 1755
+swap$ -- 392
+text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 160
-warning$ -- 3
-while$ -- 141
-width$ -- 42
-write$ -- 443
-(There were 3 warnings)
+type$ -- 340
+warning$ -- 6
+while$ -- 267
+width$ -- 87
+write$ -- 1017
+(There were 7 warnings)
