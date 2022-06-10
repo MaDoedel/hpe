@@ -264,6 +264,13 @@ Sijin Li, Zhi-Qiang Liu, and Antoni~B. Chan.
 \newblock Technical Report arXiv:1406.3474, arXiv, June 2014.
 \newblock arXiv:1406.3474 [cs] type: article.
 
+\bibitem{flame}
+Tianye Li, Timo Bolkart, Michael~J. Black, Hao Li, and Javier Romero.
+\newblock Learning a model of facial shape and expression from {4D} scans.
+\newblock {\em ACM Transactions on Graphics}, 36(6):194:1--194:17, November
+  2017.
+\newblock Two first authors contributed equally.
+
 \bibitem{lifshitz_human_2016}
 Ita Lifshitz, Ethan Fetaya, and Shimon Ullman.
 \newblock Human {Pose} {Estimation} using {Deep} {Consensus} {Voting}.
@@ -431,6 +438,13 @@ Yu~Rong, Takaaki Shiratori, and Hanbyul Joo.
   regression and integration.
 \newblock In {\em IEEE International Conference on Computer Vision Workshops},
   2021.
+
+\bibitem{ringnet}
+Soubhik Sanyal, Timo Bolkart, Haiwen Feng, and Michael Black.
+\newblock Learning to regress 3d face shape and expression from an image
+  without 3d supervision.
+\newblock In {\em Proceedings IEEE Conf. on Computer Vision and Pattern
+  Recognition (CVPR)}, June 2019.
 
 \bibitem{srivastava2014}
 Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan

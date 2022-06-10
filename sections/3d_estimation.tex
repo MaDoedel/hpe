@@ -117,3 +117,23 @@ In their paper, Kanazawa et al. \cite{hmr} describe an encoder-decoder structure
 
 Similar to hand estimation, shape $\beta_{reg}$, pose $\theta_{reg}$ and camera parameters $c_{reg}$ can also be regressed in whole body pose estimation approaches. The algorithm \emph{SPIN} goes further by combining the advantages of optimization and regression-based implementations by using \emph{SMPLify} and neural networks in loops. Substituting the parameters into \autoref{eq:smpl} yields a human output mesh. Furthermore, the joint positions can be projected using the information of $c_{reg}$ defining the loss function for supervision. The self-impruving nature of \emph{SPIN} can be observet in a small example. //
 In the first iteration, the parameters $[\theta_{reg},\beta_{reg},c_{reg}]$ are regressed through a neural network, \emph{SMPLify} uses $M(\theta_{reg},\beta_{reg})$ as the initial human model, simplifying the optimization-based aspect. After the final step of \emph{SMPLifys}, both pose and shape parameters are optimal, leading to better loss function results through more precise joint positions and thus better supervision in the regression-based aspect. The loop is also showed in \autoref{fig:spin}. \cite{spin}
+
+\subsubsection{face estimation}
+As with human bodies and hands, faces also require parameters for \emph{linear blend skinning} approaches that can be regressed from neural networks. The \emph{FLAME} model, for instance, relies on shape $\beta_{f}$ and pose $\theta_{f}$ parameters as well as expression parameters  $\psi$. Thus \autoref{eq:smpl} of the \emph{SMPL} model and $T_{F}$ in \autoref{eq:Tf} can be reformulated, which is viewed in \autoref{eq:flame}. As with \emph{SMPL}, pose, shape and additionally expression blend shapes [P,S,E] must be learned. \cite{flame}
+
+\begin{equation}
+\label{eq:flame}
+\begin{split}
+M(\vec{\beta}_{f},\vec{\theta}_{f}, \vec{\psi}) &= W(T_{F}(\vec{\beta}_{f},\vec{\theta}_{f}, \vec{\psi}),J(\vec{\beta}_{f}),\vec{\theta}_{f},\mathcal{W}) \\
+T_{F}(\vec{\beta}_{f},\vec{\theta}_{f}, \vec{\psi}) &= T + B_{S}(\vec{\beta}) + B_{P}(\vec{\theta}_{f}) + B_{E} (\vec{\psi})
+\end{split}
+\end{equation}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\linewidth]{3dpose/ringnet.png}
+	\caption{Ring-shaped network arcitecture of Ringnet \cite{ringnet}}
+	\label{fig:ringnet}
+\end{figure}
+
+\emph{RingNet} is a regresson based approach to get the necessery parameters for the \emph{FLAME} model. It introduces a ring-shaped architecture to increase the consistency of a person's face shape across different images. During the training, the 3d landmarks of a face were calculated and projected into 2d space to compare them in the loss function with the real landmarks of the dataset, which is displayed in \autoref{fig:ringnet}. To learn consistency, a dataset provides many images of the same subject, which are then learned in a ring structure with an image of another person. Each element of the ring consists of an encoder-decoder structure, with encoders sharing weights with other encoders. An encoder calculates high-dimensional features that are iteratively regressed by the encoder's regression network in an error feedback loop. Distinctness, which consists of producing the same shapes for the same individual but different shapes for different people, is achieved by including a threshold $\eta$ in the loss function, which implies that the distance between equal subjects is always $eta$ smaller than the distance between unequal individuals. \cite{ringnet}
