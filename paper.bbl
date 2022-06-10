@@ -589,6 +589,12 @@ Mao Ye, Xianwang Wang, Ruigang Yang, Liu Ren, and Marc Pollefeys.
   {Intelligent} {Robots} and {Systems} ({IROS})}, pages 1840--1845, Hamburg,
   Germany, September 2015. IEEE.
 
+\bibitem{Zheng2020}
+Ce~Zheng, Wenhan Wu, Taojiannan Yang, Sijie Zhu, Chen Chen, Ruixu Liu, Ju~Shen,
+  Nasser Kehtarnavaz, and Mubarak Shah.
+\newblock Deep learning-based human pose estimation: {A} survey.
+\newblock {\em CoRR}, abs/2012.13392, 2020.
+
 \bibitem{zhou_hemlets_2019}
 Kun Zhou, Xiaoguang Han, Nianjuan Jiang, Kui Jia, and Jiangbo Lu.
 \newblock {HEMlets} {Pose}: {Learning} {Part}-{Centric} {Heatmap} {Triplets}
