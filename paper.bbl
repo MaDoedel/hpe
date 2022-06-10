@@ -485,6 +485,12 @@ Omid Taheri, Nima Ghorbani, Michael~J. Black, and Dimitrios Tzionas.
 \newblock In {\em Computer Vision -- ECCV 2020}, volume LNCS 12355, pages
   581--600, Cham, August 2020. Springer International Publishing.
 
+\bibitem{Tekin2016}
+Bugra Tekin, Isinsu Katircioglu, Mathieu Salzmann, Vincent Lepetit, and Pascal
+  Fua.
+\newblock Structured prediction of 3d human pose with deep neural networks.
+\newblock {\em CoRR}, abs/1605.05180, 2016.
+
 \bibitem{tekin_learning_2017}
 Bugra Tekin, Pablo Marquez-Neila, Mathieu Salzmann, and Pascal Fua.
 \newblock Learning to {Fuse} {2D} and {3D} {Image} {Cues} for {Monocular}
