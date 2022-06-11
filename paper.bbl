@@ -356,6 +356,13 @@ Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
 \newblock In {\em IEEE/CVF Conf.~on Computer Vision and Pattern Recognition
   (CVPR)}, pages 9990--9999, June 2021.
 
+\bibitem{auc}
+Tewodros~Legesse Munea, Yalew~Zelalem Jembre, Halefom~Tekle Weldegebriel,
+  Longbiao Chen, Chenxi Huang, and Chenhui Yang.
+\newblock The progress of human pose estimation: A survey and taxonomy of
+  models applied in 2d human pose estimation.
+\newblock {\em IEEE Access}, 8:133330--133348, 2020.
+
 \bibitem{newell_stacked_2016}
 Alejandro Newell, Kaiyu Yang, and Jia Deng.
 \newblock Stacked {Hourglass} {Networks} for {Human} {Pose} {Estimation}.

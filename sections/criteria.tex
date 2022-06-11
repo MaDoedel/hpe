@@ -9,7 +9,7 @@ The smaller p, the stricter the evaluation and thus higher the accuracy.\cite{pc
 \begin{figure}[h]
 \centering
 \includegraphics[]{"criteria/pcp.png"}
-\caption{Visualisation of estimated values for PCP calculation}
+\caption{Abstract visualisation of the values required for the PCP calculation. A solid line between two endpoints represents a bone in the ground truth of a dataset in green and the detected bone in black. The dashed lines show the distances $\protect l_{1}, l_{2}$, which are evaluated with the true length $\protect L$ of the bone.}
 \label{fig:pcp}
 \end{figure}
 
@@ -21,10 +21,10 @@ The metric \emph{PCJ} addressed in this section is similar to the already establ
 For this particular criteria, the maximum bounding box length $B$ must be calculated from the existing dataset information. The \emph{PCK} score is calculated analogous to the previously mentioned algorithms in \autoref{sec:pcp} and \autoref{sec:pdj} from $l_{1}, l_{2}$ and a further threshold defined by $B \times p$. \cite{mpii, pck}
 
 \subsubsection{Head-normalized Probability of Correct Key-points PCKh}
-\emph{PCKh} is a variant of \emph{PCK} in which the threshold is set to half the length of the head frame $H \times 0.5$. Since the head frame is independent of the viewpoints and position of other body parts, \emph{PCKh} is not affected by the subjects' articulation. \cite{mpii}
+\emph{PCKh} is a variant of \emph{PCK} in which the threshold is set to half the length of the head frame $H \times 0.5$. Since the head frame is independent of the camera viewpoints and position of other body parts, \emph{PCKh} is not affected by the subjects' articulation. \cite{mpii}
 
 \subsection{Area Under the Curve AUC}
-The measurement of the \emph{PCK} under variation of the threshold value results in a curve. This analysis provides information on how the model is able to distinguish the individual joints of the body. A large curve area defines a qualitative model %\cite{andriluka14cvpr}.
+The measurement of the \emph{PCK} under variation of the threshold value results in a curve. This analysis provides information on how the model is able to distinguish the individual joints of the body. A large curve area defines a qualitative model. \cite{auc}
 
 \subsection{Object Key-point Similarity OKS}
 \autoref{eq:OKS} illustrates the simplified OKS score\footnote{\url{https://cocodataset.org/\#keypoints-eval}}, which is a sum of $ n \in \mathbb{N}$ detected and ground truth key-points. The parameters $d \in \mathbb{R}$ are the Euclidean distance between the corresponding ground truth value and the detected key-point, while $s \in \mathbb{R}$ denotes the object segment area and $k \in \mathbb{R}$ is a constant describing a falloff. 
@@ -38,8 +38,10 @@ Optimal predictions have a high OKS value, while low values indicate poor predic
 \subsection{Mean Per Joint Position Error (MPJPE)}
 \label{criteria:mpjpe}
 \autoref{eq:MPJPE} shows the formula for one of the most import criteria in terms of evaluating results from 3d human pose estimation the Mean Per Joint Position Error or short MPJPE \cite{Zheng2020}. $N$ denotes the number of estimated joint positions $J_{i}^*$ and ground truth joint positions $J_{i}$. 
+
 \begin{equation}
 \label{eq:MPJPE}
 MPJPE = \frac{1}{N} \sum_{i=1}^{N} \lVert J_{i} - J_{i}^*\rVert_{2}
 \end{equation}
+
 There are versions of this criteria too, such as PMPJPE, where the estimated pose gets rigidly aligned to the ground truth first. NMPJPE stands for Normalized MPJPE, what means that the estimation gets normalized to scale of the true joint positions. 

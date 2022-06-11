@@ -35,11 +35,11 @@
 \citation{ltsh}
 \citation{amass}
 \citation{coco}
-\citation{mpii}
 \citation{pcp}
 \citation{pdj}
 \citation{mpii,pck}
 \citation{mpii}
+\citation{auc}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}3}Hand scans}{2}{subsubsection.2.1.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}4}synthetic data}{2}{subsubsection.2.1.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}5}Generalization of datasets}{2}{subsubsection.2.1.5}\protected@file@percent }
@@ -47,8 +47,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {III}criteria}{2}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Percentage of Correct Parts PCP}{2}{subsection.3.1}\protected@file@percent }
 \newlabel{sec:pcp}{{\mbox  {III-A}}{2}{Percentage of Correct Parts PCP}{subsection.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Visualisation of estimated values for PCP calculation}}{2}{figure.1}\protected@file@percent }
-\newlabel{fig:pcp}{{1}{2}{Visualisation of estimated values for PCP calculation}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Abstract visualisation of the values required for the PCP calculation. A solid line between two endpoints represents a bone in the ground truth of a dataset in green and the detected bone in black. The dashed lines show the distances $l_{1}, l_{2}$, which are evaluated with the true length $L$ of the bone.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:pcp}{{1}{2}{Abstract visualisation of the values required for the PCP calculation. A solid line between two endpoints represents a bone in the ground truth of a dataset in green and the detected bone in black. The dashed lines show the distances $\protect l_{1}, l_{2}$, which are evaluated with the true length $\protect L$ of the bone}{figure.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Percentage of Detected Joints PDJ}{2}{subsection.3.2}\protected@file@percent }
 \newlabel{sec:pdj}{{\mbox  {III-B}}{2}{Percentage of Detected Joints PDJ}{subsection.3.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Percentage of Correct Key-points PCK}{2}{subsection.3.3}\protected@file@percent }
@@ -63,7 +63,6 @@
 \citation{li_pose_2021}
 \citation{toshev_deeppose_2014}
 \citation{krizhevsky_imagenet_2012}
-\citation{carreira_human_2016}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-E}}Object Key-point Similarity OKS}{3}{subsection.3.5}\protected@file@percent }
 \newlabel{eq:OKS}{{1}{3}{Object Key-point Similarity OKS}{equation.3.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-F}}Mean Per Joint Position Error (MPJPE)}{3}{subsection.3.6}\protected@file@percent }
@@ -73,6 +72,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}HPE Network Architecture Design Challenges}{3}{subsection.4.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Top-Down Approaches}{3}{subsection.4.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}1}Regression-based methods}{3}{subsubsection.4.2.1}\protected@file@percent }
+\citation{carreira_human_2016}
 \citation{vaswani_attention_2017}
 \citation{li_pose_2021}
 \citation{carion_end--end_2020}
@@ -90,7 +90,6 @@
 \citation{yang_learning_2017}
 \citation{cai_learning_2020}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}2}Heatmap-based Methods}{4}{subsubsection.4.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Top-Down Approaches Summary}{4}{subsection.4.3}\protected@file@percent }
 \citation{liu_cascaded_2018,eichner_human_2012,felzenszwalb_pictorial_2005,girdhar_detect-and-track_2018}
 \citation{pfister_flowing_2015}
 \citation{yixing_gao_user_2015}
@@ -105,9 +104,9 @@
 \citation{Martinez_2017_ICCV}
 \citation{park_3d_2016,wang_deep_2021,zhou_hemlets_2019,habibie_wild_2019,tekin_learning_2017}
 \citation{wang_deep_2021}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Top-Down Approaches Summary}{5}{subsection.4.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Bottom-Up Framework}{5}{subsection.4.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {V}3D pose estimation}{5}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Lifting from 2D to 3D pose}{5}{subsection.5.1}\protected@file@percent }
 \citation{Martinez_2017_ICCV}
 \citation{Martinez_2017_ICCV}
 \citation{Martinez_2017_ICCV}
@@ -124,19 +123,20 @@
 \citation{H3.6M}
 \citation{andriluka14cvpr}
 \citation{Martinez_2017_ICCV}
-\citation{Tekin2016}
-\newlabel{simple-yet-effective-baseline}{{\mbox  {V-A}1}{6}{A simple yet effective baseline for 3d human pose estimation}{subsubsection.5.1.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Lifting from 2D to 3D pose}{6}{subsection.5.1}\protected@file@percent }
+\newlabel{sec:simple-yet-effective-baseline}{{\mbox  {V-A}1}{6}{A simple yet effective baseline for 3d human pose estimation}{subsubsection.5.1.1}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-A}1}A simple yet effective baseline for 3d human pose estimation}{6}{subsubsection.5.1.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-A}2}SVMAC: Unsupervised 3D Human Pose Estimation from a Single Image with Single-view-multi-angle Consistency}{6}{subsubsection.5.1.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}3d pose directly from 2d image}{6}{subsection.5.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}1}2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning}{6}{subsubsection.5.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2}Structured Prediction of 3D Human Pose with Deep Neural Networks}{6}{subsubsection.5.2.2}\protected@file@percent }
+\citation{Tekin2016}
 \citation{Ye2011}
 \citation{Haralick98}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Neural network structure from \cite  {Martinez_2017_ICCV}}}{7}{figure.2}\protected@file@percent }
 \newlabel{fig:martinez-network}{{2}{7}{Neural network structure from \cite {Martinez_2017_ICCV}}{figure.2}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Test cases from \cite  {Martinez_2017_ICCV}}}{7}{figure.3}\protected@file@percent }
 \newlabel{fig:martinez-test-cases}{{3}{7}{Test cases from \cite {Martinez_2017_ICCV}}{figure.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2}Structured Prediction of 3D Human Pose with Deep Neural Networks}{7}{subsubsection.5.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Direct 3d pose estimation}{7}{subsection.5.3}\protected@file@percent }
 \newlabel{sec:SMPL}{{\mbox  {V-C}1}{7}{Skinned Multi-Person Linear model SMPL}{subsubsection.5.3.1}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-C}1}Skinned Multi-Person Linear model SMPL}{7}{subsubsection.5.3.1}\protected@file@percent }
@@ -150,20 +150,23 @@
 \citation{simplify}
 \citation{frankmocap}
 \citation{frankmocap}
+\citation{frankmocap}
 \citation{hmr}
+\citation{spin}
 \citation{spin}
 \citation{spin}
 \citation{flame}
 \citation{ringnet}
 \citation{ringnet}
+\citation{ringnet}
 \newlabel{eq:lbs2}{{7}{9}{Skinned Multi-Person Linear model SMPL}{equation.5.7}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}combining models with pose estimation}{9}{subsection.5.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces encoder-decoder architectur from \cite  {frankmocap}}}{9}{figure.5}\protected@file@percent }
-\newlabel{fig:frankmocap_hand}{{5}{9}{encoder-decoder architectur from \cite {frankmocap}}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite  {frankmocap}}}{9}{figure.5}\protected@file@percent }
+\newlabel{fig:frankmocap_hand}{{5}{9}{Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite {frankmocap}}{figure.5}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}1}hand estimation}{9}{figure.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}2}full-body pose estimation}{9}{figure.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces visualisation of the SPIN loop \cite  {spin}}}{9}{figure.6}\protected@file@percent }
-\newlabel{fig:spin}{{6}{9}{visualisation of the SPIN loop \cite {spin}}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Visualisation of the $SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to optimize the initialization of the $SMPLify$ algorithm on the left side. The optimized parameters were used to improve the supervision in the loss function of the neural network. \cite  {spin}}}{9}{figure.6}\protected@file@percent }
+\newlabel{fig:spin}{{6}{9}{Visualisation of the $\protect SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to optimize the initialization of the $\protect SMPLify$ algorithm on the left side. The optimized parameters were used to improve the supervision in the loss function of the neural network. \cite {spin}}{figure.6}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}3}face estimation}{9}{subsubsection.5.4.3}\protected@file@percent }
 \newlabel{eq:flame}{{8}{9}{face estimation}{equation.5.8}{}}
 \bibstyle{plain}
@@ -194,14 +197,14 @@
 \bibcite{gkioxari_chained_2016}{24}
 \bibcite{gower1975generalized}{25}
 \bibcite{habibie_wild_2019}{26}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network architecture of the $RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite  {ringnet}}}{10}{figure.7}\protected@file@percent }
+\newlabel{fig:ringnet}{{7}{10}{Ring-shaped network architecture of the $\protect RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite {ringnet}}{figure.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}conclusion}{10}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{10}{section*.1}\protected@file@percent }
 \bibcite{Haralick98}{27}
 \bibcite{prox}{28}
 \bibcite{obman}{29}
 \bibcite{HeZRS15}{30}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network arcitecture of Ringnet \cite  {ringnet}}}{10}{figure.7}\protected@file@percent }
-\newlabel{fig:ringnet}{{7}{10}{Ring-shaped network arcitecture of Ringnet \cite {ringnet}}{figure.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}conclusion}{10}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{References}{10}{section*.1}\protected@file@percent }
 \bibcite{he_deep_2016}{31}
 \bibcite{ltsh}{32}
 \bibcite{dip}{33}
@@ -226,42 +229,44 @@
 \bibcite{micilotta_real-time_2006}{52}
 \bibcite{summary80s}{53}
 \bibcite{tuch}{54}
-\bibcite{newell_stacked_2016}{55}
-\bibcite{Newell2016}{56}
-\bibcite{park_3d_2016}{57}
-\bibcite{PavlakosZDD16}{58}
-\bibcite{pfister_flowing_2015}{59}
-\bibcite{qiu_peeking_2020}{60}
-\bibcite{rafi_efficient_2016}{61}
-\bibcite{ramakrishna_pose_2014}{62}
-\bibcite{ren_faster_2016}{63}
-\bibcite{Rogez2016}{64}
-\bibcite{mano}{65}
-\bibcite{frankmocap}{66}
-\bibcite{ringnet}{67}
-\bibcite{srivastava2014}{68}
-\bibcite{su_multi-person_2019}{69}
-\bibcite{sun_deep_2019}{70}
-\bibcite{sun_compositional_2017}{71}
-\bibcite{sun_integral_2018}{72}
-\bibcite{grab}{73}
-\bibcite{Tekin2016}{74}
-\bibcite{tekin_learning_2017}{75}
-\bibcite{Tome_2017_CVPR}{76}
-\bibcite{tompson_efficient_2015}{77}
-\bibcite{tompson_joint_2014}{78}
-\bibcite{pdj}{79}
-\bibcite{toshev_deeppose_2014}{80}
-\bibcite{surreal}{81}
-\bibcite{vaswani_attention_2017}{82}
-\bibcite{vip}{83}
-\bibcite{wang_graph-pcnn_2020}{84}
-\bibcite{wang_deep_2021}{85}
-\bibcite{wei_convolutional_2016}{86}
-\bibcite{xiao_simple_2018-1}{87}
-\bibcite{yang_learning_2017}{88}
-\bibcite{pck}{89}
-\bibcite{Ye2011}{90}
-\bibcite{yixing_gao_user_2015}{91}
-\bibcite{Zheng2020}{92}
-\bibcite{zhou_hemlets_2019}{93}
+\bibcite{auc}{55}
+\bibcite{newell_stacked_2016}{56}
+\bibcite{Newell2016}{57}
+\bibcite{park_3d_2016}{58}
+\bibcite{PavlakosZDD16}{59}
+\bibcite{pfister_flowing_2015}{60}
+\bibcite{qiu_peeking_2020}{61}
+\bibcite{rafi_efficient_2016}{62}
+\bibcite{ramakrishna_pose_2014}{63}
+\bibcite{ren_faster_2016}{64}
+\bibcite{Rogez2016}{65}
+\bibcite{mano}{66}
+\bibcite{frankmocap}{67}
+\bibcite{ringnet}{68}
+\bibcite{srivastava2014}{69}
+\bibcite{su_multi-person_2019}{70}
+\bibcite{sun_deep_2019}{71}
+\bibcite{sun_compositional_2017}{72}
+\bibcite{sun_integral_2018}{73}
+\bibcite{grab}{74}
+\bibcite{Tekin2016}{75}
+\bibcite{tekin_learning_2017}{76}
+\bibcite{Tome_2017_CVPR}{77}
+\bibcite{tompson_efficient_2015}{78}
+\bibcite{tompson_joint_2014}{79}
+\bibcite{pdj}{80}
+\bibcite{toshev_deeppose_2014}{81}
+\bibcite{surreal}{82}
+\bibcite{vaswani_attention_2017}{83}
+\bibcite{vip}{84}
+\bibcite{wang_graph-pcnn_2020}{85}
+\bibcite{wang_deep_2021}{86}
+\bibcite{wei_convolutional_2016}{87}
+\bibcite{xiao_simple_2018-1}{88}
+\bibcite{yang_learning_2017}{89}
+\bibcite{pck}{90}
+\bibcite{Ye2011}{91}
+\bibcite{yixing_gao_user_2015}{92}
+\bibcite{Zheng2020}{93}
+\bibcite{zhou_hemlets_2019}{94}
+\gdef \@abspage@last{12}
