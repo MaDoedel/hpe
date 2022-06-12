@@ -1,7 +1,7 @@
 \section{3D pose estimation}
-From a historical perspective, a 3d motion capture algorithm consists of 4 sequential processes: initialisation, tracking, pose estimation and recognition. Initialization involves both camera and model initialization, i.e. setting the camera calibration and finding a model that represents the subject and assigning its initial pose manually or automatically. Model-based approaches can be viewed iteratively, with each frame of the data source representing an iteration in which the initial pose is refined. Tracking is concerned with the relationship between the parts of the subject's body. This leads to segmentation of the subject from the background, representation changes, and establishing tracking in further images. The next phase, which is mainly covered in this section, is the estimation of the pose. A distinction is made between model-based and non-model-based methods, with the former requiring  \emph{a priori} a model. In that approaches, especially human pose estimation, a human model is used to benefit from its encoded information. This model can either be used indirectly, considering e.g. only general aspects such as size and structure, or it is a direct used model. Directly used models are both more detailed and offer broader benefits in regards to occlusion handling and embedded kinematic constraints. In an application, the observed object is approximated by the model, which is continuously refined with further images.\cite{summary80s}
+From a historical perspective, a 3d motion capture algorithm consists of 4 sequential processes: initialisation, tracking, pose estimation and recognition. Initialization involves both camera and model initialization, i.e. setting the camera calibration and finding a model that represents the subject and assigning its initial pose manually or automatically. Model-based approaches can be viewed iteratively, with each frame of the data source representing an iteration in which the initial pose is refined. Tracking is concerned with the relationship between the parts of the subject's body. This leads to segmentation of the subject from the background, representation changes, and establishing tracking in further images. The next phase, which is mainly covered in this section, is the estimation of the pose. A distinction is made between model-based and non-model-based methods, with the former requiring  \emph{a priori} a model. In that approaches, especially human pose estimation, a human model is used to benefit from its encoded information. This model can either be used indirectly, considering e.g. only general aspects such as size and structure, or it is a direct used model. Directly used models are both more detailed and offer broader benefits in regards to occlusion handling and embedded kinematic constraints. In an application, the observed object is approximated by the model, which is continuously refined with further images. Lastly, the captured motion is classified within the recognition, the last final phase of 3d motion capture. The concept of recognition is ether based in reconstruction or directly without any post-processing. In further researches on direct recognition, erroneous results implied the necessity of some form of model, which could negotiate false detections. In static reconstruction, single frames or images are compared with pre-recorded data to detect postures, such as pointing, standing and sitting  \cite{summary80s}
 \\
-As with 2D Pose Estimation, neural networks, particularly convolutional networks, have successfully been used to achieve more accurate results than earlier methods \cite{wang_deep_2021, Chen2016, Chen_2017_CVPR, Tome_2017_CVPR, Andrikula2010, Ye2011, Martinez_2017_ICCV}. Since neural networks can be very resource intensive to compute and the architecture can be extremely complex when working with 3D data, many  of the presented approaches use 2D Pose Estimation followed by an uplifting process to 3 dimensions.  Also, a lot of 2D training data is available in comparison to 3D data which could be used to train a neural network, because the annotation process is way harder in higher dimensions. Especially the lack of in-the-wild 3D training data, which is not created under laboratory conditions, can be partly overcome by using 2D pose estimation methods (which work way better in-the-wild because of more training data available) first before adding an extra dimension.
+As with 2d Pose Estimation, neural networks, particularly convolutional networks, have successfully been used to achieve more accurate results than earlier methods \cite{wang_deep_2021, Chen2016, Chen_2017_CVPR, Tome_2017_CVPR, Andrikula2010, Ye2011, Martinez_2017_ICCV}. Since neural networks can be very resource intensive to compute and the architecture can be extremely complex when working with 3D data, many  of the presented approaches use 2D Pose Estimation followed by an uplifting process to 3 dimensions.  Also, a lot of 2D training data is available in comparison to 3D data which could be used to train a neural network, because the annotation process is way harder in higher dimensions. Especially the lack of in-the-wild 3D training data, which is not created under laboratory conditions, can be partly overcome by using 2D pose estimation methods (which work way better in-the-wild because of more training data available) first before adding an extra dimension.
  Therefore \cite{Chen2016} presents a process to synthesize training images and shows that neural networks training with data generated by their method are even more effective than neural networks which were trained using real images. \cite{Rogez2016} presents a similar approach.
 
 \subsection{Lifting from 2D to 3D pose}
@@ -56,48 +56,7 @@ They showed that this approach led to an improvement when compared to previous m
 \subsection{Direct 3d pose estimation}
 Methods working directly on 3D data, such as \cite{Ye2011} (working with depth maps) can avoid potential sources of error such as projections or lighting conditions. This leads to more robust and accurate results, however more complex (neural network) architectures and computational resources are required. Traditional methods like the least-squares-estimation presented in \cite{Haralick98} work without training data needed and are computationally inexpensive, but yield rather high error rates compared to newer methods.
 
-\subsubsection{Skinned Multi-Person Linear model SMPL}
-\label{sec:SMPL}
-In \emph{SMPL} a model $M(\vec{\beta},\vec{\theta},\phi)$ is learned from the 3d scans explained in \autoref{sec:benchmarks}, that returns a mesh from the input. This formulation is also included in \autoref{eq:model}, where $\mathbb{R}^{3N}$ is a vector of \emph{N = 6890} vertices sculpturing the mesh. In this formula, $\vec{\beta}$ is a vector of blend shapes, while $\vec{\theta}$ are poses and $\phi$ describes the displacement of soft tissues.
-
-\begin{equation}
-\label{eq:model}
-M(\vec{\beta},\vec{\theta},\phi) : \mathbb{R}^{\vert \vec{\theta} \vert \times \vert \vec{\beta} \vert} \mapsto \mathbb{R}^{3N}
-\end{equation}
-
-\emph{SMPL} is based on vertex skinning and blend shapes. A vertex changes its position depending on the motion of the associated joint. This displacement is controlled by assigned blend weights. A vector $T \in \mathbb{R}^{3N}$ of vertex positions describes a gender neutral initial human model, while a matrix $W \in \mathbb{R}^{N \times K}$ represents the blend weights per vertices and \emph{K = 23} joints. The joints that describe the human structure and form the skeleton are represented by rotation vectors. Moreover, T can be rearranged by the pose-blending function $B_{P}(\vec{\theta})$ according to the given poses, leaving T unaffected, while $B_{S}(\vec{\beta})$ reshapes the identity model by its given shape blends. A skinning function $W(T,J,\vec{\theta},\mathcal{W})$, on the other hand, transforms the initial model $T$ by the joint positions $J \in \mathbb{R}^{3K}$ and rotations $\vec{\theta}$ of the desired model. The simplest skinning approach is called \emph{linear blend skinning}, where each resulting vertex $\bar{t}_{i}'$ depends on the sum of its weights $w_{k,i}$ per joint multiplied by its previous position $\bar{t}_{i}$ and a target destination, as documented in \autoref{eq:lbs}. 
-
-\begin{equation}
-\label{eq:lbs}
-\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \times G_{k}'(\vec{\theta},J) \times \bar{t}_{i}
-\end{equation}
-
-Unfortunately, this approach is error-prone and requires additional refinement by the artists to reduce artifacts. To overcome these problems, the skinning method in \emph{SMPL} introduces new functions $T_{F}(\vec{\beta},\vec{\theta})$ and $J(\vec{\beta})$ so that \autoref{eq:model} and $W(T,J,\vec{\theta},\mathcal{W})$ can be reformulated by \autoref{eq:smpl}.
-
-\begin{equation}
-\label{eq:smpl}
-M(\vec{\beta},\vec{\theta}) = W(T_{F}(\vec{\beta},\vec{\theta}),J(\vec{\beta}),\vec{\theta},\mathcal{W}) \mapsto \mathbb{R}^{3N}
-\end{equation}
-
-In $T_{F}(\vec{\beta},\vec{\theta})$, the initial body $T$ is considered as a known parameter, while the pose rearrangements $B_{P}(\vec{\theta})$ and the reshapes $B_{S}(\vec{\beta})$ are added. Since the focus is on pose estimation, this section explains $B_{P}(\vec{\theta})$ in more detail. With respect to \autoref{eq:Tf}, $B_{P}(\vec{\theta})$ can be viewed as linear combinations of pose-blend shapes P learned from the datasets mentioned in \autoref{sec:benchmarks}. Each joint orientation $\theta$ is varied by rotating it 9 times relatively, therefore the iteration space is extended to the cardinality of $R_{n}(\vec{\theta})$ which is $\vert R_{n}(\vec{\theta}) \vert = K \times 9 = 207$. In \autoref{eq:Tf}, a second rotation set of the initial $T$ model is also initialised to define the vertex deviations and make them linear to P. Thus, the impact of an pose blend shape is neglected when a joint orientation is equal to the $T$ orientation.
-
-\begin{equation}
-\label{eq:Tf}
-	\begin{split}
-		T_{F}(\vec{\beta},\vec{\theta})&: \mathbb{R}^{\vert \vec{\theta} 			\vert \times \vert \vec{\beta} \vert} \mapsto \mathbb{R}^{3N} \\
-		T_{F}(\vec{\beta},\vec{\theta}) &= T + B_{S}(\vec{\beta}) + B_{P}				(\vec{\theta}) \\
-		&= T + B_{S}(\vec{\beta}) + \sum_{n=1}^{9K} (R_{n}(\vec{\theta}) - 				R_{n}(\vec{\theta}^{*}))P_{n};
-	\end{split}
-\end{equation}
-
-Finally, the \emph{linear blend skinning} in \autoref{eq:lbs} can be rewritten by the formulations in \autoref{eq:smpl} and their application in \autoref{eq:Tf}. This \autoref{eq:lbs2} is formulated below, considering both $B_{P}$ and $B_{S}$ as matrices in which a vertex is indexed by i. \cite{smpl}
-
-\begin{equation}
-\label{eq:lbs2}
-\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \times G_{k}'(\vec{\theta},J(\vec{\beta})) \times (\bar{t}_{i} + b_{S,i}(\vec{\beta}) +b_{P,i}(\vec{\theta}))
-\end{equation}
-
-\subsection{combining models with pose estimation}
+\subsection{use of models in pose estimation}
 The publication by Bogo et al. \cite{simplify} in 2016 is the first application of \emph{SMPL} in the field of human pose estimation. The \emph{SMPLify} algorithm is based on optimization and gradually tries to align the mean initial \emph{SMPL} human model to 2d keypoints of the initial image. A more recent approach is presented by Rong et al. \cite{frankmocap} which starts from the concept of splitting the estimation of human pose into hand, face and total body, which are then merged into a final model. Each aspect utilises its own regressors, which are trained on datasets selected for the respective purpose. In further sections, the different network architectures are explained.
 
 \subsubsection{hand estimation}
