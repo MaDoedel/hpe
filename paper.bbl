@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{mpii}
 Mykhaylo Andriluka, Leonid Pishchulin, Peter Gehler, and Bernt Schiele.
@@ -49,6 +49,13 @@ Yuanhao Cai, Zhicheng Wang, Zhengxiong Luo, Binyi Yin, Angang Du, Haoqian Wang,
   {Pose} {Estimation}.
 \newblock Technical Report arXiv:2003.04030, arXiv, July 2020.
 \newblock arXiv:2003.04030 [cs] type: article.
+
+\bibitem{cao_realtime_2017}
+Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh.
+\newblock Realtime {Multi}-{Person} {2D} {Pose} {Estimation} using {Part}
+  {Affinity} {Fields}.
+\newblock Technical Report arXiv:1611.08050, arXiv, April 2017.
+\newblock arXiv:1611.08050 [cs] type: article.
 
 \bibitem{carion_end--end_2020}
 Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander
@@ -146,6 +153,12 @@ Mihai Fieraru, Anna Khoreva, Leonid Pishchulin, and Bernt Schiele.
 \newblock Technical Report arXiv:1804.07909, arXiv, April 2018.
 \newblock arXiv:1804.07909 [cs] type: article.
 
+\bibitem{geng_bottom-up_2021}
+Zigang Geng, Ke~Sun, Bin Xiao, Zhaoxiang Zhang, and Jingdong Wang.
+\newblock Bottom-{Up} {Human} {Pose} {Estimation} via {Disentangled} {Keypoint}
+  {Regression}.
+\newblock pages 14676--14686, 2021.
+
 \bibitem{girdhar_detect-and-track_2018}
 Rohit Girdhar, Georgia Gkioxari, Lorenzo Torresani, Manohar Paluri, and
   Du~Tran.
@@ -217,12 +230,44 @@ Yinghao Huang, Manuel Kaufmann, Emre Aksan, Michael~J. Black, Otmar Hilliges,
   37:185:1--185:15, November 2018.
 \newblock Two first authors contributed equally.
 
+\bibitem{insafutdinov_arttrack_2017}
+Eldar Insafutdinov, Mykhaylo Andriluka, Leonid Pishchulin, Siyu Tang, Evgeny
+  Levinkov, Bjoern Andres, and Bernt Schiele.
+\newblock {ArtTrack}: {Articulated} {Multi}-{Person} {Tracking} in the {Wild}.
+\newblock In {\em 2017 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 1293--1301, Honolulu, HI, July 2017. IEEE.
+
+\bibitem{insafutdinov_deepercut_2016}
+Eldar Insafutdinov, Leonid Pishchulin, Bjoern Andres, Mykhaylo Andriluka, and
+  Bernt Schiele.
+\newblock {DeeperCut}: {A} {Deeper}, {Stronger}, and {Faster} {Multi}-person
+  {Pose} {Estimation} {Model}.
+\newblock In Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling, editors,
+  {\em Computer {Vision} – {ECCV} 2016}, Lecture {Notes} in {Computer}
+  {Science}, pages 34--50, Cham, 2016. Springer International Publishing.
+
 \bibitem{H3.6M}
 Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu.
 \newblock Human3.6m: Large scale datasets and predictive methods for 3d human
   sensing in natural environments.
 \newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
   36(7):1325--1339, 2014.
+
+\bibitem{jin_multi-person_2019}
+Sheng Jin, Wentao Liu, Wanli Ouyang, and Chen Qian.
+\newblock Multi-person {Articulated} {Tracking} with {Spatial} and {Temporal}
+  {Embeddings}.
+\newblock Technical Report arXiv:1903.09214, arXiv, March 2019.
+\newblock arXiv:1903.09214 [cs] type: article.
+
+\bibitem{jin_differentiable_2020}
+Sheng Jin, Wentao Liu, Enze Xie, Wenhai Wang, Chen Qian, Wanli Ouyang, and Ping
+  Luo.
+\newblock Differentiable {Hierarchical} {Graph} {Grouping} for {Multi}-person
+  {Pose} {Estimation}.
+\newblock In {\em Computer {Vision} – {ECCV} 2020: 16th {European}
+  {Conference}, {Glasgow}, {UK}, {August} 23–28, 2020, {Proceedings}, {Part}
+  {VII}}, pages 718--734, Berlin, Heidelberg, August 2020. Springer-Verlag.
 
 \bibitem{hmr}
 Angjoo Kanazawa, Michael~J. Black, David~W. Jacobs, and Jitendra Malik.
@@ -244,12 +289,24 @@ Nikos Kolotouros, Georgios Pavlakos, Michael~J. Black, and Kostas Daniilidis.
 \newblock In {\em Proceedings of the IEEE/CVF International Conference on
   Computer Vision (ICCV)}, October 2019.
 
+\bibitem{kreiss_pifpaf_2019}
+Sven Kreiss, Lorenzo Bertoni, and Alexandre Alahi.
+\newblock {PifPaf}: {Composite} {Fields} for {Human} {Pose} {Estimation}.
+\newblock pages 11977--11986, 2019.
+
 \bibitem{krizhevsky_imagenet_2012}
 Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock {ImageNet} {Classification} with {Deep} {Convolutional} {Neural}
   {Networks}.
 \newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
   volume~25. Curran Associates, Inc., 2012.
+
+\bibitem{li_simple_2019}
+Jia Li, Wen Su, and Zengfu Wang.
+\newblock Simple {Pose}: {Rethinking} and {Improving} a {Bottom}-up {Approach}
+  for {Multi}-{Person} {Pose} {Estimation}.
+\newblock Technical Report arXiv:1911.10529, arXiv, November 2019.
+\newblock arXiv:1911.10529 [cs] type: article.
 
 \bibitem{li_pose_2021}
 Ke~Li, Shijie Wang, Xiang Zhang, Yifan Xu, Weijian Xu, and Zhuowen Tu.
@@ -304,6 +361,15 @@ Yue Luo, Jimmy Ren, Zhouxia Wang, Wenxiu Sun, Jinshan Pan, Jianbo Liu, Jiahao
 \newblock {LSTM} {Pose} {Machines}.
 \newblock pages 5207--5215, 2018.
 
+\bibitem{luo_rethinking_2021}
+Zhengxiong Luo, Zhicheng Wang, Yan Huang, Liang Wang, Tieniu Tan, and Erjin
+  Zhou.
+\newblock Rethinking the {Heatmap} {Regression} for {Bottom}-up {Human} {Pose}
+  {Estimation}.
+\newblock In {\em 2021 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 13259--13268, Nashville, TN, USA,
+  June 2021. IEEE.
+
 \bibitem{Luvizon2018}
 Diogo~C. Luvizon, David Picard, and Hedi Tabia.
 \newblock 2d/3d pose estimation and action recognition using multitask deep
@@ -329,6 +395,14 @@ Naureen Mahmood, Nima Ghorbani, Nikolaus~F. Troje, Gerard Pons-Moll, and
 \newblock {AMASS}: Archive of motion capture as surface shapes.
 \newblock In {\em Proceedings International Conference on Computer Vision},
   pages 5442--5451. IEEE, October 2019.
+
+\bibitem{martinez_single-network_2019}
+Gines~Hidalgo Martinez, Yaadhav Raaj, Haroon Idrees, Donglai Xiang, Hanbyul
+  Joo, Tomas Simon, and Yaser Sheikh.
+\newblock Single-{Network} {Whole}-{Body} {Pose} {Estimation}.
+\newblock In {\em 2019 {IEEE}/{CVF} {International} {Conference} on {Computer}
+  {Vision} ({ICCV})}, pages 6981--6990, Seoul, Korea (South), October 2019.
+  IEEE.
 
 \bibitem{Martinez_2017_ICCV}
 Julieta Martinez, Rayat Hossain, Javier Romero, and James~J. Little.
@@ -363,6 +437,13 @@ Tewodros~Legesse Munea, Yalew~Zelalem Jembre, Halefom~Tekle Weldegebriel,
   models applied in 2d human pose estimation.
 \newblock {\em IEEE Access}, 8:133330--133348, 2020.
 
+\bibitem{newell_associative_2017}
+Alejandro Newell, Zhiao Huang, and Jia Deng.
+\newblock Associative {Embedding}: {End}-to-{End} {Learning} for {Joint}
+  {Detection} and {Grouping}.
+\newblock Technical Report arXiv:1611.05424, arXiv, June 2017.
+\newblock arXiv:1611.05424 [cs] type: article.
+
 \bibitem{newell_stacked_2016}
 Alejandro Newell, Kaiyu Yang, and Jia Deng.
 \newblock Stacked {Hourglass} {Networks} for {Human} {Pose} {Estimation}.
@@ -372,6 +453,24 @@ Alejandro Newell, Kaiyu Yang, and Jia Deng.
 \bibitem{Newell2016}
 Alejandro Newell, Kaiyu Yang, and Jia Deng.
 \newblock Stacked hourglass networks for human pose estimation, 2016.
+
+\bibitem{ferrari_pose_2018}
+Xuecheng Nie, Jiashi Feng, Junliang Xing, and Shuicheng Yan.
+\newblock Pose {Partition} {Networks} for {Multi}-person {Pose} {Estimation}.
+\newblock In Vittorio Ferrari, Martial Hebert, Cristian Sminchisescu, and Yair
+  Weiss, editors, {\em Computer {Vision} – {ECCV} 2018}, volume 11209, pages
+  705--720. Springer International Publishing, Cham, 2018.
+\newblock Series Title: Lecture Notes in Computer Science.
+
+\bibitem{nie_single-stage_2019}
+Xuecheng Nie, Jiashi Feng, Jianfeng Zhang, and Shuicheng Yan.
+\newblock Single-{Stage} {Multi}-{Person} {Pose} {Machines}.
+\newblock pages 6951--6960, 2019.
+
+\bibitem{nie_human_2018}
+Xuecheng Nie, Jiashi Feng, Yiming Zuo, and Shuicheng Yan.
+\newblock Human {Pose} {Estimation} {With} {Parsing} {Induced} {Learner}.
+\newblock pages 2100--2108, 2018.
 
 \bibitem{park_3d_2016}
 Sungheon Park, Jihye Hwang, and Nojun Kwak.
@@ -392,6 +491,14 @@ Tomas Pfister, James Charles, and Andrew Zisserman.
 \newblock Flowing {ConvNets} for {Human} {Pose} {Estimation} in {Videos}.
 \newblock Technical Report arXiv:1506.02897, arXiv, November 2015.
 \newblock arXiv:1506.02897 [cs] type: article.
+
+\bibitem{pishchulin_deepcut_2016}
+Leonid Pishchulin, Eldar Insafutdinov, Siyu Tang, Bjoern Andres, Mykhaylo
+  Andriluka, Peter Gehler, and Bernt Schiele.
+\newblock {DeepCut}: {Joint} {Subset} {Partition} and {Labeling} for {Multi}
+  {Person} {Pose} {Estimation}.
+\newblock Technical Report arXiv:1511.06645, arXiv, April 2016.
+\newblock arXiv:1511.06645 [cs] type: article.
 
 \bibitem{qiu_peeking_2020}
 Lingteng Qiu, Xuanye Zhang, Yanran Li, Guanbin Li, Xiaojun Wu, Zixiang Xiong,
@@ -486,6 +593,13 @@ Xiao Sun, Bin Xiao, Fangyin Wei, Shuang Liang, and Yichen Wei.
 \newblock Technical Report arXiv:1711.08229, arXiv, September 2018.
 \newblock arXiv:1711.08229 [cs] type: article.
 
+\bibitem{szegedy_going_2014}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going {Deeper} with {Convolutions}.
+\newblock Technical Report arXiv:1409.4842, arXiv, September 2014.
+\newblock arXiv:1409.4842 [cs] type: article.
+
 \bibitem{grab}
 Omid Taheri, Nima Ghorbani, Michael~J. Black, and Dimitrios Tzionas.
 \newblock Grab: A dataset of whole-body human grasping of objects.
@@ -503,6 +617,13 @@ Bugra Tekin, Pablo Marquez-Neila, Mathieu Salzmann, and Pascal Fua.
 \newblock Learning to {Fuse} {2D} and {3D} {Image} {Cues} for {Monocular}
   {Body} {Pose} {Estimation}.
 \newblock pages 3941--3950, 2017.
+
+\bibitem{tian_directpose_2019}
+Zhi Tian, Hao Chen, and Chunhua Shen.
+\newblock {DirectPose}: {Direct} {End}-to-{End} {Multi}-{Person} {Pose}
+  {Estimation}.
+\newblock Technical Report arXiv:1911.07451, arXiv, November 2019.
+\newblock arXiv:1911.07451 [cs] type: article.
 
 \bibitem{Tome_2017_CVPR}
 Denis Tome, Chris Russell, and Lourdes Agapito.
@@ -584,12 +705,6 @@ Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh.
   {Recognition} ({CVPR})}, pages 4724--4732, Las Vegas, NV, USA, June 2016.
   IEEE.
 
-\bibitem{xiao_simple_2018-1}
-Bin Xiao, Haiping Wu, and Yichen Wei.
-\newblock Simple {Baselines} for {Human} {Pose} {Estimation} and {Tracking}.
-\newblock Technical Report arXiv:1804.06208, arXiv, August 2018.
-\newblock arXiv:1804.06208 [cs] type: article.
-
 \bibitem{yang_learning_2017}
 Wei Yang, Shuang Li, Wanli Ouyang, Hongsheng Li, and Xiaogang Wang.
 \newblock Learning {Feature} {Pyramids} for {Human} {Pose} {Estimation}.
@@ -627,5 +742,16 @@ Kun Zhou, Xiaoguang Han, Nianjuan Jiang, Kui Jia, and Jiangbo Lu.
 \newblock {HEMlets} {Pose}: {Learning} {Part}-{Centric} {Heatmap} {Triplets}
   for {Accurate} {3D} {Human} {Pose} {Estimation}.
 \newblock pages 2344--2353, 2019.
+
+\bibitem{zhu_multi-person_nodate}
+Xiangyu Zhu, Yingying Jiang, and Zhenbo Luo.
+\newblock Multi-{Person} {Pose} {Estimation} for {PoseTrack} with {Enhanced}
+  {Part} {Affinity} {Fields}.
+\newblock page~4.
+
+\bibitem{zuffi_pictorial_2012}
+Silvia Zuffi, O.~Freifeld, and Michael Black.
+\newblock From {Pictorial} {Structures} to {Deformable} {Structures}.
+\newblock June 2012.
 
 \end{thebibliography}

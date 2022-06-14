@@ -11,52 +11,61 @@ Database file #1: references/benchmarks.bib
 Database file #2: references/criteria.bib
 Database file #3: references/2d_estimation.bib
 Database file #4: references/3d_estimation.bib
+Warning--I didn't find a database entry for "mocap"
 Warning--I didn't find a database entry for "z"
+Warning--I didn't find a database entry for "xiao_simple_2018-1"
 Warning--empty booktitle in bulat_human_2016
 Warning--empty publisher in bulat_human_2016
+Warning--empty booktitle in geng_bottom-up_2021
 Warning--empty booktitle in habibie_wild_2019
+Warning--empty booktitle in kreiss_pifpaf_2019
 Warning--empty booktitle in luo_lstm_2018
+Warning--empty booktitle in nie_single-stage_2019
+Warning--empty booktitle in nie_human_2018
 Warning--empty booktitle in tekin_learning_2017
 Warning--empty booktitle in zhou_hemlets_2019
-You've used 94 entries,
+Warning--empty journal in zhu_multi-person_nodate
+Warning--empty year in zhu_multi-person_nodate
+Warning--empty booktitle in zuffi_pictorial_2012
+You've used 112 entries,
             2118 wiz_defined-function locations,
-            1011 strings with 23973 characters,
-and the built_in function-call counts, 39340 in all, are:
-= -- 3786
-> -- 2421
-< -- 63
-+ -- 950
-- -- 850
-* -- 2972
-:= -- 6522
-add.period$ -- 334
-call.type$ -- 94
-change.case$ -- 700
+            1103 strings with 28353 characters,
+and the built_in function-call counts, 48071 in all, are:
+= -- 4646
+> -- 2943
+< -- 81
++ -- 1152
+- -- 1034
+* -- 3617
+:= -- 7909
+add.period$ -- 401
+call.type$ -- 112
+change.case$ -- 842
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 1380
-empty$ -- 2583
-format.name$ -- 850
-if$ -- 8187
+cite$ -- 125
+duplicate$ -- 1706
+empty$ -- 3141
+format.name$ -- 1034
+if$ -- 10048
 int.to.chr$ -- 0
-int.to.str$ -- 94
-missing$ -- 63
-newline$ -- 506
-num.names$ -- 196
-pop$ -- 714
+int.to.str$ -- 112
+missing$ -- 75
+newline$ -- 603
+num.names$ -- 236
+pop$ -- 878
 preamble$ -- 1
-purify$ -- 606
+purify$ -- 730
 quote$ -- 0
-skip$ -- 1037
+skip$ -- 1298
 stack$ -- 0
-substring$ -- 1952
-swap$ -- 426
-text.length$ -- 63
+substring$ -- 2436
+swap$ -- 555
+text.length$ -- 81
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 376
-warning$ -- 6
-while$ -- 294
-width$ -- 96
-write$ -- 1118
-(There were 7 warnings)
+type$ -- 448
+warning$ -- 13
+while$ -- 363
+width$ -- 115
+write$ -- 1336
+(There were 16 warnings)
