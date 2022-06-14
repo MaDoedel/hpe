@@ -1,13 +1,5 @@
 \section{2D pose estimation}
-The foremost step in Human Pose Estimation (HPE) is to model the human body entity representing its kinematic structure and shape information. In recent studies, benefiting from the intuitive nature of graph representations, the human body structure has been characterized by anatomical joints and their positions \cite{zuffi_pictorial_2012}. This approach is known as the kinematic model (Shown in \autoref{fig:pose-modeling} a), and is widely employed to describe human poses. In 2D Human Pose Estimation, the goal is to localize the 2D position or spatial location of human body keypoints (kinematic joints) from the input data \cite{rafi_efficient_2016}.
-
-\begin{figure*}[!htb]
-	\centering
-	\includegraphics[scale=0.6]{2dpose/human-modeling}
-	\caption{Human body modeling. (a)kinematic-based model; (b)contour-based models; (c)volume-based models. 
-	\cite{chen_monocular_2020}}
-	\label{fig:pose-modeling}
-\end{figure*}
+The foremost step in Human Pose Estimation (HPE) is to model the human body entity representing its kinematic structure and shape information. In recent studies, benefiting from the intuitive nature of graph representations, the human body structure has been characterized by anatomical joints and their positions \cite{zuffi_pictorial_2012}. This approach is known as the kinematic model, and is widely employed to describe human poses. In 2D Human Pose Estimation, the goal is to localize the 2D position or spatial location of human body keypoints (kinematic joints) from the input data \cite{rafi_efficient_2016}.
 
 Recently, deep neural networks have achieved a significant breakthrough in 2D HPE and are mainly employed to extract robust features for keypoint recognition and localization directly from the input data (images and videos). Since the quality of feature representation is intimately tied to network architecture, the subject of network design was chosen to be thoroughly investigated. 
 
