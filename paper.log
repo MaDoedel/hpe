@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  15 JUN 2022 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  15 JUN 2022 15:27
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -511,7 +511,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ])
 (sections/criteria.tex
-<images//criteria/pcp.png, id=209, 79.497pt x 107.80275pt>
+<images//criteria/pcp.png, id=210, 79.497pt x 107.80275pt>
 File: images//criteria/pcp.png Graphic file (type png)
 <use images//criteria/pcp.png>
 Package pdftex.def Info: images//criteria/pcp.png  used on input line 11.
@@ -521,12 +521,8 @@ Package pdftex.def Info: images//criteria/pcp.png  used on input line 11.
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.22 
-      <./images//criteria/pcp.png>]
-Underfull \hbox (badness 2865) in paragraph at lines 24--25
- \T1/ptm/m/it/10 1) Head-normalized Prob-a-bil-ity of Cor-rect Key-points
- []
-
-) (sections/models.tex [3]) (sections/2d_estimation.tex
+      <./images//criteria/pcp.png>]) (sections/models.tex [3])
+(sections/2d_estimation.tex
 
 LaTeX Warning: Citation `z' on page 4 undefined on input line 18.
 
@@ -541,8 +537,11 @@ Underfull \hbox (badness 3746) in paragraph at lines 63--64
 u-man cen-ter
  []
 
-[6]) (sections/3d_estimation.tex [7]
-<images//3dpose/martinez_network.png, id=490, 1323.94624pt x 272.01625pt>
+[6]) (sections/3d_estimation.tex
+Underfull \vbox (badness 2762) has occurred while \output is active []
+
+ [7]
+<images//3dpose/martinez_network.png, id=494, 1323.94624pt x 272.01625pt>
 File: images//3dpose/martinez_network.png Graphic file (type png)
 <use images//3dpose/martinez_network.png>
 Package pdftex.def Info: images//3dpose/martinez_network.png  used on input lin
@@ -553,7 +552,7 @@ Overfull \hbox (13.56912pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
-<images//3dpose/martinez_test_cases.png, id=493, 1761.58125pt x 783.92876pt>
+<images//3dpose/martinez_test_cases.png, id=497, 1761.58125pt x 783.92876pt>
 File: images//3dpose/martinez_test_cases.png Graphic file (type png)
 <use images//3dpose/martinez_test_cases.png>
 Package pdftex.def Info: images//3dpose/martinez_test_cases.png  used on input 
@@ -564,7 +563,7 @@ Overfull \hbox (12.47845pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-<images//3dpose/deng_main_structure.png, id=504, 1469.49pt x 805.0075pt>
+<images//3dpose/deng_main_structure.png, id=508, 1469.49pt x 805.0075pt>
 File: images//3dpose/deng_main_structure.png Graphic file (type png)
 <use images//3dpose/deng_main_structure.png>
 Package pdftex.def Info: images//3dpose/deng_main_structure.png  used on input 
@@ -582,31 +581,40 @@ l.54
 l.54 
       <./images//3dpose/martinez_network.png> <./images//3dpose/martinez_test_c
 ases.png>]
-<images//3dpose/frankmocap_hand.png, id=557, 435.87843pt x 129.48375pt>
+<images//3dpose/frankmocap_hand.png, id=554, 435.87843pt x 129.48375pt>
 File: images//3dpose/frankmocap_hand.png Graphic file (type png)
 <use images//3dpose/frankmocap_hand.png>
 Package pdftex.def Info: images//3dpose/frankmocap_hand.png  used on input line
  65.
 (pdftex.def)             Requested size: 252.0pt x 74.85957pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.72 \subsubsection
-                   {full-body pose estimation}pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.5}) has been already used, duplicate ig
-nored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.72 \subsubsection
-                   {full-body pose estimation} <./images//3dpose/deng_main_stru
-cture.png> <./images//3dpose/frankmocap_hand.png>]
-<images//3dpose/spin.png, id=573, 423.83344pt x 250.68657pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images//3dpose/spin.png, id=560, 423.83344pt x 250.68657pt>
 File: images//3dpose/spin.png Graphic file (type png)
 <use images//3dpose/spin.png>
 Package pdftex.def Info: images//3dpose/spin.png  used on input line 75.
 (pdftex.def)             Requested size: 252.0pt x 149.05133pt.
-<images//3dpose/ringnet.png, id=583, 417.05812pt x 347.04657pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 2050) has occurred while \output is active []
+
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.82 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.82 
+      <./images//3dpose/deng_main_structure.png> <./images//3dpose/frankmocap_h
+and.png>]
+<images//3dpose/ringnet.png, id=581, 417.05812pt x 347.04657pt>
 File: images//3dpose/ringnet.png Graphic file (type png)
 <use images//3dpose/ringnet.png>
 Package pdftex.def Info: images//3dpose/ringnet.png  used on input line 96.
@@ -620,14 +628,13 @@ th the same identifier (name{figure.6}) has been already used, duplicate ignore
 d
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.30 \bibitem{simplify}
-                       pdfTeX warning (ext4): destination with the same identif
-ier (name{figure.7}) has been already used, duplicate ignored
+l.37 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
+}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.30 \bibitem{simplify}
-                        <./images//3dpose/spin.png> <./images//3dpose/ringnet.p
-ng>]
+l.37 
+      <./images//3dpose/spin.png> <./images//3dpose/ringnet.png>]
 Underfull \hbox (badness 1377) in paragraph at lines 138--143
 \T1/ptm/m/n/8 bin-ing Lo-cal Ap-pear-ance and Holis-tic View: Dual-Source Deep
  []
@@ -654,18 +661,18 @@ Underfull \hbox (badness 3735) in paragraph at lines 332--336
 rt
  []
 
-[13]
-Underfull \hbox (badness 1661) in paragraph at lines 520--528
+
+Underfull \hbox (badness 1661) in paragraph at lines 513--521
 []\T1/ptm/m/n/8 Varun Ra-makr-ishna, Daniel Munoz, Mar-tial Hebert, James An-
  []
 
-
-Underfull \hbox (badness 3547) in paragraph at lines 622--627
+[13]
+Underfull \hbox (badness 3547) in paragraph at lines 621--626
 []\T1/ptm/m/n/8 Zhi Tian, Hao Chen, and Chun-hua Shen.  Di-rect-Pose: Di-
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 664--670
+Underfull \hbox (badness 2521) in paragraph at lines 663--669
 []\T1/ptm/m/n/8 Gül Varol, Javier Romero, Xavier Mar-tin, Nau-reen Mah-mood,
  []
 
@@ -686,16 +693,16 @@ Before submitting the final camera ready copy, remember to:
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 8918458F9FC3BAD421F72C55C9B2E322;8591.
+(rerunfilecheck)             Checksum: F060805D155393BD9C4DFDDA6172AD0F;8570.
  ) 
 Here is how much of TeX's memory you used:
  11405 strings out of 478847
- 171407 string characters out of 2847249
- 504105 words of memory out of 3000000
+ 171403 string characters out of 2847249
+ 504372 words of memory out of 3000000
  28942 multiletter control sequences out of 15000+600000
  515467 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,66p,2227b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,66p,2227b,467s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C
 :/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cme
 x10.pfb><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
@@ -716,9 +723,9 @@ ms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Matteo/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Matteo/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Matteo/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (14 pages, 1850984 bytes).
+Output written on paper.pdf (14 pages, 1850343 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
+ 720 PDF objects out of 1000 (max. 8388607)
  191 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 

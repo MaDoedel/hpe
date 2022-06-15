@@ -430,13 +430,6 @@ Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
 \newblock In {\em IEEE/CVF Conf.~on Computer Vision and Pattern Recognition
   (CVPR)}, pages 9990--9999, June 2021.
 
-\bibitem{auc}
-Tewodros~Legesse Munea, Yalew~Zelalem Jembre, Halefom~Tekle Weldegebriel,
-  Longbiao Chen, Chenxi Huang, and Chenhui Yang.
-\newblock The progress of human pose estimation: A survey and taxonomy of
-  models applied in 2d human pose estimation.
-\newblock {\em IEEE Access}, 8:133330--133348, 2020.
-
 \bibitem{newell_associative_2017}
 Alejandro Newell, Zhiao Huang, and Jia Deng.
 \newblock Associative {Embedding}: {End}-to-{End} {Learning} for {Joint}
@@ -532,6 +525,12 @@ Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.
   {Region} {Proposal} {Networks}.
 \newblock Technical Report arXiv:1506.01497, arXiv, January 2016.
 \newblock arXiv:1506.01497 [cs] type: article.
+
+\bibitem{caesar}
+K.M. Robinette, H.~Daanen, and E.~Paquet.
+\newblock The caesar project: a 3-d surface anthropometry survey.
+\newblock In {\em Second International Conference on 3-D Digital Imaging and
+  Modeling (Cat. No.PR00062)}, pages 380--386, 1999.
 
 \bibitem{Rogez2016}
 Gregory Rogez and Cordelia Schmid.
