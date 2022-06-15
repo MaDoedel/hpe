@@ -418,6 +418,12 @@ Antonio~S. Micilotta, Eng-Jon Ong, and Richard Bowden.
   Computer {Vision} – {ECCV} 2006}, Lecture {Notes} in {Computer} {Science},
   pages 139--150, Berlin, Heidelberg, 2006. Springer.
 
+\bibitem{mocap}
+Thomas~B. Moeslund.
+\newblock {\em Interacting with a Virtual World Through Motion Capture}, pages
+  221--234.
+\newblock Springer London, London, 2001.
+
 \bibitem{summary80s}
 Thomas~B. Moeslund and Erik Granum.
 \newblock A survey of computer vision-based human motion capture.
@@ -472,6 +478,14 @@ Sungheon Park, Jihye Hwang, and Nojun Kwak.
 \newblock In Gang Hua and Hervé Jégou, editors, {\em Computer {Vision} –
   {ECCV} 2016 {Workshops}}, Lecture {Notes} in {Computer} {Science}, pages
   156--169, Cham, 2016. Springer International Publishing.
+
+\bibitem{smplx}
+Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A.~A.
+  Osman, Dimitrios Tzionas, and Michael~J. Black.
+\newblock Expressive body capture: {3D} hands, face, and body from a single
+  image.
+\newblock In {\em Proceedings IEEE Conf. on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 10975--10985, 2019.
 
 \bibitem{PavlakosZDD16}
 Georgios Pavlakos, Xiaowei Zhou, Konstantinos~G. Derpanis, and Kostas
@@ -571,6 +585,12 @@ Kai Su, Dongdong Yu, Zhenqi Xu, Xin Geng, and Changhu Wang.
   {Spatial} {Information}.
 \newblock Technical Report arXiv:1905.03466, arXiv, May 2019.
 \newblock arXiv:1905.03466 [cs] type: article.
+
+\bibitem{sumi}
+Shigemasa Sumi.
+\newblock Upside-down presentation of the johansson moving light-spot pattern.
+\newblock {\em Perception}, 13(3):283--286, 1984.
+\newblock PMID: 6514513.
 
 \bibitem{sun_deep_2019}
 Ke~Sun, Bin Xiao, Dong Liu, and Jingdong Wang.

@@ -133,6 +133,7 @@
 \citation{cao_realtime_2017}
 \citation{chen_cascaded_2018}
 \citation{cao_realtime_2017}
+\citation{sumi}
 \citation{summary80s}
 \citation{wang_deep_2021,Chen2016,Chen_2017_CVPR,Tome_2017_CVPR,Andrikula2010,Ye2011,Martinez_2017_ICCV}
 \citation{Chen2016}
@@ -176,14 +177,13 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}2}Structured Prediction of 3D Human Pose with Deep Neural Networks}{9}{subsubsection.6.2.2}\protected@file@percent }
 \citation{Ye2011}
 \citation{Haralick98}
+\citation{spin}
 \citation{simplify}
 \citation{frankmocap}
 \citation{frankmocap}
 \citation{frankmocap}
 \citation{hmr}
-\citation{spin}
-\citation{spin}
-\citation{spin}
+\citation{smplx}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces GAN structure from \cite  {Deng2021}}}{10}{figure.4}\protected@file@percent }
 \newlabel{fig:deng-structure}{{4}{10}{GAN structure from \cite {Deng2021}}{figure.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Direct 3d pose estimation}{10}{subsection.6.3}\protected@file@percent }
@@ -191,10 +191,20 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite  {frankmocap}}}{10}{figure.5}\protected@file@percent }
 \newlabel{fig:frankmocap_hand}{{5}{10}{Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite {frankmocap}}{figure.5}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}1}hand estimation}{10}{figure.5}\protected@file@percent }
+\citation{spin}
+\citation{spin}
+\citation{spin}
 \citation{flame}
 \citation{ringnet}
 \citation{ringnet}
 \citation{ringnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Visualisation of the $SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $SMPLify$ algorithm on the left side. The optimized parameters from $SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $SMPLify$. \cite  {spin}}}{11}{figure.6}\protected@file@percent }
+\newlabel{fig:spin}{{6}{11}{Visualisation of the $\protect SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $\protect SMPLify$ algorithm on the left side. The optimized parameters from $\protect SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $\protect SMPLify$. \cite {spin}}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}2}full-body pose estimation}{11}{figure.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}3}face estimation}{11}{subsubsection.6.4.3}\protected@file@percent }
+\newlabel{eq:flame}{{8}{11}{face estimation}{equation.6.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network architecture of the $RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite  {ringnet}}}{11}{figure.7}\protected@file@percent }
+\newlabel{fig:ringnet}{{7}{11}{Ring-shaped network architecture of the $\protect RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite {ringnet}}{figure.7}{}}
 \bibstyle{plain}
 \bibdata{references/benchmarks,references/criteria,references/2d_estimation,references/3d_estimation}
 \bibcite{mpii}{1}
@@ -202,15 +212,6 @@
 \bibcite{Andrikula2010}{3}
 \bibcite{artacho_unipose_2020}{4}
 \bibcite{simplify}{5}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Visualisation of the $SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to optimize the initialization of the $SMPLify$ algorithm on the left side. The optimized parameters were used to improve the supervision in the loss function of the neural network. \cite  {spin}}}{11}{figure.6}\protected@file@percent }
-\newlabel{fig:spin}{{6}{11}{Visualisation of the $\protect SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to optimize the initialization of the $\protect SMPLify$ algorithm on the left side. The optimized parameters were used to improve the supervision in the loss function of the neural network. \cite {spin}}{figure.6}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}2}full-body pose estimation}{11}{figure.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}3}face estimation}{11}{subsubsection.6.4.3}\protected@file@percent }
-\newlabel{eq:flame}{{8}{11}{face estimation}{equation.6.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network architecture of the $RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite  {ringnet}}}{11}{figure.7}\protected@file@percent }
-\newlabel{fig:ringnet}{{7}{11}{Ring-shaped network architecture of the $\protect RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite {ringnet}}{figure.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {VII}conclusion}{11}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{References}{11}{section*.4}\protected@file@percent }
 \bibcite{bulat_human_2016}{6}
 \bibcite{cai_learning_2020}{7}
 \bibcite{cao_realtime_2017}{8}
@@ -242,6 +243,8 @@
 \bibcite{ltsh}{34}
 \bibcite{dip}{35}
 \bibcite{insafutdinov_arttrack_2017}{36}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}conclusion}{12}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{12}{section*.4}\protected@file@percent }
 \bibcite{insafutdinov_deepercut_2016}{37}
 \bibcite{H3.6M}{38}
 \bibcite{jin_multi-person_2019}{39}
@@ -268,54 +271,57 @@
 \bibcite{martinez_single-network_2019}{60}
 \bibcite{Martinez_2017_ICCV}{61}
 \bibcite{micilotta_real-time_2006}{62}
-\bibcite{summary80s}{63}
-\bibcite{tuch}{64}
-\bibcite{newell_associative_2017}{65}
-\bibcite{newell_stacked_2016}{66}
-\bibcite{Newell2016}{67}
-\bibcite{ferrari_pose_2018}{68}
-\bibcite{nie_single-stage_2019}{69}
-\bibcite{nie_human_2018}{70}
-\bibcite{park_3d_2016}{71}
-\bibcite{PavlakosZDD16}{72}
-\bibcite{pfister_flowing_2015}{73}
-\bibcite{pishchulin_deepcut_2016}{74}
-\bibcite{qiu_peeking_2020}{75}
-\bibcite{rafi_efficient_2016}{76}
-\bibcite{ramakrishna_pose_2014}{77}
-\bibcite{ren_faster_2016}{78}
-\bibcite{caesar}{79}
-\bibcite{Rogez2016}{80}
-\bibcite{mano}{81}
-\bibcite{frankmocap}{82}
-\bibcite{ringnet}{83}
-\bibcite{srivastava2014}{84}
-\bibcite{su_multi-person_2019}{85}
-\bibcite{sun_deep_2019}{86}
-\bibcite{sun_compositional_2017}{87}
-\bibcite{sun_integral_2018}{88}
-\bibcite{szegedy_going_2014}{89}
-\bibcite{grab}{90}
-\bibcite{Tekin2016}{91}
-\bibcite{tekin_learning_2017}{92}
-\bibcite{tian_directpose_2019}{93}
-\bibcite{Tome_2017_CVPR}{94}
-\bibcite{tompson_efficient_2015}{95}
-\bibcite{tompson_joint_2014}{96}
-\bibcite{pdj}{97}
-\bibcite{toshev_deeppose_2014}{98}
-\bibcite{surreal}{99}
-\bibcite{vaswani_attention_2017}{100}
-\bibcite{vip}{101}
-\bibcite{wang_graph-pcnn_2020}{102}
-\bibcite{wang_deep_2021}{103}
-\bibcite{wei_convolutional_2016}{104}
-\bibcite{yang_learning_2017}{105}
-\bibcite{pck}{106}
-\bibcite{Ye2011}{107}
-\bibcite{yixing_gao_user_2015}{108}
-\bibcite{Zheng2020}{109}
-\bibcite{zhou_hemlets_2019}{110}
-\bibcite{zhu_multi-person_nodate}{111}
-\bibcite{zuffi_pictorial_2012}{112}
-\gdef \@abspage@last{14}
+\bibcite{mocap}{63}
+\bibcite{summary80s}{64}
+\bibcite{tuch}{65}
+\bibcite{newell_associative_2017}{66}
+\bibcite{newell_stacked_2016}{67}
+\bibcite{Newell2016}{68}
+\bibcite{ferrari_pose_2018}{69}
+\bibcite{nie_single-stage_2019}{70}
+\bibcite{nie_human_2018}{71}
+\bibcite{park_3d_2016}{72}
+\bibcite{smplx}{73}
+\bibcite{PavlakosZDD16}{74}
+\bibcite{pfister_flowing_2015}{75}
+\bibcite{pishchulin_deepcut_2016}{76}
+\bibcite{qiu_peeking_2020}{77}
+\bibcite{rafi_efficient_2016}{78}
+\bibcite{ramakrishna_pose_2014}{79}
+\bibcite{ren_faster_2016}{80}
+\bibcite{caesar}{81}
+\bibcite{Rogez2016}{82}
+\bibcite{mano}{83}
+\bibcite{frankmocap}{84}
+\bibcite{ringnet}{85}
+\bibcite{srivastava2014}{86}
+\bibcite{su_multi-person_2019}{87}
+\bibcite{sumi}{88}
+\bibcite{sun_deep_2019}{89}
+\bibcite{sun_compositional_2017}{90}
+\bibcite{sun_integral_2018}{91}
+\bibcite{szegedy_going_2014}{92}
+\bibcite{grab}{93}
+\bibcite{Tekin2016}{94}
+\bibcite{tekin_learning_2017}{95}
+\bibcite{tian_directpose_2019}{96}
+\bibcite{Tome_2017_CVPR}{97}
+\bibcite{tompson_efficient_2015}{98}
+\bibcite{tompson_joint_2014}{99}
+\bibcite{pdj}{100}
+\bibcite{toshev_deeppose_2014}{101}
+\bibcite{surreal}{102}
+\bibcite{vaswani_attention_2017}{103}
+\bibcite{vip}{104}
+\bibcite{wang_graph-pcnn_2020}{105}
+\bibcite{wang_deep_2021}{106}
+\bibcite{wei_convolutional_2016}{107}
+\bibcite{yang_learning_2017}{108}
+\bibcite{pck}{109}
+\bibcite{Ye2011}{110}
+\bibcite{yixing_gao_user_2015}{111}
+\bibcite{Zheng2020}{112}
+\bibcite{zhou_hemlets_2019}{113}
+\bibcite{zhu_multi-person_nodate}{114}
+\bibcite{zuffi_pictorial_2012}{115}
+\gdef \@abspage@last{15}
