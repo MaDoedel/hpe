@@ -10,21 +10,14 @@ In \emph{SMPL} \cite{smpl} a model $M(\vec{\beta},\vec{\theta},\phi)$ is learned
 M(\vec{\beta},\vec{\theta},\phi) : \mathbb{R}^{\vert \vec{\theta} \vert \times \vert \vec{\beta} \vert} \mapsto \mathbb{R}^{3N}
 \end{equation}
 
-\emph{SMPL} is based on vertex skinning and blend shapes. A vertex changes its position depending on the motion of the associated joint. This displacement is controlled by assigned blend weights. A vector $T \in \mathbb{R}^{3N}$ of vertex positions describes a gender neutral initial human model, while a matrix $W \in \mathbb{R}^{N \times K}$ represents the blend weights per vertices and \emph{K = 23} joints. The joints that describe the human structure and form the skeleton are represented by 3d psitions. Moreover, T can be rearranged by the pose-blending function $B_{P}(\vec{\theta})$ according to the given poses, leaving its initial shape unaffected, while $B_{S}(\vec{\beta})$ reshapes the identity model by its given shape blends. A skinning function $W(T,J,\vec{\theta},\mathcal{W})$ transforms the initial model $T$ by the joint positions $J \in \mathbb{R}^{3K}$ and rotations $\vec{\theta}$ of the desired model. The simplest skinning approach is called \emph{linear blend skinning}, where each resulting vertex $\bar{t}_{i}'$ depends on the sum of its weights $w_{k,i}$ per joint multiplied by its previous position $\bar{t}_{i}$ and a target destination, as documented in \autoref{eq:lbs}. 
-
-\begin{equation}
-\label{eq:lbs}
-\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \cdot G_{k}'(\vec{\theta},J) \cdot \bar{t}_{i}
-\end{equation}
-
-Unfortunately, this approach is error-prone and requires additional refinement by the artists to reduce artifacts. To overcome these problems, the skinning method in \emph{SMPL} introduces new functions $T_{F}(\vec{\beta},\vec{\theta})$ and $J(\vec{\beta})$ so that \autoref{eq:model} and $W(T,J,\vec{\theta},\mathcal{W})$ can be reformulated by \autoref{eq:smpl}.
+\emph{SMPL} is based on vertex skinning and blend shapes. A vertex changes its position depending on the motion of the associated joint. This displacement is controlled by assigned blend weights. A vector $T \in \mathbb{R}^{3N}$ of vertex positions describes a gender neutral initial human model, while a matrix $W \in \mathbb{R}^{N \times K}$ represents the blend weights per vertices and \emph{K = 23} joints. The joints that describe the human structure and form the skeleton are represented by 3d psitions. Moreover, $T$ can be rearranged by the pose-blending function $B_{P}(\vec{\theta})$ according to the given poses, leaving its initial shape unaffected, while $B_{S}(\vec{\beta})$ reshapes the identity model by its given shape blends. The two terms $B_{P}(\vec{\theta})$ and $B_{S}(\vec{\beta})$ thus serve as offsets to the initial mesh t, which are included in the sum $T_{F}(\vec{\beta},\vec{\theta})$. Finally, a skinning function $W(T_{F}(\vec{\beta},\vec{\theta}),J(\vec{\beta}),\vec{\theta},\mathcal{W})$ can be created containing the initial model $T$ transformed by $T_{F}$, the joint positions $J \in \mathbb{R}^{3K}$, their rotations $\vec{\theta}$ and the blending weights $\mathcal{W}$, which is shown in \autoref{eq:smpl}.
 
 \begin{equation}
 \label{eq:smpl}
 M(\vec{\beta},\vec{\theta}) = W(T_{F}(\vec{\beta},\vec{\theta}),J(\vec{\beta}),\vec{\theta},\mathcal{W}) \mapsto \mathbb{R}^{3N}
 \end{equation}
 
-In $T_{F}(\vec{\beta},\vec{\theta})$, the initial body $T$ is considered as a known parameter, while the pose correctives $B_{P}(\vec{\theta})$ and the reshapes $B_{S}(\vec{\beta})$ are added. Since the focus is on pose estimation, this section explains $B_{P}(\vec{\theta})$ in more detail. With respect to \autoref{eq:Tf}, $B_{P}(\vec{\theta})$ can be viewed as linear combinations of pose-blend shapes P learned from the datasets mentioned in \autoref{sec:benchmarks}. Each joint orientation $\theta$ is varied by rotating it 9 times relatively, therefore the iteration space is extended to the cardinality of $R_{n}(\vec{\theta})$ which is $\vert R_{n}(\vec{\theta}) \vert = K \times 9 = 207$. In \autoref{eq:Tf}, a second rotation set of the initial $T$ model is also initialised to define the vertex deviations and make them linear to P. Thus, the impact of an pose blend shape is neglected when a joint orientation is equal to the $T$ orientation.
+As mentioned previosly, a model is determined of its initial state $T$ and its offsets in $T_{F}$. In $T_{F}(\vec{\beta},\vec{\theta})$, $T$ is considered as a known parameter, while the pose correctives $B_{P}(\vec{\theta})$ and the reshapes $B_{S}(\vec{\beta})$ are added. Since the focus is on pose estimation, this section explains $B_{P}(\vec{\theta})$ in more detail. With respect to \autoref{eq:Tf}, $B_{P}(\vec{\theta})$ can be viewed as linear combinations of pose-blend shapes $P$ learned from \emph{Caesar} dataset.
 
 \begin{equation}
 \label{eq:Tf}
@@ -35,10 +28,19 @@ In $T_{F}(\vec{\beta},\vec{\theta})$, the initial body $T$ is considered as a kn
 	\end{split}
 \end{equation}
 
-Finally, the \emph{linear blend skinning} in \autoref{eq:lbs} can be rewritten by the formulations in \autoref{eq:smpl} and their application in \autoref{eq:Tf}. This \autoref{eq:lbs2} is formulated below, considering both $B_{P}$ and $B_{S}$ as matrices in which a vertex is indexed by i.
+$\theta$ is a concatenation of all $K$ rotations of a mesh plus the root orientation. These rotations are represented as axis-angles, which can be converted into $\mathbb{R}^{3\times3}$ rotation matrices using the \emph{Rodrigues} formula\footnote{\url{https://mathworld.wolfram.com/RodriguesRotationFormula.html}}. Each element of this matrix can be stacked into a 9d vector, applying it to $K+1$ joint yields a 207d vector. This entire concept is described by the function 
+$R: \mathbb{R}^{|\vec{\theta}|} \mapsto \mathbb{R}^{9K}$. In \autoref{eq:Tf}, $R_{n}(\vec{\theta}^{*}))$ denotes the nth element of the 207d vector resulting from the residual position of $T$, while $R_{n}(\vec{\theta}))$ denotes the nth element of the entered pose rotations $\theta$. The effect of the learned pose-blend shapes thus depends on the deviation between $\theta$ and $\theta^{*}$ and is neglected if the nth joint orientation element corresponds to the initial orientation of the nth joint rotation element in $T$. \\
+
+\autoref{eq:Tf} is used in skinning, in general the calculating a new vertex position based on the shape and pose parameters. A previous skinning approach is called \emph{linear blend skinning}, where each resulting vertex $\bar{t}_{i}'$ depends on the sum of its weights $w_{k,i}$ per joint multiplied by its previous position $\bar{t}_{i}$ and $G_{k}'$, as documented in \autoref{eq:lbs}. $G_{k}$ is the homogeneous world transformation of a joint k, where a rotation matrix is obtained by applying the Rodrigues formula and the translational part of the homogeneous matrix is given by the joint position. $G_{k}'$ is optained by removing the transformation of $\theta^{*}$.  
+
+\begin{equation}
+\label{eq:lbs}
+\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \cdot G_{k}'(\vec{\theta},J) \cdot \bar{t}_{i}
+\end{equation}
+
+Unfortunately, this approach is error-prone and requires additional refinement by the artists to reduce artifacts. To overcome these problems, the skinning method in \emph{SMPL} can be rewritten by the formulations in \autoref{eq:smpl} and their application in \autoref{eq:Tf}. This \autoref{eq:lbs2} is formulated below, considering both $b_{P}$ and $b_{S}$ as vectors, which offset the vertex position $\bar{t}_{i}$.
 
 \begin{equation}
 \label{eq:lbs2}
-\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \cdot G_{k}'(\vec{\theta},J(\vec{\beta})) \cdot (\bar{t}_{i} + b_{S,i}(\vec{\beta}) +b_{P,i}(\vec{\theta}))
+\bar{t}_{i}' = \sum_{k=1}^{K} w_{k,i} \cdot G_{k}'(\vec{\theta},J(\vec{\beta})) \cdot (\bar{t}_{i} + b_{S,i}(\vec{\beta}) + b_{P,i}(\vec{\theta}))
 \end{equation}
-
