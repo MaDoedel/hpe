@@ -7,19 +7,19 @@ As with 2d Pose Estimation, neural networks, particularly convolutional networks
 \subsection{Lifting from 2D to 3D pose}
 For uplifting, recent work has proven statistical models such as (deep) neural networks themselves \cite{Tome_2017_CVPR, Martinez_2017_ICCV}, matching the estimated 2d pose with a database \cite{Chen_2017_CVPR} or triangulation using multiple viewpoints \cite{Dong_2019_CVPR} useful. In particular \cite{Martinez_2017_ICCV} shows that even very simple deep neural networks can be extraordinarily effective for uplifting 2d to 3d pose estimations, considering both computational resources and failure rate.
 \newline
-Inspired by various 2d human pose estimation algorithms, many studies have employed the outputs of 2d pose estimate methods for 3d human pose estimation to improve in-the-wild generalization performance. For example, Martinez et al. \cite{Martinez_2017_ICCV} pioneered the research on lifting 2d poses to 3d space with a simple yet effective neural network. Other methods \cite{park_3d_2016, wang_deep_2021, zhou_hemlets_2019, habibie_wild_2019, tekin_learning_2017} focus on fusing 2d joint heat maps from the top-down 2d pose estimation methods with 3d image cues to reduce ambiguity. The uplifting approach also makes it possible to project the calculated 3d pose to 2d again to make sure results are consistent. \cite{wang_deep_2021} 
+Inspired by various 2d human pose estimation algorithms, many studies have employed the outputs of 2d pose estimate methods for 3d human pose estimation to improve in-the-wild generalization performance. For example, Martinez et al. \cite{Martinez_2017_ICCV} pioneered the research on lifting 2d poses to 3d space with a simple yet effective neural network. Other methods \cite{park_3d_2016, zhou_hemlets_2019, habibie_wild_2019, tekin_learning_2017} focus on fusing 2d joint heat maps from the top-down 2d pose estimation methods with 3d image cues to reduce ambiguity. The uplifting approach also makes it possible to project the calculated 3d pose to 2d again to make sure results are consistent. \cite{wang_deep_2021} In the following two important papers in this category are presented, the first one being one of the most impactful works of the last years from Martinez et al. as it showed how performant even simple neural networks can be. The second paper presented proposed a different, unsupervised method which uses generative adversarial networks and goes to show that other methods are still being experimented with having very good results too.
 
 \begin{figure*}[!htb]
 	\centering
 	\includegraphics[scale=0.4]{3dpose/martinez_network.png}
-	\caption{Neural network structure from \cite{Martinez_2017_ICCV}}
+	\caption{Neural network structure from \cite{Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions.}
 	\label{fig:martinez-network}
 \end{figure*}
 
 \begin{figure*}[!htb]
 	\centering
 	\includegraphics[scale=0.3]{3dpose/martinez_test_cases.png}
-	\caption{Test cases from \cite{Martinez_2017_ICCV}}
+	\caption{Test cases from \cite{Martinez_2017_ICCV}. The picture on the left is the original overlayed with the 2d pose estimation (shown in the middle), while the respective uplifted 3d pose is shown on the right. Most test cases yield good results, but there are some failures too as shown in the bottom row.}
 	\label{fig:martinez-test-cases}
 \end{figure*}
 
@@ -32,7 +32,7 @@ While trying to investigate common errors in the uplifting process, \cite{Martin
 \begin{figure*}[!htb]
  	\centering
  	\includegraphics[scale=0.35]{3dpose/deng_main_structure.png}
- 	\caption{GAN structure from \cite{Deng2021}}
+ 	\caption{GAN structure from \cite{Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency.}
  	\label{fig:deng-structure}
 \end{figure*}
  

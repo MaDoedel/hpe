@@ -148,8 +148,10 @@
 \citation{Dong_2019_CVPR}
 \citation{Martinez_2017_ICCV}
 \citation{Martinez_2017_ICCV}
-\citation{park_3d_2016,wang_deep_2021,zhou_hemlets_2019,habibie_wild_2019,tekin_learning_2017}
+\citation{park_3d_2016,zhou_hemlets_2019,habibie_wild_2019,tekin_learning_2017}
 \citation{wang_deep_2021}
+\citation{Martinez_2017_ICCV}
+\citation{Martinez_2017_ICCV}
 \citation{Martinez_2017_ICCV}
 \citation{Martinez_2017_ICCV}
 \citation{Martinez_2017_ICCV}
@@ -161,6 +163,7 @@
 \citation{andriluka14cvpr}
 \citation{Deng2021}
 \citation{Deng2021}
+\citation{Deng2021}
 \citation{gower1975generalized}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Lifting from 2D to 3D pose}{8}{subsection.6.1}\protected@file@percent }
 \newlabel{sec:simple-yet-effective-baseline}{{\mbox  {VI-A}1}{8}{A simple yet effective baseline for 3d human pose estimation}{subsubsection.6.1.1}{}}
@@ -170,29 +173,27 @@
 \citation{H3.6M}
 \citation{andriluka14cvpr}
 \citation{Martinez_2017_ICCV}
-\citation{Tekin2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Neural network structure from \cite  {Martinez_2017_ICCV}}}{9}{figure.2}\protected@file@percent }
-\newlabel{fig:martinez-network}{{2}{9}{Neural network structure from \cite {Martinez_2017_ICCV}}{figure.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Test cases from \cite  {Martinez_2017_ICCV}}}{9}{figure.3}\protected@file@percent }
-\newlabel{fig:martinez-test-cases}{{3}{9}{Test cases from \cite {Martinez_2017_ICCV}}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Neural network structure from \cite  {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions.}}{9}{figure.2}\protected@file@percent }
+\newlabel{fig:martinez-network}{{2}{9}{Neural network structure from \cite {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Test cases from \cite  {Martinez_2017_ICCV}. The picture on the left is the original overlayed with the 2d pose estimation (shown in the middle), while the respective uplifted 3d pose is shown on the right. Most test cases yield good results, but there are some failures too as shown in the bottom row.}}{9}{figure.3}\protected@file@percent }
+\newlabel{fig:martinez-test-cases}{{3}{9}{Test cases from \cite {Martinez_2017_ICCV}. The picture on the left is the original overlayed with the 2d pose estimation (shown in the middle), while the respective uplifted 3d pose is shown on the right. Most test cases yield good results, but there are some failures too as shown in the bottom row}{figure.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}3d pose directly from 2d image}{9}{subsection.6.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}1}2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning}{9}{subsubsection.6.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}2}Structured Prediction of 3D Human Pose with Deep Neural Networks}{9}{subsubsection.6.2.2}\protected@file@percent }
+\citation{Tekin2016}
 \citation{Ye2011}
 \citation{Haralick98}
 \citation{spin}
 \citation{simplify}
 \citation{frankmocap}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces GAN structure from \cite  {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency.}}{10}{figure.4}\protected@file@percent }
+\newlabel{fig:deng-structure}{{4}{10}{GAN structure from \cite {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}2}Structured Prediction of 3D Human Pose with Deep Neural Networks}{10}{subsubsection.6.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Direct 3d pose estimation}{10}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}use of models in pose estimation}{10}{subsection.6.4}\protected@file@percent }
 \citation{frankmocap}
 \citation{frankmocap}
 \citation{hmr}
 \citation{smplx}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces GAN structure from \cite  {Deng2021}}}{10}{figure.4}\protected@file@percent }
-\newlabel{fig:deng-structure}{{4}{10}{GAN structure from \cite {Deng2021}}{figure.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Direct 3d pose estimation}{10}{subsection.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}use of models in pose estimation}{10}{subsection.6.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite  {frankmocap}}}{10}{figure.5}\protected@file@percent }
-\newlabel{fig:frankmocap_hand}{{5}{10}{Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite {frankmocap}}{figure.5}{}}
 \citation{spin}
 \citation{spin}
 \citation{spin}
@@ -200,14 +201,14 @@
 \citation{ringnet}
 \citation{ringnet}
 \citation{ringnet}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite  {frankmocap}}}{11}{figure.5}\protected@file@percent }
+\newlabel{fig:frankmocap_hand}{{5}{11}{Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite {frankmocap}}{figure.5}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}1}hand estimation}{11}{figure.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Visualisation of the $SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $SMPLify$ algorithm on the left side. The optimized parameters from $SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $SMPLify$. \cite  {spin}}}{11}{figure.6}\protected@file@percent }
 \newlabel{fig:spin}{{6}{11}{Visualisation of the $\protect SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $\protect SMPLify$ algorithm on the left side. The optimized parameters from $\protect SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $\protect SMPLify$. \cite {spin}}{figure.6}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}2}full-body pose estimation}{11}{figure.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}3}face estimation}{11}{subsubsection.6.4.3}\protected@file@percent }
 \newlabel{eq:flame}{{8}{11}{face estimation}{equation.6.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network architecture of the $RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite  {ringnet}}}{11}{figure.7}\protected@file@percent }
-\newlabel{fig:ringnet}{{7}{11}{Ring-shaped network architecture of the $\protect RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite {ringnet}}{figure.7}{}}
 \bibstyle{plain}
 \bibdata{references/benchmarks,references/criteria,references/2d_estimation,references/3d_estimation}
 \bibcite{mpii}{1}
@@ -238,14 +239,16 @@
 \bibcite{girdhar_detect-and-track_2018}{26}
 \bibcite{gkioxari_chained_2016}{27}
 \bibcite{gower1975generalized}{28}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network architecture of the $RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite  {ringnet}}}{12}{figure.7}\protected@file@percent }
+\newlabel{fig:ringnet}{{7}{12}{Ring-shaped network architecture of the $\protect RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite {ringnet}}{figure.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}conclusion}{12}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{12}{section*.4}\protected@file@percent }
 \bibcite{habibie_wild_2019}{29}
 \bibcite{Haralick98}{30}
 \bibcite{prox}{31}
 \bibcite{obman}{32}
 \bibcite{HeZRS15}{33}
 \bibcite{he_deep_2016}{34}
-\@writefile{toc}{\contentsline {section}{\numberline {VII}conclusion}{12}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{References}{12}{section*.4}\protected@file@percent }
 \bibcite{ltsh}{35}
 \bibcite{dip}{36}
 \bibcite{insafutdinov_arttrack_2017}{37}

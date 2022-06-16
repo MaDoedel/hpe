@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.14)  16 JUN 2022 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.14)  16 JUN 2022 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -515,7 +515,7 @@ u-man cen-ter
  []
 
 [6]) (./sections/3d_estimation.tex [7]
-<images/3dpose/martinez_network.png, id=501, 1323.94624pt x 272.01625pt>
+<images/3dpose/martinez_network.png, id=500, 1323.94624pt x 272.01625pt>
 File: images/3dpose/martinez_network.png Graphic file (type png)
 <use images/3dpose/martinez_network.png>
 Package pdftex.def Info: images/3dpose/martinez_network.png  used on input line
@@ -537,74 +537,71 @@ Overfull \hbox (12.47845pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-<images/3dpose/deng_main_structure.png, id=515, 1469.49pt x 805.0075pt>
+<images/3dpose/deng_main_structure.png, id=516, 1469.49pt x 805.0075pt>
 File: images/3dpose/deng_main_structure.png Graphic file (type png)
 <use images/3dpose/deng_main_structure.png>
 Package pdftex.def Info: images/3dpose/deng_main_structure.png  used on input l
 ine 34.
 (pdftex.def)             Requested size: 514.32921pt x 281.75685pt.
-
+[8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-}) has been already used, duplicate ignored
+l.51 \subsubsection
+                   {Structured Prediction of 3D Human Pose with Deep Neural ...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.54 
-      <./images/3dpose/martinez_network.png> <./images/3dpose/martinez_test_cas
-es.png>]
-<images/3dpose/frankmocap_hand.png, id=570, 435.87843pt x 129.48375pt>
+l.51 \subsubsection
+                   {Structured Prediction of 3D Human Pose with Deep Neural ...
+ <./images/3dpose/martinez_network.png> <./images/3dpose/martinez_test_cases.pn
+g>] [10pdfTeX warning (ext4): destination with the same identifier (name{figure
+.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.62 
+      <./images/3dpose/deng_main_structure.png>]
+<images/3dpose/frankmocap_hand.png, id=581, 435.87843pt x 129.48375pt>
 File: images/3dpose/frankmocap_hand.png Graphic file (type png)
 <use images/3dpose/frankmocap_hand.png>
 Package pdftex.def Info: images/3dpose/frankmocap_hand.png  used on input line 
 66.
 (pdftex.def)             Requested size: 252.0pt x 74.85957pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.72 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.72 
-      <./images/3dpose/deng_main_structure.png> <./images/3dpose/frankmocap_han
-d.png>]
-<images/3dpose/spin.png, id=587, 423.83344pt x 250.68657pt>
+<images/3dpose/spin.png, id=588, 423.83344pt x 250.68657pt>
 File: images/3dpose/spin.png Graphic file (type png)
 <use images/3dpose/spin.png>
 Package pdftex.def Info: images/3dpose/spin.png  used on input line 76.
 (pdftex.def)             Requested size: 252.0pt x 149.05133pt.
-<images/3dpose/ringnet.png, id=597, 417.05812pt x 347.04657pt>
+<images/3dpose/ringnet.png, id=598, 417.05812pt x 347.04657pt>
 File: images/3dpose/ringnet.png Graphic file (type png)
 <use images/3dpose/ringnet.png>
 Package pdftex.def Info: images/3dpose/ringnet.png  used on input line 98.
 (pdftex.def)             Requested size: 252.0pt x 209.70169pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (./sections/conclusion.tex [11pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.6}) has been already used, duplicate ignored
+e identifier (name{figure.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \section
             {conclusion}pdfTeX warning (ext4): destination with the same identi
-fier (name{figure.7}) has been already used, duplicate ignored
+fier (name{figure.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \section
-            {conclusion} <./images/3dpose/spin.png> <./images/3dpose/ringnet.pn
-g>]) (./paper.bbl
+            {conclusion} <./images/3dpose/frankmocap_hand.png> <./images/3dpose
+/spin.png>]) (./paper.bbl
 Underfull \hbox (badness 1377) in paragraph at lines 138--143
 \T1/ptm/m/n/8 bin-ing Lo-cal Ap-pear-ance and Holis-tic View: Dual-Source Deep
  []
@@ -615,7 +612,13 @@ Underfull \hbox (badness 1867) in paragraph at lines 169--174
 
  []
 
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+ has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.185 
+       <./images/3dpose/ringnet.png>]
 Underfull \hbox (badness 6300) in paragraph at lines 200--204
 []\T1/ptm/m/n/8 Mohamed Has-san, Vasileios Choutas, Dim-itrios Tzionas, and
  []
@@ -625,7 +628,7 @@ Underfull \hbox (badness 3428) in paragraph at lines 206--211
 []\T1/ptm/m/n/8 Yana Has-son, Gül Varol, Dim-itrios Tzionas, Igor Kale-vatykh,
  []
 
-[12]
+
 Underfull \hbox (badness 3735) in paragraph at lines 342--346
 \T1/ptm/m/n/8 Es-ti-ma-tion us-ing Deep Con-sen-sus Vot-ing.  Tech-ni-cal Re-po
 rt
@@ -641,12 +644,12 @@ Underfull \hbox (badness 3547) in paragraph at lines 658--663
 []\T1/ptm/m/n/8 Zhi Tian, Hao Chen, and Chun-hua Shen.  Di-rect-Pose: Di-
  []
 
-
+[14]
 Underfull \hbox (badness 2521) in paragraph at lines 700--706
 []\T1/ptm/m/n/8 Gül Varol, Javier Romero, Xavier Mar-tin, Nau-reen Mah-mood,
  []
 
-[14])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -677,7 +680,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
 Here is how much of TeX's memory you used:
  8678 strings out of 483107
  129776 string characters out of 5964630
- 400938 words of memory out of 5000000
+ 401931 words of memory out of 5000000
  23310 multiletter control sequences out of 15000+600000
  644375 words of font info for 138 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
@@ -698,10 +701,10 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (15 pages, 1759901 bytes).
+Output written on paper.pdf (15 pages, 1760671 bytes).
 PDF statistics:
- 730 PDF objects out of 1000 (max. 8388607)
- 676 compressed objects within 7 object streams
+ 732 PDF objects out of 1000 (max. 8388607)
+ 675 compressed objects within 7 object streams
  198 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
