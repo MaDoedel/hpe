@@ -40,11 +40,12 @@ Optimal predictions have a high OKS value, while low values indicate poor predic
 
 \subsection{Mean Per Joint Position Error (MPJPE)}
 \label{criteria:mpjpe}
-\autoref{eq:MPJPE} shows the formula for one of the most import criteria in terms of evaluating results from 3d human pose estimation the Mean Per Joint Position Error or short MPJPE \cite{Zheng2020}. $N$ denotes the number of estimated joint positions $J_{i}^*$ and ground truth joint positions $J_{i}$. 
+\autoref{eq:MPJPE} shows the formula for one of the most import criterias in terms of evaluating results from 3d human pose estimation: the Mean Per Joint Position Error or short MPJPE \cite{Zheng2020}. As the name suggests, it calculates the mean of the difference between actual and estimated joint positions. $N$ denotes the number of estimated joint positions $J_{i}^*$ and ground truth joint positions $J_{i}$. 
 
 \begin{equation}
 \label{eq:MPJPE}
 MPJPE = \frac{1}{N} \sum_{i=1}^{N} \lVert J_{i} - J_{i}^*\rVert_{2}
 \end{equation}
 
-There are versions of this criteria too, such as PMPJPE, where the estimated pose gets rigidly aligned to the ground truth first. NMPJPE stands for Normalized MPJPE, what means that the estimation gets normalized to scale of the true joint positions. 
+There are versions of this criteria too, such as PMPJPE, where the estimated pose gets rigidly aligned to the ground truth first.
+With NMPJPE, the Normalized MPJPE, a scaling factor is applied to the estimation to minimize the sqared distances to the truth, thus allowing the metric to be more independent of the subjects body size \cite{Rhodin2018}.

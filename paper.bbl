@@ -147,6 +147,12 @@ Pedro~F. Felzenszwalb and Daniel~P. Huttenlocher.
 \newblock {\em International Journal of Computer Vision}, 61(1):55--79, January
   2005.
 
+\bibitem{feng_ning_toward_2005}
+{Feng Ning}, D.~Delhomme, Y.~LeCun, F.~Piano, L.~Bottou, and P.E. Barbano.
+\newblock Toward automatic phenotyping of developing embryos from videos.
+\newblock {\em IEEE Transactions on Image Processing}, 14(9):1360--1371,
+  September 2005.
+
 \bibitem{fieraru_learning_2018}
 Mihai Fieraru, Anna Khoreva, Leonid Pishchulin, and Bernt Schiele.
 \newblock Learning to {Refine} {Human} {Pose} {Estimation}.
@@ -313,6 +319,10 @@ Ke~Li, Shijie Wang, Xiang Zhang, Yifan Xu, Weijian Xu, and Zhuowen Tu.
 \newblock Pose {Recognition} with {Cascade} {Transformers}.
 \newblock Technical Report arXiv:2104.06976, arXiv, April 2021.
 \newblock arXiv:2104.06976 [cs] type: article.
+
+\bibitem{li_markov_1994}
+S.~Z. Li.
+\newblock Markov {Random} {Field} {Models} in {Computer} {Vision}, 1994.
 
 \bibitem{li_heterogeneous_2014}
 Sijin Li, Zhi-Qiang Liu, and Antoni~B. Chan.
@@ -539,6 +549,13 @@ Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.
   {Region} {Proposal} {Networks}.
 \newblock Technical Report arXiv:1506.01497, arXiv, January 2016.
 \newblock arXiv:1506.01497 [cs] type: article.
+
+\bibitem{Rhodin2018}
+Helge Rhodin, J{\"{o}}rg Sp{\"{o}}rri, Isinsu Katircioglu, Victor Constantin,
+  Fr{\'{e}}d{\'{e}}ric Meyer, Erich M{\"{u}}ller, Mathieu Salzmann, and Pascal
+  Fua.
+\newblock Learning monocular 3d human pose estimation from multi-view images.
+\newblock {\em CoRR}, abs/1803.04775, 2018.
 
 \bibitem{caesar}
 K.M. Robinette, H.~Daanen, and E.~Paquet.

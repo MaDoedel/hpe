@@ -1,12 +1,7 @@
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: paper.aux
-Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
-Reallocating 'name_of_file' (item size: 1) to 22 items.
-Reallocating 'name_of_file' (item size: 1) to 20 items.
-Reallocating 'name_of_file' (item size: 1) to 25 items.
-Reallocating 'name_of_file' (item size: 1) to 25 items.
 Database file #1: references/benchmarks.bib
 Database file #2: references/criteria.bib
 Database file #3: references/2d_estimation.bib
@@ -27,45 +22,45 @@ Warning--empty booktitle in zhou_hemlets_2019
 Warning--empty journal in zhu_multi-person_nodate
 Warning--empty year in zhu_multi-person_nodate
 Warning--empty booktitle in zuffi_pictorial_2012
-You've used 115 entries,
+You've used 118 entries,
             2118 wiz_defined-function locations,
-            1122 strings with 28819 characters,
-and the built_in function-call counts, 49437 in all, are:
-= -- 4788
-> -- 2980
+            1138 strings with 29398 characters,
+and the built_in function-call counts, 50541 in all, are:
+= -- 4886
+> -- 3063
 < -- 84
-+ -- 1167
-- -- 1046
-* -- 3693
-:= -- 8094
-add.period$ -- 411
-call.type$ -- 115
-change.case$ -- 856
++ -- 1200
+- -- 1076
+* -- 3784
+:= -- 8289
+add.period$ -- 419
+call.type$ -- 118
+change.case$ -- 880
 chr.to.int$ -- 0
-cite$ -- 129
-duplicate$ -- 1778
-empty$ -- 3262
-format.name$ -- 1046
-if$ -- 10371
+cite$ -- 132
+duplicate$ -- 1806
+empty$ -- 3330
+format.name$ -- 1076
+if$ -- 10585
 int.to.chr$ -- 0
-int.to.str$ -- 115
-missing$ -- 79
-newline$ -- 619
-num.names$ -- 242
-pop$ -- 901
+int.to.str$ -- 118
+missing$ -- 81
+newline$ -- 633
+num.names$ -- 248
+pop$ -- 926
 preamble$ -- 1
-purify$ -- 742
+purify$ -- 763
 quote$ -- 0
-skip$ -- 1362
+skip$ -- 1385
 stack$ -- 0
-substring$ -- 2541
-swap$ -- 592
+substring$ -- 2587
+swap$ -- 595
 text.length$ -- 84
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 458
+type$ -- 470
 warning$ -- 14
-while$ -- 377
-width$ -- 118
-write$ -- 1372
+while$ -- 385
+width$ -- 121
+write$ -- 1402
 (There were 16 warnings)
