@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.14)  16 JUN 2022 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.14)  16 JUN 2022 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -569,20 +569,23 @@ s been already used, duplicate ignored
 l.47 \subsubsection
                    {2D/3D Pose Estimation and Action Recognition using Multi...
  <./images/3dpose/martinez_network.png> <./images/3dpose/martinez_test_cases.pn
-g>] [10pdfTeX warning (ext4): destination with the same identifier (name{figure
-.4}) has been already used, duplicate ignored
+g>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.58 
       <./images/3dpose/deng_main_structure.png>]
-<images/3dpose/frankmocap_hand.png, id=578, 435.87843pt x 129.48375pt>
+<images/3dpose/frankmocap_hand.png, id=579, 435.87843pt x 129.48375pt>
 File: images/3dpose/frankmocap_hand.png Graphic file (type png)
 <use images/3dpose/frankmocap_hand.png>
 Package pdftex.def Info: images/3dpose/frankmocap_hand.png  used on input line 
 66.
 (pdftex.def)             Requested size: 252.0pt x 74.85957pt.
-<images/3dpose/spin.png, id=585, 423.83344pt x 250.68657pt>
+<images/3dpose/spin.png, id=586, 423.83344pt x 250.68657pt>
 File: images/3dpose/spin.png Graphic file (type png)
 <use images/3dpose/spin.png>
 Package pdftex.def Info: images/3dpose/spin.png  used on input line 76.
@@ -600,7 +603,7 @@ l.87
                                                   \fi \fi 
 l.87 
       <./images/3dpose/frankmocap_hand.png> <./images/3dpose/spin.png>]
-<images/3dpose/ringnet.png, id=607, 417.05812pt x 347.04657pt>
+<images/3dpose/ringnet.png, id=608, 417.05812pt x 347.04657pt>
 File: images/3dpose/ringnet.png Graphic file (type png)
 <use images/3dpose/ringnet.png>
 Package pdftex.def Info: images/3dpose/ringnet.png  used on input line 98.
@@ -612,8 +615,8 @@ red
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.124 
-       <./images/3dpose/ringnet.png>]
+l.119 \bibitem{Dong_2019_CVPR}
+                               <./images/3dpose/ringnet.png>]
 Underfull \hbox (badness 1377) in paragraph at lines 138--143
 \T1/ptm/m/n/8 bin-ing Lo-cal Ap-pear-ance and Holis-tic View: Dual-Source Deep
  []
@@ -705,10 +708,10 @@ mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (15 pages, 1760871 bytes).
+Output written on paper.pdf (15 pages, 1760984 bytes).
 PDF statistics:
- 734 PDF objects out of 1000 (max. 8388607)
- 677 compressed objects within 7 object streams
+ 735 PDF objects out of 1000 (max. 8388607)
+ 678 compressed objects within 7 object streams
  199 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
