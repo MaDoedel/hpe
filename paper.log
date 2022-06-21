@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  21 JUN 2022 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.3)  21 JUN 2022 03:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,7 +502,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ])
 (sections/criteria.tex
-<images//criteria/pcp.png, id=216, 79.497pt x 107.80275pt>
+<images//criteria/pcp.png, id=213, 79.497pt x 107.80275pt>
 File: images//criteria/pcp.png Graphic file (type png)
 <use images//criteria/pcp.png>
 Package pdftex.def Info: images//criteria/pcp.png  used on input line 11.
@@ -512,17 +512,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.25 
+l.19 
       <./images//criteria/pcp.png>]) (sections/models.tex [3]
 Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-) (sections/2d_estimation.tex
+) (sections/2d_estimation.tex [4]
 
-LaTeX Warning: Citation `z' on page 4 undefined on input line 18.
+LaTeX Warning: Citation `z' on page 5 undefined on input line 18.
 
-[4]
 
 LaTeX Warning: Citation `xiao_simple_2018-1' on page 5 undefined on input line 
 39.
@@ -557,7 +556,7 @@ Overfull \hbox (12.47845pt too wide) in paragraph at lines 21--22
  []
 
 [8]
-<images//3dpose/deng_main_structure.png, id=543, 1469.49pt x 805.0075pt>
+<images//3dpose/deng_main_structure.png, id=540, 1469.49pt x 805.0075pt>
 File: images//3dpose/deng_main_structure.png Graphic file (type png)
 <use images//3dpose/deng_main_structure.png>
 Package pdftex.def Info: images//3dpose/deng_main_structure.png  used on input 
@@ -574,17 +573,15 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.47 \subsubsection
-                   {2D/3D Pose Estimation and Action Recognition using Multi...
-
+l.44 
+     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.47 \subsubsection
-                   {2D/3D Pose Estimation and Action Recognition using Multi...
- <./images//3dpose/martinez_network.png> <./images//3dpose/martinez_test_cases.
-png>]
+l.44 
+      <./images//3dpose/martinez_network.png> <./images//3dpose/martinez_test_c
+ases.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10
@@ -592,7 +589,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.58 
+l.54 
       <./images//3dpose/deng_main_structure.png>]
 <images//3dpose/frankmocap_hand.png, id=579, 435.87843pt x 129.48375pt>
 File: images//3dpose/frankmocap_hand.png Graphic file (type png)
@@ -610,13 +607,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.87 
+l.84 
      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.87 
+l.84 
       <./images//3dpose/frankmocap_hand.png> <./images//3dpose/spin.png>]
 <images//3dpose/ringnet.png, id=608, 417.05812pt x 347.04657pt>
 File: images//3dpose/ringnet.png Graphic file (type png)
@@ -629,8 +626,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.119 \bibitem{Dong_2019_CVPR}
-                               <./images//3dpose/ringnet.png>]
+l.99 
+      <./images//3dpose/ringnet.png>]
 Underfull \hbox (badness 1377) in paragraph at lines 138--143
 \T1/ptm/m/n/8 bin-ing Lo-cal Ap-pear-ance and Holis-tic View: Dual-Source Deep
  []
@@ -694,7 +691,7 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 Here is how much of TeX's memory you used:
  11837 strings out of 478582
  188233 string characters out of 2844345
- 501037 words of memory out of 3000000
+ 501812 words of memory out of 3000000
  29627 multiletter control sequences out of 15000+600000
  581296 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -719,7 +716,7 @@ amsfonts/symbols/msbm10.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/fonts
 /type1/urw/times/utmbi8a.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/font
 s/type1/urw/times/utmr8a.pfb><C:/Users/matte/AppData/Local/Programs/MiKTeX/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (15 pages, 1860173 bytes).
+Output written on paper.pdf (15 pages, 1866684 bytes).
 PDF statistics:
  748 PDF objects out of 1000 (max. 8388607)
  200 named destinations out of 1000 (max. 500000)
