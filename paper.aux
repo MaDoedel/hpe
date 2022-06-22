@@ -55,6 +55,7 @@
 \citation{pck}
 \citation{mpii}
 \citation{Zheng2020}
+\citation{gower1975generalized}
 \citation{Rhodin2018}
 \citation{smpl}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Percentage of Detected Joints PDJ}{3}{subsection.3.2}\protected@file@percent }
@@ -70,11 +71,11 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Skinned Multi-Person Linear model SMPL}{3}{subsection.4.1}\protected@file@percent }
 \newlabel{sec:SMPL}{{\mbox  {IV-A}}{3}{Skinned Multi-Person Linear model SMPL}{subsection.4.1}{}}
 \newlabel{eq:model}{{3}{3}{Skinned Multi-Person Linear model SMPL}{equation.4.3}{}}
-\newlabel{eq:smpl}{{4}{3}{Skinned Multi-Person Linear model SMPL}{equation.4.4}{}}
 \citation{zuffi_pictorial_2012}
 \citation{rafi_efficient_2016}
 \citation{sun_deep_2019}
 \citation{cheng_higherhrnet_2020}
+\newlabel{eq:smpl}{{4}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.4}{}}
 \newlabel{eq:bs}{{5}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.5}{}}
 \newlabel{eq:Tf}{{6}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.6}{}}
 \newlabel{eq:lbs}{{7}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.7}{}}
@@ -139,7 +140,6 @@
 \citation{cao_realtime_2017}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2}Part Field}{7}{subsubsection.5.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}3}Associate Embedding}{7}{subsubsection.5.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}2D Human Pose Estimation Summary}{7}{subsection.5.3}\protected@file@percent }
 \citation{sumi}
 \citation{summary80s}
 \citation{wang_deep_2021,Chen2016,Chen_2017_CVPR,Tome_2017_CVPR,Andrikula2010,Ye2011,Martinez_2017_ICCV}
@@ -163,6 +163,7 @@
 \citation{H3.6M}
 \citation{PavlakosZDD16}
 \citation{andriluka14cvpr}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}2D Human Pose Estimation Summary}{8}{subsection.5.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {VI}3D pose estimation}{8}{section.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Lifting from 2D to 3D pose}{8}{subsection.6.1}\protected@file@percent }
 \newlabel{sec:simple-yet-effective-baseline}{{\mbox  {VI-A}1}{8}{A simple yet effective baseline for 3d human pose estimation}{subsubsection.6.1.1}{}}
@@ -170,7 +171,6 @@
 \citation{Deng2021}
 \citation{Deng2021}
 \citation{Deng2021}
-\citation{gower1975generalized}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Neural network structure from \cite  {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions.}}{9}{figure.2}\protected@file@percent }
 \newlabel{fig:martinez-network}{{2}{9}{Neural network structure from \cite {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions}{figure.2}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Test cases from \cite  {Martinez_2017_ICCV}. The picture on the left is the original overlayed with the 2d pose estimation (shown in the middle), while the respective uplifted 3d pose is shown on the right. Most test cases yield good results, but there are some failures too as shown in the bottom row.}}{9}{figure.3}\protected@file@percent }
@@ -214,9 +214,9 @@
 \citation{Martinez_2017_ICCV}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}3}face estimation}{12}{subsubsection.6.4.3}\protected@file@percent }
 \newlabel{eq:flame}{{9}{12}{face estimation}{equation.6.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}conclusion}{12}{section.7}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network architecture of the $RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite  {ringnet}}}{12}{figure.7}\protected@file@percent }
 \newlabel{fig:ringnet}{{7}{12}{Ring-shaped network architecture of the $\protect RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite {ringnet}}{figure.7}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {VII}conclusion}{12}{section.7}\protected@file@percent }
 \bibstyle{plain}
 \bibdata{references/benchmarks,references/criteria,references/2d_estimation,references/3d_estimation}
 \bibcite{mpii}{1}

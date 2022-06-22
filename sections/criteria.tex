@@ -47,5 +47,5 @@ Optimal predictions have a high OKS value, while low values indicate poor predic
 MPJPE = \frac{1}{N} \sum_{i=1}^{N} \lVert J_{i} - J_{i}^*\rVert_{2}
 \end{equation}
 
-There are versions of this criteria too, such as PMPJPE, where the estimated pose gets rigidly aligned to the ground truth first.
+There are versions of this criteria too, such as PMPJPE, where the estimated pose gets rigidly aligned to the ground truth first. Thereby the P stands for procrustes transformation, which is a commonly used alignment method using procrustes analysis as described in \cite{gower1975generalized}.
 With NMPJPE, the Normalized MPJPE, a scaling factor is applied to the estimation to minimize the sqared distances to the truth, thus allowing the metric to be more independent of the subjects body size \cite{Rhodin2018}.
