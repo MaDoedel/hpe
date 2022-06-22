@@ -23,7 +23,6 @@
 \@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {II}Benchmark Datasets}{1}{section.2}\protected@file@percent }
 \newlabel{sec:benchmarks}{{II}{1}{Benchmark Datasets}{section.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Max Planck Institute datasets}{1}{subsection.2.1}\protected@file@percent }
 \citation{cape}
 \citation{resynth}
 \citation{vip}
@@ -40,6 +39,7 @@
 \citation{caesar}
 \citation{pcp}
 \citation{pdj}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Max Planck Institute datasets}{2}{subsection.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}1}Clothing}{2}{subsubsection.2.1.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}2}Full-body}{2}{subsubsection.2.1.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}3}Hand scans}{2}{subsubsection.2.1.3}\protected@file@percent }
@@ -50,16 +50,16 @@
 \@writefile{toc}{\contentsline {section}{\numberline {III}Benchmark metrics}{2}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Percentage of Correct Parts PCP}{2}{subsection.3.1}\protected@file@percent }
 \newlabel{sec:pcp}{{\mbox  {III-A}}{2}{Percentage of Correct Parts PCP}{subsection.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Abstract visualisation of the values required for the PCP calculation. A solid line between two endpoints represents a bone in the ground truth of a dataset in green and the detected bone in black. The dashed lines show the distances $l_{1}, l_{2}$, which are evaluated with the true length $L$ of the bone.}}{2}{figure.1}\protected@file@percent }
-\newlabel{fig:pcp}{{1}{2}{Abstract visualisation of the values required for the PCP calculation. A solid line between two endpoints represents a bone in the ground truth of a dataset in green and the detected bone in black. The dashed lines show the distances $\protect l_{1}, l_{2}$, which are evaluated with the true length $\protect L$ of the bone}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Percentage of Detected Joints PDJ}{2}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:pdj}{{\mbox  {III-B}}{2}{Percentage of Detected Joints PDJ}{subsection.3.2}{}}
 \citation{pck}
 \citation{mpii}
 \citation{Zheng2020}
 \citation{gower1975generalized}
 \citation{Rhodin2018}
 \citation{smpl}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Percentage of Detected Joints PDJ}{3}{subsection.3.2}\protected@file@percent }
-\newlabel{sec:pdj}{{\mbox  {III-B}}{3}{Percentage of Detected Joints PDJ}{subsection.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Abstract visualisation of the values required for the PCP calculation. A solid line between two endpoints represents a bone in the ground truth of a dataset in green and the detected bone in black. The dashed lines show the distances $l_{1}, l_{2}$, which are evaluated with the true length $L$ of the bone.}}{3}{figure.1}\protected@file@percent }
+\newlabel{fig:pcp}{{1}{3}{Abstract visualisation of the values required for the PCP calculation. A solid line between two endpoints represents a bone in the ground truth of a dataset in green and the detected bone in black. The dashed lines show the distances $\protect l_{1}, l_{2}$, which are evaluated with the true length $\protect L$ of the bone}{figure.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Percentage of Correct Key-points PCK}{3}{subsection.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Head-normalized Probability of Correct Key-points PCKh}{3}{subsection.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-E}}Object Key-point Similarity OKS}{3}{subsection.3.5}\protected@file@percent }
@@ -73,14 +73,14 @@
 \newlabel{eq:model}{{3}{3}{Skinned Multi-Person Linear model SMPL}{equation.4.3}{}}
 \citation{zuffi_pictorial_2012}
 \citation{rafi_efficient_2016}
-\citation{sun_deep_2019}
-\citation{cheng_higherhrnet_2020}
 \newlabel{eq:smpl}{{4}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.4}{}}
 \newlabel{eq:bs}{{5}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.5}{}}
 \newlabel{eq:Tf}{{6}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.6}{}}
 \newlabel{eq:lbs}{{7}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.7}{}}
 \newlabel{eq:lbs2}{{8}{4}{Skinned Multi-Person Linear model SMPL}{equation.4.8}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {V}2D pose estimation}{4}{section.5}\protected@file@percent }
+\citation{sun_deep_2019}
+\citation{cheng_higherhrnet_2020}
 \citation{ren_faster_2016,micilotta_real-time_2006}
 \citation{carreira_human_2016,fan_combining_2015,fieraru_learning_2018,li_heterogeneous_2014,qiu_peeking_2020,sun_compositional_2017,sun_integral_2018,toshev_deeppose_2014,wang_graph-pcnn_2020,z}
 \citation{li_pose_2021}
@@ -99,12 +99,12 @@
 \citation{carreira_human_2016,luo_lstm_2018,toshev_deeppose_2014,wei_convolutional_2016}
 \citation{ramakrishna_pose_2014}
 \citation{wei_convolutional_2016}
-\citation{he_deep_2016}
-\citation{wei_convolutional_2016}
-\citation{cai_learning_2020,chen_cascaded_2018,chu_multi-context_2017,ke_multi-scale_2018,liu_cascaded_2018,newell_stacked_2016,su_multi-person_2019,sun_deep_2019,xiao_simple_2018-1,yang_learning_2017}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Top-Down Framework}{5}{subsection.5.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-A}1}Regression-based methods}{5}{subsubsection.5.1.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-A}2}Heatmap-based Methods}{5}{subsubsection.5.1.2}\protected@file@percent }
+\citation{he_deep_2016}
+\citation{wei_convolutional_2016}
+\citation{cai_learning_2020,chen_cascaded_2018,chu_multi-context_2017,ke_multi-scale_2018,liu_cascaded_2018,newell_stacked_2016,su_multi-person_2019,sun_deep_2019,xiao_simple_2018-1,yang_learning_2017}
 \citation{newell_stacked_2016}
 \citation{chu_multi-context_2017}
 \citation{yang_learning_2017}
@@ -116,10 +116,9 @@
 \citation{geng_bottom-up_2021,nie_single-stage_2019,nie_human_2018}
 \citation{jin_differentiable_2020,kreiss_pifpaf_2019,martinez_single-network_2019,insafutdinov_deepercut_2016,li_simple_2019}
 \citation{cheng_higherhrnet_2020,jin_multi-person_2019,luo_rethinking_2021,newell_associative_2017}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Bottom-Up Framework}{6}{subsection.5.2}\protected@file@percent }
 \citation{ferrari_pose_2018}
 \citation{newell_stacked_2016}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Bottom-Up Framework}{6}{subsection.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}1}Human Center Regression}{6}{subsubsection.5.2.1}\protected@file@percent }
 \citation{nie_single-stage_2019}
 \citation{geng_bottom-up_2021}
 \citation{cao_realtime_2017}
@@ -133,13 +132,14 @@
 \citation{jin_multi-person_2019}
 \citation{jin_differentiable_2020}
 \citation{luo_rethinking_2021}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}1}Human Center Regression}{7}{subsubsection.5.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2}Part Field}{7}{subsubsection.5.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}3}Associate Embedding}{7}{subsubsection.5.2.3}\protected@file@percent }
 \citation{toshev_deeppose_2014}
 \citation{newell_stacked_2016}
 \citation{cao_realtime_2017}
 \citation{chen_cascaded_2018}
 \citation{cao_realtime_2017}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2}Part Field}{7}{subsubsection.5.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}3}Associate Embedding}{7}{subsubsection.5.2.3}\protected@file@percent }
 \citation{sumi}
 \citation{summary80s}
 \citation{wang_deep_2021,Chen2016,Chen_2017_CVPR,Tome_2017_CVPR,Andrikula2010,Ye2011,Martinez_2017_ICCV}
@@ -168,31 +168,31 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Lifting from 2D to 3D pose}{8}{subsection.6.1}\protected@file@percent }
 \newlabel{sec:simple-yet-effective-baseline}{{\mbox  {VI-A}1}{8}{A simple yet effective baseline for 3d human pose estimation}{subsubsection.6.1.1}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-A}1}A simple yet effective baseline for 3d human pose estimation}{8}{subsubsection.6.1.1}\protected@file@percent }
-\citation{Deng2021}
-\citation{Deng2021}
-\citation{Deng2021}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Neural network structure from \cite  {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions.}}{9}{figure.2}\protected@file@percent }
 \newlabel{fig:martinez-network}{{2}{9}{Neural network structure from \cite {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions}{figure.2}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Test cases from \cite  {Martinez_2017_ICCV}. The picture on the left is the original overlayed with the 2d pose estimation (shown in the middle), while the respective uplifted 3d pose is shown on the right. Most test cases yield good results, but there are some failures too as shown in the bottom row.}}{9}{figure.3}\protected@file@percent }
 \newlabel{fig:martinez-test-cases}{{3}{9}{Test cases from \cite {Martinez_2017_ICCV}. The picture on the left is the original overlayed with the 2d pose estimation (shown in the middle), while the respective uplifted 3d pose is shown on the right. Most test cases yield good results, but there are some failures too as shown in the bottom row}{figure.3}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-A}2}SVMAC: Unsupervised 3D Human Pose Estimation from a Single Image with Single-view-multi-angle Consistency}{9}{subsubsection.6.1.2}\protected@file@percent }
+\citation{Deng2021}
+\citation{Deng2021}
+\citation{Deng2021}
 \citation{wang_deep_2021}
 \citation{Luvizon2018}
 \citation{H3.6M}
 \citation{andriluka14cvpr}
 \citation{Martinez_2017_ICCV}
 \citation{Tekin2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces GAN structure from \cite  {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency.}}{10}{figure.4}\protected@file@percent }
-\newlabel{fig:deng-structure}{{4}{10}{GAN structure from \cite {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency}{figure.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}3d pose directly from 2d image}{10}{subsection.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}1}2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning}{10}{subsubsection.6.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}2}Structured Prediction of 3D Human Pose with Deep Neural Networks}{10}{subsubsection.6.2.2}\protected@file@percent }
 \citation{Ye2011}
 \citation{Haralick98}
 \citation{spin}
 \citation{simplify}
 \citation{hmr}
 \citation{frankmocap}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-A}2}SVMAC: Unsupervised 3D Human Pose Estimation from a Single Image with Single-view-multi-angle Consistency}{10}{subsubsection.6.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}3d pose directly from 2d image}{10}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}1}2D/3D Pose Estimation and Action Recognition using Multitask Deep Learning}{10}{subsubsection.6.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-B}2}Structured Prediction of 3D Human Pose with Deep Neural Networks}{10}{subsubsection.6.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Direct 3d pose estimation}{10}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}use of models in pose estimation}{10}{subsection.6.4}\protected@file@percent }
 \citation{frankmocap}
 \citation{frankmocap}
 \citation{frankmocap}
@@ -200,19 +200,19 @@
 \citation{spin}
 \citation{chen}
 \citation{spin}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Direct 3d pose estimation}{11}{subsection.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}use of models in pose estimation}{11}{subsection.6.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces GAN structure from \cite  {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency.}}{11}{figure.4}\protected@file@percent }
+\newlabel{fig:deng-structure}{{4}{11}{GAN structure from \cite {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency}{figure.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite  {frankmocap}}}{11}{figure.5}\protected@file@percent }
 \newlabel{fig:frankmocap_hand}{{5}{11}{Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite {frankmocap}}{figure.5}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}1}hand estimation}{11}{figure.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Visualisation of the $SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $SMPLify$ algorithm on the left side. The optimized parameters from $SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $SMPLify$. \cite  {spin}}}{11}{figure.6}\protected@file@percent }
-\newlabel{fig:spin}{{6}{11}{Visualisation of the $\protect SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $\protect SMPLify$ algorithm on the left side. The optimized parameters from $\protect SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $\protect SMPLify$. \cite {spin}}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}2}full-body pose estimation}{11}{figure.6}\protected@file@percent }
 \citation{flame}
 \citation{ringnet}
 \citation{ringnet}
 \citation{ringnet}
 \citation{Martinez_2017_ICCV}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}2}full-body pose estimation}{12}{figure.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Visualisation of the $SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $SMPLify$ algorithm on the left side. The optimized parameters from $SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $SMPLify$. \cite  {spin}}}{12}{figure.6}\protected@file@percent }
+\newlabel{fig:spin}{{6}{12}{Visualisation of the $\protect SPIN$ loop, in which first the pose and shape parameters on the right side were regressed to initialize the $\protect SMPLify$ algorithm on the left side. The optimized parameters from $\protect SMPLify$ were used to improve the supervision of the regressor modul, resulting into better initial models for $\protect SMPLify$. \cite {spin}}{figure.6}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-D}3}face estimation}{12}{subsubsection.6.4.3}\protected@file@percent }
 \newlabel{eq:flame}{{9}{12}{face estimation}{equation.6.9}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ring-shaped network architecture of the $RingNet$ in training with 4 elements that are encoder-decoder structures. Training is performed with image sources consisting of 2 subjects, with only one image coming from the second subject. Ring instances regress 3d information from 2d images, which are projected into 2d space for evaluation in the loss function. This concept ensures the learning of consistency.\cite  {ringnet}}}{12}{figure.7}\protected@file@percent }
@@ -240,10 +240,10 @@
 \bibcite{Deng2021}{18}
 \bibcite{Dong_2019_CVPR}{19}
 \bibcite{eichner_human_2012}{20}
+\@writefile{toc}{\contentsline {section}{References}{13}{section*.4}\protected@file@percent }
 \bibcite{pcp}{21}
 \bibcite{fan_combining_2015}{22}
 \bibcite{felzenszwalb_pictorial_2005}{23}
-\@writefile{toc}{\contentsline {section}{References}{13}{section*.4}\protected@file@percent }
 \bibcite{feng_ning_toward_2005}{24}
 \bibcite{fieraru_learning_2018}{25}
 \bibcite{geng_bottom-up_2021}{26}
@@ -339,4 +339,3 @@
 \bibcite{zhou_hemlets_2019}{116}
 \bibcite{zhu_multi-person_nodate}{117}
 \bibcite{zuffi_pictorial_2012}{118}
-\gdef \@abspage@last{16}
