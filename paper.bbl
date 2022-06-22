@@ -76,6 +76,12 @@ Ching-Hang Chen and Deva Ramanan.
 \newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
   Pattern Recognition (CVPR)}, July 2017.
 
+\bibitem{chen}
+Dongyue Chen, Yuanyuan Song, Fangzheng Liang, Teng Ma, Xiaoming Zhu, and Tong
+  Jia.
+\newblock 3d human body reconstruction based on smpl model.
+\newblock {\em The Visual Computer}, 2022.
+
 \bibitem{Chen2016}
 Wenzheng Chen, Huan Wang, Yangyan Li, Hao Su, Zhenhua Wang, Changhe Tu, Dani
   Lischinski, Daniel Cohen-Or, and Baoquan Chen.
@@ -488,14 +494,6 @@ Sungheon Park, Jihye Hwang, and Nojun Kwak.
 \newblock In Gang Hua and Hervé Jégou, editors, {\em Computer {Vision} –
   {ECCV} 2016 {Workshops}}, Lecture {Notes} in {Computer} {Science}, pages
   156--169, Cham, 2016. Springer International Publishing.
-
-\bibitem{smplx}
-Georgios Pavlakos, Vasileios Choutas, Nima Ghorbani, Timo Bolkart, Ahmed A.~A.
-  Osman, Dimitrios Tzionas, and Michael~J. Black.
-\newblock Expressive body capture: {3D} hands, face, and body from a single
-  image.
-\newblock In {\em Proceedings IEEE Conf. on Computer Vision and Pattern
-  Recognition (CVPR)}, pages 10975--10985, 2019.
 
 \bibitem{PavlakosZDD16}
 Georgios Pavlakos, Xiaowei Zhou, Konstantinos~G. Derpanis, and Kostas

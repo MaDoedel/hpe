@@ -1,7 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: paper.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 Database file #1: references/benchmarks.bib
 Database file #2: references/criteria.bib
 Database file #3: references/2d_estimation.bib
@@ -24,43 +29,43 @@ Warning--empty year in zhu_multi-person_nodate
 Warning--empty booktitle in zuffi_pictorial_2012
 You've used 118 entries,
             2118 wiz_defined-function locations,
-            1138 strings with 29398 characters,
-and the built_in function-call counts, 50541 in all, are:
-= -- 4886
-> -- 3063
-< -- 84
-+ -- 1200
-- -- 1076
-* -- 3784
-:= -- 8289
+            1139 strings with 29337 characters,
+and the built_in function-call counts, 50223 in all, are:
+= -- 4850
+> -- 3058
+< -- 83
++ -- 1198
+- -- 1074
+* -- 3764
+:= -- 8261
 add.period$ -- 419
 call.type$ -- 118
-change.case$ -- 880
+change.case$ -- 879
 chr.to.int$ -- 0
 cite$ -- 132
-duplicate$ -- 1806
-empty$ -- 3330
-format.name$ -- 1076
-if$ -- 10585
+duplicate$ -- 1789
+empty$ -- 3300
+format.name$ -- 1074
+if$ -- 10502
 int.to.chr$ -- 0
 int.to.str$ -- 118
 missing$ -- 81
 newline$ -- 633
 num.names$ -- 248
-pop$ -- 926
+pop$ -- 922
 preamble$ -- 1
-purify$ -- 763
+purify$ -- 762
 quote$ -- 0
-skip$ -- 1385
+skip$ -- 1366
 stack$ -- 0
-substring$ -- 2587
-swap$ -- 595
-text.length$ -- 84
+substring$ -- 2539
+swap$ -- 581
+text.length$ -- 83
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 470
 warning$ -- 14
-while$ -- 385
+while$ -- 382
 width$ -- 121
-write$ -- 1402
+write$ -- 1401
 (There were 16 warnings)
