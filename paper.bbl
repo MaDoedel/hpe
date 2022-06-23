@@ -445,6 +445,13 @@ Thomas~B. Moeslund and Erik Granum.
 \newblock A survey of computer vision-based human motion capture.
 \newblock {\em Computer Vision and Image Understanding}, 81(3):231--268, 2001.
 
+\bibitem{moon}
+Gyeongsik Moon, Hongsuk Choi, and Kyoung~Mu Lee.
+\newblock Accurate 3d hand pose estimation for whole-body 3d human mesh
+  estimation.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR) Workshops}, pages 2308--2317, June 2022.
+
 \bibitem{tuch}
 Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
   Black.
