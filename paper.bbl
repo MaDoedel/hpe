@@ -628,6 +628,10 @@ Xiao Sun, Jiaxiang Shang, Shuang Liang, and Yichen Wei.
 \newblock Technical Report arXiv:1704.00159, arXiv, August 2017.
 \newblock arXiv:1704.00159 [cs] type: article.
 
+\bibitem{softmax}
+Xiao Sun, Bin Xiao, Fangyin Wei, Shuang Liang, and Yichen Wei.
+\newblock Integral human pose regression, 2017.
+
 \bibitem{sun_integral_2018}
 Xiao Sun, Bin Xiao, Fangyin Wei, Shuang Liang, and Yichen Wei.
 \newblock Integral {Human} {Pose} {Regression}.

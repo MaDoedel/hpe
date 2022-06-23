@@ -27,45 +27,45 @@ Warning--empty booktitle in zhou_hemlets_2019
 Warning--empty journal in zhu_multi-person_nodate
 Warning--empty year in zhu_multi-person_nodate
 Warning--empty booktitle in zuffi_pictorial_2012
-You've used 119 entries,
+You've used 120 entries,
             2118 wiz_defined-function locations,
-            1144 strings with 29572 characters,
-and the built_in function-call counts, 50735 in all, are:
-= -- 4901
-> -- 3076
+            1146 strings with 29609 characters,
+and the built_in function-call counts, 51061 in all, are:
+= -- 4927
+> -- 3104
 < -- 84
-+ -- 1205
-- -- 1080
-* -- 3796
-:= -- 8330
-add.period$ -- 422
-call.type$ -- 119
-change.case$ -- 885
++ -- 1216
+- -- 1090
+* -- 3819
+:= -- 8386
+add.period$ -- 424
+call.type$ -- 120
+change.case$ -- 893
 chr.to.int$ -- 0
-cite$ -- 133
-duplicate$ -- 1814
-empty$ -- 3344
-format.name$ -- 1080
-if$ -- 10623
+cite$ -- 134
+duplicate$ -- 1821
+empty$ -- 3366
+format.name$ -- 1090
+if$ -- 10688
 int.to.chr$ -- 0
-int.to.str$ -- 119
+int.to.str$ -- 120
 missing$ -- 82
-newline$ -- 638
-num.names$ -- 250
-pop$ -- 931
+newline$ -- 642
+num.names$ -- 252
+pop$ -- 944
 preamble$ -- 1
-purify$ -- 767
+purify$ -- 774
 quote$ -- 0
-skip$ -- 1389
+skip$ -- 1397
 stack$ -- 0
-substring$ -- 2580
-swap$ -- 594
+substring$ -- 2585
+swap$ -- 595
 text.length$ -- 84
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 474
+type$ -- 478
 warning$ -- 14
-while$ -- 386
-width$ -- 122
-write$ -- 1412
+while$ -- 388
+width$ -- 123
+write$ -- 1420
 (There were 16 warnings)
