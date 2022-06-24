@@ -111,6 +111,13 @@ Bowen Cheng, Bin Xiao, Jingdong Wang, Honghui Shi, Thomas~S. Huang, and Lei
 \newblock Technical Report arXiv:1908.10357, arXiv, March 2020.
 \newblock arXiv:1908.10357 [cs, eess] type: article.
 
+\bibitem{expose}
+Vasileios Choutas, Georgios Pavlakos, Timo Bolkart, Dimitrios Tzionas, and
+  Michael~J. Black.
+\newblock Monocular expressive body regression through body-driven attention.
+\newblock In {\em European Conference on Computer Vision (ECCV)}, pages 20--40,
+  2020.
+
 \bibitem{chu_multi-context_2017}
 Xiao Chu, Wei Yang, Wanli Ouyang, Cheng Ma, Alan~L. Yuille, and Xiaogang Wang.
 \newblock Multi-{Context} {Attention} for {Human} {Pose} {Estimation}.

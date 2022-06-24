@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  23 JUN 2022 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  24 JUN 2022 12:48
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -602,7 +602,7 @@ Package pdftex.def Info: images//3dpose/p2p.png  used on input line 77.
 (pdftex.def)             Requested size: 252.0pt x 117.25436pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -611,90 +611,104 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.85 
+l.84 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.85 
+l.84 
       <./images//3dpose/deng_main_structure.png> <./images//3dpose/frankmocap_h
 and.png>]
-<images//3dpose/spin.png, id=602, 423.83344pt x 250.68657pt>
+<images//3dpose/spin.png, id=606, 423.83344pt x 250.68657pt>
 File: images//3dpose/spin.png Graphic file (type png)
 <use images//3dpose/spin.png>
-Package pdftex.def Info: images//3dpose/spin.png  used on input line 92.
+Package pdftex.def Info: images//3dpose/spin.png  used on input line 100.
 (pdftex.def)             Requested size: 252.0pt x 149.05133pt.
-<images//3dpose/ringnet.png, id=613, 417.05812pt x 347.04657pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
+
+ []
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.109 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.109 
+       <./images//3dpose/p2p.png> <./images//3dpose/spin.png>]
+<images//3dpose/ringnet.png, id=628, 417.05812pt x 347.04657pt>
 File: images//3dpose/ringnet.png Graphic file (type png)
 <use images//3dpose/ringnet.png>
-Package pdftex.def Info: images//3dpose/ringnet.png  used on input line 120.
+Package pdftex.def Info: images//3dpose/ringnet.png  used on input line 123.
 (pdftex.def)             Requested size: 252.0pt x 209.70169pt.
 
+Underfull \hbox (badness 4193) in paragraph at lines 128--129
+\T1/ptm/m/n/10 cal-cu-lates high-dimensional fea-tures that are it-er-a-tively
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (sections/conclusion.tex [12pdfTeX warning (ext4): destination with the same 
-identifier (name{figure.6}) has been already used, duplicate ignored
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+) (sections/conclusion.tex) [13pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1 \section
-            {conclusion}pdfTeX warning (ext4): destination with the same identi
-fier (name{figure.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1 \section
-            {conclusion} <./images//3dpose/p2p.png> <./images//3dpose/spin.png>
-]) (paper.bbl [13pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.16 
-      <./images//3dpose/ringnet.png>]
-Underfull \vbox (badness 1502) has occurred while \output is active []
+l.33 
+      <./images//3dpose/ringnet.png>] (paper.bbl
+Underfull \hbox (badness 2970) in paragraph at lines 115--120
+[]\T1/ptm/m/n/8 Vasileios Choutas, Geor-gios Pavlakos, Timo Bolkart, Dim-itrios
+
+ []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 144--149
+Underfull \hbox (badness 1377) in paragraph at lines 151--156
 \T1/ptm/m/n/8 bin-ing Lo-cal Ap-pear-ance and Holis-tic View: Dual-Source Deep
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 175--180
+Underfull \hbox (badness 1867) in paragraph at lines 182--187
 \T1/ptm/m/n/8 and Du Tran.  Detect-and-Track: Ef-fi-cient Pose Es-ti-ma-tion in
 
  []
 
-
-Underfull \hbox (badness 6300) in paragraph at lines 206--210
+[14]
+Underfull \hbox (badness 6300) in paragraph at lines 213--217
 []\T1/ptm/m/n/8 Mohamed Has-san, Vasileios Choutas, Dim-itrios Tzionas, and
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 212--217
+Underfull \hbox (badness 3428) in paragraph at lines 219--224
 []\T1/ptm/m/n/8 Yana Has-son, Gül Varol, Dim-itrios Tzionas, Igor Kale-vatykh,
  []
 
-[14]
-Underfull \hbox (badness 3735) in paragraph at lines 348--352
+
+Underfull \hbox (badness 3735) in paragraph at lines 355--359
 \T1/ptm/m/n/8 Es-ti-ma-tion us-ing Deep Con-sen-sus Vot-ing.  Tech-ni-cal Re-po
 rt
  []
 
 [15]
-Underfull \hbox (badness 1661) in paragraph at lines 542--550
+Underfull \hbox (badness 1661) in paragraph at lines 549--557
 []\T1/ptm/m/n/8 Varun Ra-makr-ishna, Daniel Munoz, Mar-tial Hebert, James An-
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 667--672
+Underfull \hbox (badness 3547) in paragraph at lines 674--679
 []\T1/ptm/m/n/8 Zhi Tian, Hao Chen, and Chun-hua Shen.  Di-rect-Pose: Di-
  []
 
-
-Underfull \hbox (badness 2521) in paragraph at lines 709--715
+[16]
+Underfull \hbox (badness 2521) in paragraph at lines 716--722
 []\T1/ptm/m/n/8 Gül Varol, Javier Romero, Xavier Mar-tin, Nau-reen Mah-mood,
  []
 
-[16])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -716,13 +730,13 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 6329178316E6D54AA5D2ED348398D942;8570.
  ) 
 Here is how much of TeX's memory you used:
- 11436 strings out of 478847
- 171854 string characters out of 2847249
- 508749 words of memory out of 3000000
- 28958 multiletter control sequences out of 15000+600000
+ 11440 strings out of 478847
+ 171907 string characters out of 2847249
+ 508831 words of memory out of 3000000
+ 28960 multiletter control sequences out of 15000+600000
  515467 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,66p,2095b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,66p,2094b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C
 :/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cme
 x10.pfb><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
@@ -743,9 +757,9 @@ ms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Matteo/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Matteo/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Matteo/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 1979739 bytes).
+Output written on paper.pdf (17 pages, 1983716 bytes).
 PDF statistics:
- 768 PDF objects out of 1000 (max. 8388607)
- 205 named destinations out of 1000 (max. 500000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 207 named destinations out of 1000 (max. 500000)
  377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
