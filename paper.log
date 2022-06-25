@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  25 JUN 2022 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  25 JUN 2022 17:58
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -507,14 +507,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ])
-(sections/criteria.tex [2]
-<images//criteria/pcp.png, id=238, 79.497pt x 107.80275pt>
+(sections/criteria.tex
+<images//criteria/pcp.png, id=214, 79.497pt x 107.80275pt>
 File: images//criteria/pcp.png Graphic file (type png)
 <use images//criteria/pcp.png>
 Package pdftex.def Info: images//criteria/pcp.png  used on input line 11.
 (pdftex.def)             Requested size: 79.4968pt x 107.80247pt.
-) (sections/models.tex [3pdfTeX warning (ext4): destination with the same ident
-ifier (name{figure.1}) has been already used, duplicate ignored
+ [2]) (sections/models.tex [3pdfTeX warning (ext4): destination with the same i
+dentifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.15 
@@ -539,7 +539,7 @@ u-man cen-ter
  []
 
 [7]) (sections/3d_estimation.tex [8]
-<images//3dpose/martinez_network.png, id=524, 1323.94624pt x 272.01625pt>
+<images//3dpose/martinez_network.png, id=520, 1323.94624pt x 272.01625pt>
 File: images//3dpose/martinez_network.png Graphic file (type png)
 <use images//3dpose/martinez_network.png>
 Package pdftex.def Info: images//3dpose/martinez_network.png  used on input lin
@@ -550,7 +550,7 @@ Overfull \hbox (13.56912pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
-<images//3dpose/martinez_test_cases.png, id=528, 1761.58125pt x 783.92876pt>
+<images//3dpose/martinez_test_cases.png, id=524, 1761.58125pt x 783.92876pt>
 File: images//3dpose/martinez_test_cases.png Graphic file (type png)
 <use images//3dpose/martinez_test_cases.png>
 Package pdftex.def Info: images//3dpose/martinez_test_cases.png  used on input 
@@ -561,7 +561,7 @@ Overfull \hbox (12.47845pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-<images//3dpose/deng_main_structure.png, id=540, 1469.49pt x 805.0075pt>
+<images//3dpose/deng_main_structure.png, id=536, 1469.49pt x 805.0075pt>
 File: images//3dpose/deng_main_structure.png Graphic file (type png)
 <use images//3dpose/deng_main_structure.png>
 Package pdftex.def Info: images//3dpose/deng_main_structure.png  used on input 
@@ -582,13 +582,20 @@ l.60
 l.60 
       <./images//3dpose/martinez_network.png> <./images//3dpose/martinez_test_c
 ases.png>]
-<images//3dpose/frankmocap_hand.png, id=583, 435.87843pt x 129.48375pt>
+<images//3dpose/frankmocap_hand.png, id=582, 435.87843pt x 129.48375pt>
 File: images//3dpose/frankmocap_hand.png Graphic file (type png)
 <use images//3dpose/frankmocap_hand.png>
 Package pdftex.def Info: images//3dpose/frankmocap_hand.png  used on input line
  64.
 (pdftex.def)             Requested size: 252.0pt x 74.85957pt.
-<images//3dpose/p2p.png, id=589, 477.28313pt x 222.07968pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<images//3dpose/p2p.png, id=588, 477.28313pt x 222.07968pt>
 File: images//3dpose/p2p.png Graphic file (type png)
 <use images//3dpose/p2p.png>
 Package pdftex.def Info: images//3dpose/p2p.png  used on input line 73.
@@ -597,11 +604,8 @@ Package pdftex.def Info: images//3dpose/p2p.png  used on input line 73.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
-) has been already used, duplicate ignored
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.80 
@@ -662,9 +666,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--1
 
  []
 
-
-Underfull \vbox (badness 2818) has occurred while \output is active []
-
 ) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.8
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -676,12 +677,12 @@ Underfull \hbox (badness 2970) in paragraph at lines 115--120
 
  []
 
-
+[14]
 Underfull \hbox (badness 1377) in paragraph at lines 151--156
 \T1/ptm/m/n/8 bin-ing Lo-cal Ap-pear-ance and Holis-tic View: Dual-Source Deep
  []
 
-[14]
+
 Underfull \hbox (badness 1867) in paragraph at lines 182--187
 \T1/ptm/m/n/8 and Du Tran.  Detect-and-Track: Ef-fi-cient Pose Es-ti-ma-tion in
 
@@ -703,7 +704,10 @@ Underfull \hbox (badness 3735) in paragraph at lines 355--359
 rt
  []
 
-[15]
+
+Underfull \vbox (badness 1502) has occurred while \output is active []
+
+ [15]
 Underfull \hbox (badness 1661) in paragraph at lines 549--557
 []\T1/ptm/m/n/8 Varun Ra-makr-ishna, Daniel Munoz, Mar-tial Hebert, James An-
  []
@@ -740,11 +744,11 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 Here is how much of TeX's memory you used:
  11441 strings out of 478847
  171918 string characters out of 2847249
- 509890 words of memory out of 3000000
+ 510746 words of memory out of 3000000
  28960 multiletter control sequences out of 15000+600000
  515467 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,17n,66p,2094b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,66p,2710b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C
 :/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cme
 x10.pfb><C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
@@ -765,7 +769,7 @@ ms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Matteo/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Matteo/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Matteo/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 1985226 bytes).
+Output written on paper.pdf (17 pages, 1984672 bytes).
 PDF statistics:
  779 PDF objects out of 1000 (max. 8388607)
  208 named destinations out of 1000 (max. 500000)
