@@ -183,7 +183,6 @@
 \citation{spin}
 \citation{simplify}
 \citation{hmr}
-\citation{frankmocap}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Neural network structure from \cite  {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions.}}{10}{figure.2}\protected@file@percent }
 \newlabel{fig:martinez-network}{{2}{10}{Neural network structure from \cite {Martinez_2017_ICCV}. It consists of two inner blocks containing a linear layer followed by batch normalization and dropout. A residual connection is added from the input of the first inner block to the output of the second. This structure is then repeated another time. The networks inputs are 2d joint positions, which it outputs uplifted to three dimensions}{figure.2}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Test cases from \cite  {Martinez_2017_ICCV}. The picture on the left is the original overlayed with the 2d pose estimation (shown in the middle), while the respective uplifted 3d pose is shown on the right. Most test cases yield good results, but there are some failures too as shown in the bottom row.}}{10}{figure.3}\protected@file@percent }
@@ -193,11 +192,12 @@
 \citation{frankmocap}
 \citation{frankmocap}
 \citation{frankmocap}
+\citation{frankmocap}
 \citation{moon}
 \citation{moon}
 \citation{expose}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces GAN structure from \cite  {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency.}}{11}{figure.4}\protected@file@percent }
-\newlabel{fig:deng-structure}{{4}{11}{GAN structure from \cite {Deng2021}. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency}{figure.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Representation of the GAN structure. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency. \cite  {Deng2021}}}{11}{figure.4}\protected@file@percent }
+\newlabel{fig:deng-structure}{{4}{11}{Representation of the GAN structure. The input 2d pose gets uplifted to a 3d pose estimation and an estimated camera position by the generator. This allows rotation of the model to feed the discriminator with a reprojection from various angles, who is comparing them with real 2d poses. The reprojections are also used to uplift and reproject them again to ensure Single-view-multi-angle Consistency. \cite {Deng2021}}{figure.4}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {VI-C}1}hand estimation}{11}{figure.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite  {frankmocap}}}{11}{figure.5}\protected@file@percent }
 \newlabel{fig:frankmocap_hand}{{5}{11}{Encoder-decoder architecture that takes a hand image as input, extracts the features and decodes them as sufficient parameters to construct a hand model.\cite {frankmocap}}{figure.5}{}}
@@ -248,9 +248,9 @@
 \bibcite{cheng_higherhrnet_2020}{16}
 \bibcite{expose}{17}
 \bibcite{chu_multi-context_2017}{18}
+\@writefile{toc}{\contentsline {section}{References}{14}{section*.4}\protected@file@percent }
 \bibcite{Deng2021}{19}
 \bibcite{Dong_2019_CVPR}{20}
-\@writefile{toc}{\contentsline {section}{References}{14}{section*.4}\protected@file@percent }
 \bibcite{eichner_human_2012}{21}
 \bibcite{pcp}{22}
 \bibcite{fan_combining_2015}{23}
