@@ -11,10 +11,9 @@ Database file #1: references/benchmarks.bib
 Database file #2: references/criteria.bib
 Database file #3: references/2d_estimation.bib
 Database file #4: references/3d_estimation.bib
-Warning--I didn't find a database entry for "z"
-Warning--I didn't find a database entry for "xiao_simple_2018-1"
 Warning--empty booktitle in bulat_human_2016
 Warning--empty publisher in bulat_human_2016
+Warning--empty journal in fieraru_learning_2018
 Warning--empty booktitle in geng_bottom-up_2021
 Warning--empty booktitle in habibie_wild_2019
 Warning--empty booktitle in kreiss_pifpaf_2019
@@ -22,50 +21,56 @@ Warning--empty booktitle in luo_lstm_2018
 Warning--can't use both author and editor fields in mocap
 Warning--empty booktitle in nie_single-stage_2019
 Warning--empty booktitle in nie_human_2018
+Warning--empty journal in pfister_flowing_2015
+Warning--empty journal in sun_compositional_nodate
+Warning--empty year in sun_compositional_nodate
 Warning--empty booktitle in tekin_learning_2017
+Warning--empty publisher in tian_directpose_2019
+Warning--empty journal in tompson_joint_nodate
+Warning--empty year in tompson_joint_nodate
 Warning--empty booktitle in zhou_hemlets_2019
 Warning--empty journal in zhu_multi-person_nodate
 Warning--empty year in zhu_multi-person_nodate
 Warning--empty booktitle in zuffi_pictorial_2012
-You've used 121 entries,
+You've used 119 entries,
             2118 wiz_defined-function locations,
-            1150 strings with 29791 characters,
-and the built_in function-call counts, 51567 in all, are:
-= -- 4975
-> -- 3132
-< -- 85
-+ -- 1227
-- -- 1100
-* -- 3854
-:= -- 8462
-add.period$ -- 427
-call.type$ -- 121
-change.case$ -- 901
+            1110 strings with 28250 characters,
+and the built_in function-call counts, 55916 in all, are:
+= -- 5456
+> -- 3121
+< -- 76
++ -- 1215
+- -- 1090
+* -- 4096
+:= -- 8705
+add.period$ -- 408
+call.type$ -- 119
+change.case$ -- 879
 chr.to.int$ -- 0
-cite$ -- 135
-duplicate$ -- 1842
-empty$ -- 3404
-format.name$ -- 1100
-if$ -- 10799
+cite$ -- 140
+duplicate$ -- 2154
+empty$ -- 3992
+format.name$ -- 1090
+if$ -- 12090
 int.to.chr$ -- 0
-int.to.str$ -- 121
-missing$ -- 83
-newline$ -- 647
-num.names$ -- 254
-pop$ -- 955
+int.to.str$ -- 119
+missing$ -- 115
+newline$ -- 602
+num.names$ -- 260
+pop$ -- 1075
 preamble$ -- 1
-purify$ -- 781
+purify$ -- 762
 quote$ -- 0
-skip$ -- 1414
+skip$ -- 1719
 stack$ -- 0
-substring$ -- 2614
-swap$ -- 604
-text.length$ -- 85
+substring$ -- 3309
+swap$ -- 807
+text.length$ -- 76
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 482
-warning$ -- 14
-while$ -- 393
-width$ -- 124
-write$ -- 1431
-(There were 16 warnings)
+type$ -- 472
+warning$ -- 21
+while$ -- 455
+width$ -- 122
+write$ -- 1370
+(There were 21 warnings)

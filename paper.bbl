@@ -24,8 +24,14 @@ Mykhaylo Andriluka, Stefan Roth, and Bernt Schiele.
 Bruno Artacho and Andreas Savakis.
 \newblock {UniPose}: {Unified} {Human} {Pose} {Estimation} in {Single} {Images}
   and {Videos}.
-\newblock Technical Report arXiv:2001.08095, arXiv, January 2020.
-\newblock arXiv:2001.08095 [cs] type: article.
+\newblock In {\em 2020 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 7033--7042, Seattle, WA, USA, June
+  2020. IEEE.
+
+\bibitem{encoder}
+Vijay Badrinarayanan, Ankur Handa, and Roberto Cipolla.
+\newblock Segnet: A deep convolutional encoder-decoder architecture for robust
+  semantic pixel-wise labelling, 2015.
 
 \bibitem{simplify}
 Federica Bogo, Angjoo Kanazawa, Christoph Lassner, Peter Gehler, Javier Romero,
@@ -42,33 +48,38 @@ Adrian Bulat and Georgios Tzimiropoulos.
 \newblock volume 9911, pages 717--732. 2016.
 \newblock arXiv:1609.01743 [cs].
 
-\bibitem{cai_learning_2020}
+\bibitem{vedaldi_learning_2020}
 Yuanhao Cai, Zhicheng Wang, Zhengxiong Luo, Binyi Yin, Angang Du, Haoqian Wang,
   Xiangyu Zhang, Xinyu Zhou, Erjin Zhou, and Jian Sun.
-\newblock Learning {Delicate} {Local} {Representations} for {Multi}-{Person}
+\newblock Learning {Delicate} {Local} {Representations} for {Multi}-person
   {Pose} {Estimation}.
-\newblock Technical Report arXiv:2003.04030, arXiv, July 2020.
-\newblock arXiv:2003.04030 [cs] type: article.
+\newblock In Andrea Vedaldi, Horst Bischof, Thomas Brox, and Jan-Michael Frahm,
+  editors, {\em Computer {Vision} – {ECCV} 2020}, volume 12348, pages
+  455--472. Springer International Publishing, Cham, 2020.
+\newblock Series Title: Lecture Notes in Computer Science.
 
 \bibitem{cao_realtime_2017}
 Zhe Cao, Tomas Simon, Shih-En Wei, and Yaser Sheikh.
-\newblock Realtime {Multi}-{Person} {2D} {Pose} {Estimation} using {Part}
+\newblock Realtime {Multi}-person {2D} {Pose} {Estimation} {Using} {Part}
   {Affinity} {Fields}.
-\newblock Technical Report arXiv:1611.08050, arXiv, April 2017.
-\newblock arXiv:1611.08050 [cs] type: article.
+\newblock In {\em 2017 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 1302--1310, Honolulu, HI, July 2017. IEEE.
 
 \bibitem{carion_end--end_2020}
 Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander
   Kirillov, and Sergey Zagoruyko.
 \newblock End-to-{End} {Object} {Detection} with {Transformers}.
-\newblock Technical Report arXiv:2005.12872, arXiv, May 2020.
-\newblock arXiv:2005.12872 [cs] type: article.
+\newblock In Andrea Vedaldi, Horst Bischof, Thomas Brox, and Jan-Michael Frahm,
+  editors, {\em Computer {Vision} – {ECCV} 2020}, Lecture {Notes} in
+  {Computer} {Science}, pages 213--229, Cham, 2020. Springer International
+  Publishing.
 
 \bibitem{carreira_human_2016}
 Joao Carreira, Pulkit Agrawal, Katerina Fragkiadaki, and Jitendra Malik.
 \newblock Human {Pose} {Estimation} with {Iterative} {Error} {Feedback}.
-\newblock Technical Report arXiv:1507.06550, arXiv, June 2016.
-\newblock arXiv:1507.06550 [cs] type: article.
+\newblock In {\em 2016 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 4733--4742, Las Vegas, NV, USA, June 2016.
+  IEEE.
 
 \bibitem{Chen_2017_CVPR}
 Ching-Hang Chen and Deva Ramanan.
@@ -90,26 +101,27 @@ Wenzheng Chen, Huan Wang, Yangyan Li, Hao Su, Zhenhua Wang, Changhe Tu, Dani
   pages 479--488, 2016.
 
 \bibitem{chen_articulated_2014}
-Xianjie Chen and Alan Yuille.
+Xianjie Chen and Alan~L Yuille.
 \newblock Articulated {Pose} {Estimation} by a {Graphical} {Model} with {Image}
   {Dependent} {Pairwise} {Relations}.
-\newblock Technical Report arXiv:1407.3399, arXiv, November 2014.
-\newblock arXiv:1407.3399 [cs] type: article.
+\newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
+  volume~27. Curran Associates, Inc., 2014.
 
 \bibitem{chen_cascaded_2018}
 Yilun Chen, Zhicheng Wang, Yuxiang Peng, Zhiqiang Zhang, Gang Yu, and Jian Sun.
-\newblock Cascaded {Pyramid} {Network} for {Multi}-{Person} {Pose}
-  {Estimation}.
-\newblock Technical Report arXiv:1711.07319, arXiv, April 2018.
-\newblock arXiv:1711.07319 [cs] type: article.
+\newblock Cascaded {Pyramid} {Network} for {Multi}-person {Pose} {Estimation}.
+\newblock In {\em 2018 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition}}, pages 7103--7112, Salt Lake City, UT, June 2018.
+  IEEE.
 
 \bibitem{cheng_higherhrnet_2020}
 Bowen Cheng, Bin Xiao, Jingdong Wang, Honghui Shi, Thomas~S. Huang, and Lei
   Zhang.
 \newblock {HigherHRNet}: {Scale}-{Aware} {Representation} {Learning} for
   {Bottom}-{Up} {Human} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1908.10357, arXiv, March 2020.
-\newblock arXiv:1908.10357 [cs, eess] type: article.
+\newblock In {\em 2020 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 5385--5394, Seattle, WA, USA, June
+  2020. IEEE.
 
 \bibitem{expose}
 Vasileios Choutas, Georgios Pavlakos, Timo Bolkart, Dimitrios Tzionas, and
@@ -120,9 +132,9 @@ Vasileios Choutas, Georgios Pavlakos, Timo Bolkart, Dimitrios Tzionas, and
 
 \bibitem{chu_multi-context_2017}
 Xiao Chu, Wei Yang, Wanli Ouyang, Cheng Ma, Alan~L. Yuille, and Xiaogang Wang.
-\newblock Multi-{Context} {Attention} for {Human} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1702.07432, arXiv, February 2017.
-\newblock arXiv:1702.07432 [cs] type: article.
+\newblock Multi-context {Attention} for {Human} {Pose} {Estimation}.
+\newblock In {\em 2017 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 5669--5678, Honolulu, HI, July 2017. IEEE.
 
 \bibitem{Deng2021}
 Yicheng Deng, Yongqi Sun, and Jiahui Zhu.
@@ -147,13 +159,6 @@ Marcin Eichner, Manuel Marin-Jimenez, Andrew Zisserman, and Vittorio Ferrari.
   unconstrained still images.
 \newblock {\em International journal of computer vision}, 99(2):190--214, 2012.
 
-\bibitem{fan_combining_2015}
-Xiaochuan Fan, Kang Zheng, Yuewei Lin, and Song Wang.
-\newblock Combining {Local} {Appearance} and {Holistic} {View}: {Dual}-{Source}
-  {Deep} {Neural} {Networks} for {Human} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1504.07159, arXiv, April 2015.
-\newblock arXiv:1504.07159 [cs] type: article.
-
 \bibitem{felzenszwalb_pictorial_2005}
 Pedro~F. Felzenszwalb and Daniel~P. Huttenlocher.
 \newblock Pictorial {Structures} for {Object} {Recognition}.
@@ -169,8 +174,7 @@ Pedro~F. Felzenszwalb and Daniel~P. Huttenlocher.
 \bibitem{fieraru_learning_2018}
 Mihai Fieraru, Anna Khoreva, Leonid Pishchulin, and Bernt Schiele.
 \newblock Learning to {Refine} {Human} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1804.07909, arXiv, April 2018.
-\newblock arXiv:1804.07909 [cs] type: article.
+\newblock April 2018.
 
 \bibitem{geng_bottom-up_2021}
 Zigang Geng, Ke~Sun, Bin Xiao, Zhaoxiang Zhang, and Jingdong Wang.
@@ -182,14 +186,16 @@ Zigang Geng, Ke~Sun, Bin Xiao, Zhaoxiang Zhang, and Jingdong Wang.
 Rohit Girdhar, Georgia Gkioxari, Lorenzo Torresani, Manohar Paluri, and
   Du~Tran.
 \newblock Detect-and-{Track}: {Efficient} {Pose} {Estimation} in {Videos}.
-\newblock Technical Report arXiv:1712.09184, arXiv, May 2018.
-\newblock arXiv:1712.09184 [cs] type: article.
+\newblock In {\em 2018 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition}}, pages 350--359, Salt Lake City, UT, June 2018.
+  IEEE.
 
 \bibitem{gkioxari_chained_2016}
 Georgia Gkioxari, Alexander Toshev, and Navdeep Jaitly.
 \newblock Chained {Predictions} {Using} {Convolutional} {Neural} {Networks}.
-\newblock Technical Report arXiv:1605.02346, arXiv, October 2016.
-\newblock arXiv:1605.02346 [cs] type: article.
+\newblock In Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling, editors,
+  {\em Computer {Vision} – {ECCV} 2016}, Lecture {Notes} in {Computer}
+  {Science}, pages 728--743, Cham, 2016. Springer International Publishing.
 
 \bibitem{gower1975generalized}
 John~C Gower.
@@ -274,10 +280,11 @@ Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu.
 
 \bibitem{jin_multi-person_2019}
 Sheng Jin, Wentao Liu, Wanli Ouyang, and Chen Qian.
-\newblock Multi-person {Articulated} {Tracking} with {Spatial} and {Temporal}
-  {Embeddings}.
-\newblock Technical Report arXiv:1903.09214, arXiv, March 2019.
-\newblock arXiv:1903.09214 [cs] type: article.
+\newblock Multi-{Person} {Articulated} {Tracking} {With} {Spatial} and
+  {Temporal} {Embeddings}.
+\newblock In {\em 2019 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 5657--5666, Long Beach, CA, USA,
+  June 2019. IEEE.
 
 \bibitem{jin_differentiable_2020}
 Sheng Jin, Wentao Liu, Enze Xie, Wenhai Wang, Chen Qian, Wanli Ouyang, and Ping
@@ -295,11 +302,10 @@ Angjoo Kanazawa, Michael~J. Black, David~W. Jacobs, and Jitendra Malik.
   (CVPR)}, pages 7122--7131. IEEE Computer Society, 2018.
 
 \bibitem{ke_multi-scale_2018}
-Lipeng Ke, Ming-Ching Chang, Honggang Qi, and Siwei Lyu.
+Lipeng Ke, Ming-Ching Chang, H.~Qi, and Siwei Lyu.
 \newblock Multi-{Scale} {Structure}-{Aware} {Network} for {Human} {Pose}
   {Estimation}.
-\newblock Technical Report arXiv:1803.09894, arXiv, September 2018.
-\newblock arXiv:1803.09894 [cs] type: article.
+\newblock In {\em {ECCV}}, 2018.
 
 \bibitem{spin}
 Nikos Kolotouros, Georgios Pavlakos, Michael~J. Black, and Kostas Daniilidis.
@@ -320,29 +326,29 @@ Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
   volume~25. Curran Associates, Inc., 2012.
 
-\bibitem{li_simple_2019}
+\bibitem{li_simple_2020}
 Jia Li, Wen Su, and Zengfu Wang.
 \newblock Simple {Pose}: {Rethinking} and {Improving} a {Bottom}-up {Approach}
   for {Multi}-{Person} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1911.10529, arXiv, November 2019.
-\newblock arXiv:1911.10529 [cs] type: article.
+\newblock In {\em {AAAI}}, 2020.
 
 \bibitem{li_pose_2021}
 Ke~Li, Shijie Wang, Xiang Zhang, Yifan Xu, Weijian Xu, and Zhuowen Tu.
 \newblock Pose {Recognition} with {Cascade} {Transformers}.
-\newblock Technical Report arXiv:2104.06976, arXiv, April 2021.
-\newblock arXiv:2104.06976 [cs] type: article.
+\newblock In {\em 2021 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 1944--1953, Nashville, TN, USA, June
+  2021. IEEE.
 
 \bibitem{li_markov_1994}
 S.~Z. Li.
 \newblock Markov {Random} {Field} {Models} in {Computer} {Vision}, 1994.
 
-\bibitem{li_heterogeneous_2014}
+\bibitem{li_heterogeneous_2015}
 Sijin Li, Zhi-Qiang Liu, and Antoni~B. Chan.
 \newblock Heterogeneous {Multi}-task {Learning} for {Human} {Pose} {Estimation}
   with {Deep} {Convolutional} {Neural} {Network}.
-\newblock Technical Report arXiv:1406.3474, arXiv, June 2014.
-\newblock arXiv:1406.3474 [cs] type: article.
+\newblock {\em International Journal of Computer Vision}, 113(1):19--36, May
+  2015.
 
 \bibitem{flame}
 Tianye Li, Timo Bolkart, Michael~J. Black, Hao Li, and Javier Romero.
@@ -353,9 +359,10 @@ Tianye Li, Timo Bolkart, Michael~J. Black, Hao Li, and Javier Romero.
 
 \bibitem{lifshitz_human_2016}
 Ita Lifshitz, Ethan Fetaya, and Shimon Ullman.
-\newblock Human {Pose} {Estimation} using {Deep} {Consensus} {Voting}.
-\newblock Technical Report arXiv:1603.08212, arXiv, March 2016.
-\newblock arXiv:1603.08212 [cs] type: article.
+\newblock Human {Pose} {Estimation} {Using} {Deep} {Consensus} {Voting}.
+\newblock In Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling, editors,
+  {\em Computer {Vision} – {ECCV} 2016}, Lecture {Notes} in {Computer}
+  {Science}, pages 246--260, Cham, 2016. Springer International Publishing.
 
 \bibitem{coco}
 Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick,
@@ -470,14 +477,15 @@ Lea M{\"u}ller, Ahmed A.~A. Osman, Siyu Tang, Chun-Hao~P. Huang, and Michael~J.
 Alejandro Newell, Zhiao Huang, and Jia Deng.
 \newblock Associative {Embedding}: {End}-to-{End} {Learning} for {Joint}
   {Detection} and {Grouping}.
-\newblock Technical Report arXiv:1611.05424, arXiv, June 2017.
-\newblock arXiv:1611.05424 [cs] type: article.
+\newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
+  volume~30. Curran Associates, Inc., 2017.
 
 \bibitem{newell_stacked_2016}
 Alejandro Newell, Kaiyu Yang, and Jia Deng.
 \newblock Stacked {Hourglass} {Networks} for {Human} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1603.06937, arXiv, July 2016.
-\newblock arXiv:1603.06937 [cs] type: article.
+\newblock In Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling, editors,
+  {\em Computer {Vision} – {ECCV} 2016}, Lecture {Notes} in {Computer}
+  {Science}, pages 483--499, Cham, 2016. Springer International Publishing.
 
 \bibitem{Newell2016}
 Alejandro Newell, Kaiyu Yang, and Jia Deng.
@@ -518,24 +526,16 @@ Georgios Pavlakos, Xiaowei Zhou, Konstantinos~G. Derpanis, and Kostas
 \bibitem{pfister_flowing_2015}
 Tomas Pfister, James Charles, and Andrew Zisserman.
 \newblock Flowing {ConvNets} for {Human} {Pose} {Estimation} in {Videos}.
-\newblock Technical Report arXiv:1506.02897, arXiv, November 2015.
-\newblock arXiv:1506.02897 [cs] type: article.
+\newblock June 2015.
 
 \bibitem{pishchulin_deepcut_2016}
 Leonid Pishchulin, Eldar Insafutdinov, Siyu Tang, Bjoern Andres, Mykhaylo
   Andriluka, Peter Gehler, and Bernt Schiele.
 \newblock {DeepCut}: {Joint} {Subset} {Partition} and {Labeling} for {Multi}
   {Person} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1511.06645, arXiv, April 2016.
-\newblock arXiv:1511.06645 [cs] type: article.
-
-\bibitem{qiu_peeking_2020}
-Lingteng Qiu, Xuanye Zhang, Yanran Li, Guanbin Li, Xiaojun Wu, Zixiang Xiong,
-  Xiaoguang Han, and Shuguang Cui.
-\newblock Peeking into occluded joints: {A} novel framework for crowd pose
-  estimation.
-\newblock Technical Report arXiv:2003.10506, arXiv, March 2020.
-\newblock arXiv:2003.10506 [cs] type: article.
+\newblock In {\em 2016 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 4929--4937, Las Vegas, NV, USA, June 2016.
+  IEEE.
 
 \bibitem{rafi_efficient_2016}
 Umer Rafi, Bastian Leibe, Juergen Gall, and Ilya Kostrikov.
@@ -555,12 +555,12 @@ Varun Ramakrishna, Daniel Munoz, Martial Hebert, James Andrew~Bagnell, and
   {Computer} {Science}, pages 33--47, Cham, 2014. Springer International
   Publishing.
 
-\bibitem{ren_faster_2016}
+\bibitem{ren_faster_2015}
 Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.
 \newblock Faster {R}-{CNN}: {Towards} {Real}-{Time} {Object} {Detection} with
   {Region} {Proposal} {Networks}.
-\newblock Technical Report arXiv:1506.01497, arXiv, January 2016.
-\newblock arXiv:1506.01497 [cs] type: article.
+\newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
+  volume~28. Curran Associates, Inc., 2015.
 
 \bibitem{Rhodin2018}
 Helge Rhodin, J{\"{o}}rg Sp{\"{o}}rri, Isinsu Katircioglu, Victor Constantin,
@@ -610,10 +610,11 @@ Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
 
 \bibitem{su_multi-person_2019}
 Kai Su, Dongdong Yu, Zhenqi Xu, Xin Geng, and Changhu Wang.
-\newblock Multi-{Person} {Pose} {Estimation} with {Enhanced} {Channel}-wise and
-  {Spatial} {Information}.
-\newblock Technical Report arXiv:1905.03466, arXiv, May 2019.
-\newblock arXiv:1905.03466 [cs] type: article.
+\newblock Multi-{Person} {Pose} {Estimation} {With} {Enhanced} {Channel}-{Wise}
+  and {Spatial} {Information}.
+\newblock In {\em 2019 {IEEE}/{CVF} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}, pages 5667--5675, Long Beach, CA, USA,
+  June 2019. IEEE.
 
 \bibitem{sumi}
 Shigemasa Sumi.
@@ -629,28 +630,27 @@ Ke~Sun, Bin Xiao, Dong Liu, and Jingdong Wang.
   {Pattern} {Recognition} ({CVPR})}, pages 5686--5696, Long Beach, CA, USA,
   June 2019. IEEE.
 
-\bibitem{sun_compositional_2017}
+\bibitem{hrnet}
+Ke~Sun, Bin Xiao, Dong Liu, and Jingdong Wang.
+\newblock Deep high-resolution representation learning for human pose
+  estimation, 2019.
+
+\bibitem{sun_compositional_nodate}
 Xiao Sun, Jiaxiang Shang, Shuang Liang, and Yichen Wei.
 \newblock Compositional {Human} {Pose} {Regression}.
-\newblock Technical Report arXiv:1704.00159, arXiv, August 2017.
-\newblock arXiv:1704.00159 [cs] type: article.
+\newblock page~10.
 
 \bibitem{softmax}
 Xiao Sun, Bin Xiao, Fangyin Wei, Shuang Liang, and Yichen Wei.
 \newblock Integral human pose regression, 2017.
 
-\bibitem{sun_integral_2018}
-Xiao Sun, Bin Xiao, Fangyin Wei, Shuang Liang, and Yichen Wei.
-\newblock Integral {Human} {Pose} {Regression}.
-\newblock Technical Report arXiv:1711.08229, arXiv, September 2018.
-\newblock arXiv:1711.08229 [cs] type: article.
-
-\bibitem{szegedy_going_2014}
+\bibitem{szegedy_going_2015}
 Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
   Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
-\newblock Going {Deeper} with {Convolutions}.
-\newblock Technical Report arXiv:1409.4842, arXiv, September 2014.
-\newblock arXiv:1409.4842 [cs] type: article.
+\newblock Going deeper with convolutions.
+\newblock In {\em 2015 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 1--9, June 2015.
+\newblock ISSN: 1063-6919.
 
 \bibitem{grab}
 Omid Taheri, Nima Ghorbani, Michael~J. Black, and Dimitrios Tzionas.
@@ -672,10 +672,9 @@ Bugra Tekin, Pablo Marquez-Neila, Mathieu Salzmann, and Pascal Fua.
 
 \bibitem{tian_directpose_2019}
 Zhi Tian, Hao Chen, and Chunhua Shen.
-\newblock {DirectPose}: {Direct} {End}-to-{End} {Multi}-{Person} {Pose}
-  {Estimation}.
-\newblock Technical Report arXiv:1911.07451, arXiv, November 2019.
-\newblock arXiv:1911.07451 [cs] type: article.
+\newblock {\em {DirectPose}: {Direct} {End}-to-{End} {Multi}-{Person} {Pose}
+  {Estimation}}.
+\newblock November 2019.
 
 \bibitem{Tome_2017_CVPR}
 Denis Tome, Chris Russell, and Lourdes Agapito.
@@ -685,18 +684,16 @@ Denis Tome, Chris Russell, and Lourdes Agapito.
   Pattern Recognition (CVPR)}, July 2017.
 
 \bibitem{tompson_efficient_2015}
-Jonathan Tompson, Ross Goroshin, Arjun Jain, Yann LeCun, and Christopher
-  Bregler.
-\newblock Efficient {Object} {Localization} {Using} {Convolutional} {Networks}.
-\newblock Technical Report arXiv:1411.4280, arXiv, June 2015.
-\newblock arXiv:1411.4280 [cs] type: article.
+Jonathan Tompson, Ross Goroshin, Arjun Jain, Yann LeCun, and Christoph Bregler.
+\newblock Efficient object localization using {Convolutional} {Networks}.
+\newblock In {\em 2015 {IEEE} {Conference} on {Computer} {Vision} and {Pattern}
+  {Recognition} ({CVPR})}, pages 648--656, Boston, MA, USA, June 2015. IEEE.
 
-\bibitem{tompson_joint_2014}
+\bibitem{tompson_joint_nodate}
 Jonathan Tompson, Arjun Jain, Yann LeCun, and Christoph Bregler.
 \newblock Joint {Training} of a {Convolutional} {Network} and a {Graphical}
   {Model} for {Human} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1406.2984, arXiv, September 2014.
-\newblock arXiv:1406.2984 [cs] type: article.
+\newblock page~9.
 
 \bibitem{pdj}
 Alexander Toshev and Christian Szegedy.
@@ -722,10 +719,10 @@ G{\"u}l Varol, Javier Romero, Xavier Martin, Naureen Mahmood, Michael~J. Black,
 
 \bibitem{vaswani_attention_2017}
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
-  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
-\newblock Attention {Is} {All} {You} {Need}.
-\newblock Technical Report arXiv:1706.03762, arXiv, December 2017.
-\newblock arXiv:1706.03762 [cs] type: article.
+  Aidan~N Gomez, Łukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is {All} you {Need}.
+\newblock In {\em Advances in {Neural} {Information} {Processing} {Systems}},
+  volume~30. Curran Associates, Inc., 2017.
 
 \bibitem{vip}
 Timo von Marcard, Roberto Henschel, Michael~J. Black, Bodo Rosenhahn, and
@@ -735,13 +732,6 @@ Timo von Marcard, Roberto Henschel, Michael~J. Black, Bodo Rosenhahn, and
 \newblock In {\em European Conference on Computer Vision (ECCV)}, volume
   Lecture Notes in Computer Science, vol 11214, pages 614--631. Springer, Cham,
   September 2018.
-
-\bibitem{wang_graph-pcnn_2020}
-Jian Wang, Xiang Long, Yuan Gao, Errui Ding, and Shilei Wen.
-\newblock Graph-{PCNN}: {Two} {Stage} {Human} {Pose} {Estimation} with {Graph}
-  {Pose} {Refinement}.
-\newblock Technical Report arXiv:2007.10599, arXiv, July 2020.
-\newblock arXiv:2007.10599 [cs] type: article.
 
 \bibitem{wang_deep_2021}
 Jinbao Wang, Shujie Tan, Xiantong Zhen, Shuo Xu, Feng Zheng, Zhenyu He, and
@@ -760,8 +750,8 @@ Shih-En Wei, Varun Ramakrishna, Takeo Kanade, and Yaser Sheikh.
 \bibitem{yang_learning_2017}
 Wei Yang, Shuang Li, Wanli Ouyang, Hongsheng Li, and Xiaogang Wang.
 \newblock Learning {Feature} {Pyramids} for {Human} {Pose} {Estimation}.
-\newblock Technical Report arXiv:1708.01101, arXiv, August 2017.
-\newblock arXiv:1708.01101 [cs] type: article.
+\newblock In {\em 2017 {IEEE} {International} {Conference} on {Computer}
+  {Vision} ({ICCV})}, pages 1290--1299, Venice, October 2017. IEEE.
 
 \bibitem{pck}
 Yi~Yang and Deva Ramanan.

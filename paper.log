@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  26 JUN 2022 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.7.27)  26 JUN 2022 17:41
 entering extended mode
 **./paper.tex
 (paper.tex
@@ -523,23 +523,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-) (sections/2d_estimation.tex [4]
-
-LaTeX Warning: Citation `z' on page 5 undefined on input line 18.
-
-[5]
-
-LaTeX Warning: Citation `xiao_simple_2018-1' on page 6 undefined on input line 
-39.
-
-[6]
+) (sections/2d_estimation.tex [4] [5] [6]
 Underfull \hbox (badness 3746) in paragraph at lines 63--64
  \T1/ptm/m/it/10 1) Hu-man Cen-ter Re-gres-sion: [][][] \T1/ptm/m/n/10 In the h
 u-man cen-ter
  []
 
 [7]) (sections/3d_estimation.tex [8]
-<images//3dpose/martinez_network.png, id=520, 1323.94624pt x 272.01625pt>
+<images//3dpose/martinez_network.png, id=513, 1323.94624pt x 272.01625pt>
 File: images//3dpose/martinez_network.png Graphic file (type png)
 <use images//3dpose/martinez_network.png>
 Package pdftex.def Info: images//3dpose/martinez_network.png  used on input lin
@@ -550,7 +541,7 @@ Overfull \hbox (13.56912pt too wide) in paragraph at lines 14--15
  [][] 
  []
 
-<images//3dpose/martinez_test_cases.png, id=524, 1761.58125pt x 783.92876pt>
+<images//3dpose/martinez_test_cases.png, id=517, 1761.58125pt x 783.92876pt>
 File: images//3dpose/martinez_test_cases.png Graphic file (type png)
 <use images//3dpose/martinez_test_cases.png>
 Package pdftex.def Info: images//3dpose/martinez_test_cases.png  used on input 
@@ -561,7 +552,7 @@ Overfull \hbox (12.47845pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-<images//3dpose/deng_main_structure.png, id=536, 1469.49pt x 805.0075pt>
+<images//3dpose/deng_main_structure.png, id=529, 1469.49pt x 805.0075pt>
 File: images//3dpose/deng_main_structure.png Graphic file (type png)
 <use images//3dpose/deng_main_structure.png>
 Package pdftex.def Info: images//3dpose/deng_main_structure.png  used on input 
@@ -570,50 +561,35 @@ line 34.
 [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1983) in paragraph at lines 56--59
-[]\T1/ptm/m/n/10 The ap-proaches to model-based es-ti-ma-tion of hu-man
- []
-
-
-Underfull \hbox (badness 6396) in paragraph at lines 56--59
-\T1/ptm/m/n/10 work, an encoder-regressor-discriminator ar-chi-tec-ture is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
-
- []
-
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.59 
+l.60 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 }) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.59 
+l.60 
       <./images//3dpose/martinez_network.png> <./images//3dpose/martinez_test_c
 ases.png>]
-<images//3dpose/frankmocap_hand.png, id=582, 435.87843pt x 129.48375pt>
+<images//3dpose/frankmocap_hand.png, id=576, 435.87843pt x 129.48375pt>
 File: images//3dpose/frankmocap_hand.png Graphic file (type png)
 <use images//3dpose/frankmocap_hand.png>
 Package pdftex.def Info: images//3dpose/frankmocap_hand.png  used on input line
- 65.
+ 64.
 (pdftex.def)             Requested size: 252.0pt x 74.85957pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 2205) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<images//3dpose/p2p.png, id=588, 477.28313pt x 222.07968pt>
+<images//3dpose/p2p.png, id=582, 477.28313pt x 222.07968pt>
 File: images//3dpose/p2p.png Graphic file (type png)
 <use images//3dpose/p2p.png>
-Package pdftex.def Info: images//3dpose/p2p.png  used on input line 74.
+Package pdftex.def Info: images//3dpose/p2p.png  used on input line 73.
 (pdftex.def)             Requested size: 252.0pt x 117.25436pt.
 
 
@@ -631,7 +607,7 @@ l.81
 l.81 
       <./images//3dpose/deng_main_structure.png> <./images//3dpose/frankmocap_h
 and.png>]
-<images//3dpose/spin.png, id=605, 423.83344pt x 250.68657pt>
+<images//3dpose/spin.png, id=601, 423.83344pt x 250.68657pt>
 File: images//3dpose/spin.png Graphic file (type png)
 <use images//3dpose/spin.png>
 Package pdftex.def Info: images//3dpose/spin.png  used on input line 97.
@@ -654,6 +630,12 @@ Underfull \hbox (badness 2671) in paragraph at lines 102--107
  []
 
 
+Underfull \hbox (badness 1371) in paragraph at lines 102--107
+\T1/ptm/m/n/10 In \T1/ptm/m/it/10 Ex-Pose \T1/ptm/m/n/10 by Choutas et al. [[]1
+8[]] fea-ture ex-trac-tion is
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 102--107
 
  []
@@ -669,74 +651,40 @@ l.107
                                                   \__shipout_drop_firstpage_...
 l.107 
        <./images//3dpose/p2p.png> <./images//3dpose/spin.png>]
-<images//3dpose/ringnet.png, id=628, 417.05812pt x 347.04657pt>
+<images//3dpose/ringnet.png, id=625, 417.05812pt x 347.04657pt>
 File: images//3dpose/ringnet.png Graphic file (type png)
 <use images//3dpose/ringnet.png>
 Package pdftex.def Info: images//3dpose/ringnet.png  used on input line 121.
 (pdftex.def)             Requested size: 252.0pt x 209.70169pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 126--127
-\T1/ptm/m/n/10 fea-tures that are it-er-a-tively re-gressed by the en-coder's
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-) (sections/conclusion.tex
-Underfull \hbox (badness 1642) in paragraph at lines 136--1
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.129 
+       <./images//3dpose/ringnet.png>]) (sections/conclusion.tex
+Underfull \hbox (badness 1642) in paragraph at lines 133--1
 \T1/ptm/m/n/10 are re-quired. Tra-di-tional meth-ods like the least-squares-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--1
+Underfull \hbox (badness 10000) in paragraph at lines 133--1
 
  []
 
-) [13pdfTeX warning (ext4): destination with the same identifier (name{figure.8
-}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.33 
-      <./images//3dpose/ringnet.png>] (paper.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 115--120
+) (paper.bbl [14]
+Underfull \hbox (badness 2970) in paragraph at lines 127--132
 []\T1/ptm/m/n/8 Vasileios Choutas, Geor-gios Pavlakos, Timo Bolkart, Dim-itrios
 
  []
 
-[14]
-Underfull \hbox (badness 1377) in paragraph at lines 151--156
-\T1/ptm/m/n/8 bin-ing Lo-cal Ap-pear-ance and Holis-tic View: Dual-Source Deep
- []
 
-
-Underfull \hbox (badness 1867) in paragraph at lines 182--187
-\T1/ptm/m/n/8 and Du Tran.  Detect-and-Track: Ef-fi-cient Pose Es-ti-ma-tion in
-
- []
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 213--217
+Underfull \hbox (badness 6300) in paragraph at lines 219--223
 []\T1/ptm/m/n/8 Mohamed Has-san, Vasileios Choutas, Dim-itrios Tzionas, and
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 219--224
+Underfull \hbox (badness 3428) in paragraph at lines 225--230
 []\T1/ptm/m/n/8 Yana Has-son, Gül Varol, Dim-itrios Tzionas, Igor Kale-vatykh,
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 355--359
-\T1/ptm/m/n/8 Es-ti-ma-tion us-ing Deep Con-sen-sus Vot-ing.  Tech-ni-cal Re-po
-rt
  []
 
 [15]
@@ -745,12 +693,7 @@ Underfull \hbox (badness 1661) in paragraph at lines 549--557
  []
 
 [16]
-Underfull \hbox (badness 3547) in paragraph at lines 674--679
-[]\T1/ptm/m/n/8 Zhi Tian, Hao Chen, and Chun-hua Shen.  Di-rect-Pose: Di-
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 716--722
+Underfull \hbox (badness 2521) in paragraph at lines 713--719
 []\T1/ptm/m/n/8 Gül Varol, Javier Romero, Xavier Mar-tin, Nau-reen Mah-mood,
  []
 
@@ -767,18 +710,15 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 [17] (paper.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: A66988A2F4D70A01D36FA8AC1E423631;8575.
  ) 
 Here is how much of TeX's memory you used:
- 11441 strings out of 478847
- 171918 string characters out of 2847249
- 510814 words of memory out of 3000000
- 28960 multiletter control sequences out of 15000+600000
- 515467 words of font info for 141 fonts, out of 8000000 for 9000
+ 11434 strings out of 478847
+ 171773 string characters out of 2847249
+ 510677 words of memory out of 3000000
+ 28956 multiletter control sequences out of 15000+600000
+ 514360 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,17n,66p,2710b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Matteo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C
@@ -801,9 +741,9 @@ ms/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Matteo/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Matteo/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Matteo/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (17 pages, 1985004 bytes).
+Output written on paper.pdf (17 pages, 1986218 bytes).
 PDF statistics:
- 778 PDF objects out of 1000 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
+ 777 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
  377 words of extra memory for PDF output out of 10000 (max. 10000000)
 
